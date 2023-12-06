@@ -30,7 +30,7 @@ const Popular = () => {
 };
 
   return (
-    <div className='popular m-0 p-0'>
+    <div className='popular new m-0 p-0'>
       <h1 className='text-center font-pFonts '>POPULAR IN WOMEN</h1>
       <hr/>
       <div className="popular-item">

@@ -1,0 +1,24 @@
+.footer p{
+    font-weight: 600;
+    font-size: 30px;
+
+}
+
+.footer h6{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer-copyright h6{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.footer-copyright hr{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    height: 5px;
+    background: rgb(0, 0, 0);
+
+}

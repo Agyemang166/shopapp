@@ -1,0 +1,53 @@
+.nav-logo p{
+    color: #171717;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.navbar-nav {
+
+}
+.nav-menu {
+    gap: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #171717;
+}
+
+.nav-menu hr {
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #fe0000;
+}
+
+.nav-cart{
+    margin-left: 30px;
+}
+.nav-cart-count{
+    width: 22px;
+    height: 22px;
+    border: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+    border-radius: 11px;
+}
+
+
+@media  (max-width: 480px) {
+    .nav-menu {
+        gap: 0;
+        font-size: 15px;
+        align-items: center;
+        margin: 0;
+    }
+
+    .nav-cart{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-left: 0;
+    }
+}

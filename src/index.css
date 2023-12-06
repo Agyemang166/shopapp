@@ -1,7 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Lato:wght@700&family=Noto+Sans+Tangsa:wght@500&family=Roboto+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Great+Vibes&family=Lato:ital,wght@1,300&family=Young+Serif&display=swap');
 *{
     margin: 0;
 }

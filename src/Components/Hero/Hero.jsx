@@ -6,7 +6,7 @@ import hero_image from "../Assets/hero_image.png"
 
 const Hero = () => {
     return (
-        <div className="hero">
+        <div className="hero container">
             <div className="row">
                 <div className="col-md-6 hero-left">
                     <h2>NEW ARRIVALS ONLY</h2>

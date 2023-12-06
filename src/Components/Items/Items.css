@@ -13,3 +13,8 @@
     transform: scale(1.05);
     transition: 0.6s;
 }
+
+.item .title{
+    font-size: 20px;
+    font-weight: 600;
+}

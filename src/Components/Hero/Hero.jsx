@@ -23,8 +23,8 @@ const Hero = () => {
                 </div>
 
 
-                <div className="col-md-6 hero-right">
-                <img src={hero_image} alt="Luxhut Apparel"/>
+                <div className="col-md-6 hero-right d-flex justify-content-center align-items-center">
+                <img src={hero_image}  alt="Luxhut Apparel"/>
                 </div>
             </div>
         </div>

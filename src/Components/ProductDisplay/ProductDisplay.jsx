@@ -3,9 +3,22 @@ import "./ProductDisplay.css"
 import star_icon from "../Assets/star_icon.png"
 
 import Button from 'react-bootstrap/Button';
+import RelatedProducts from '../NewCollections/RelatedContent';
 
 const ProductDisplay = (props) => {
     const { product } = props;
+
+    const handleButtonClick = () => {
+        const emailContent = `Product: ${product.name}\nPrice: ${product.new_price}\nImage: ${product.image}`;
+      
+        // Logic to send the email with the content above
+        // You can use your preferred method or library to send the email
+        // Make sure to include the necessary email service provider configuration and credentials
+      
+        // Example using the 'mailto' approach
+        window.location.href = `mailto:gyamfiagyemang@gmail.com?subject=Product Details&body=${encodeURIComponent(emailContent)}`;
+      };
+
     return (
         <div className='productdisplay'>
             <div className="row container">
@@ -33,9 +46,9 @@ const ProductDisplay = (props) => {
                         <div className="product-display-left-price-newr">New Price: ${product.new_price}</div>
                         <div className=" text-decoration-line-through text-secondary">Old Price: ${product.old_price}</div>
                     </div>
-                    <Button className='button' variant="danger">Order Now</Button>
-                </div>
+                    <Button className='button' variant="danger" onClick={handleButtonClick}>Order Now</Button>                </div>
             </div>
+            <RelatedProducts/>
         </div>
     )
 }

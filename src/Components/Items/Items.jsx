@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const Items = (props) => {
   return (
     <div className='item'>
-    <Link to={`/product/${props.id}`} className='text-decoration-none'>
+    <Link to={`/product/${props.id}`} onClick={window.scroll(0,0)} className='text-decoration-none'>
     <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" style={{height: "300px"}} src={props.image}/>
     <Card.Body>

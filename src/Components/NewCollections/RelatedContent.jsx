@@ -7,7 +7,7 @@ import "react-multi-carousel/lib/styles.css";
 
 import Items from '../Items/Items'
 
-import new_collections from "../Assets/new_collections"
+import new_collections from "../Assets/data"
 
 const RelatedProduct = () => {
 

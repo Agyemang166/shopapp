@@ -16,7 +16,7 @@ const ProductDisplay = (props) => {
         // Make sure to include the necessary email service provider configuration and credentials
 
         // Example using the 'mailto' approach
-        window.location.href = `mailto:gyamfiagyemang@gmail.com?subject=Product Details&body=${encodeURIComponent(emailContent)}`;
+        window.location.href = `mailto:philippaasamoah111@gmail.com?subject=Product Details&body=${encodeURIComponent(emailContent)}`;
     };
 
     return (

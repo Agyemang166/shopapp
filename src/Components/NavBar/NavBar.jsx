@@ -34,7 +34,7 @@ const NavBar = () => {
     const [menu, setMenu] = useState("shop")
 
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand="lg" className="bg-body-tertiary sticky-top">
             <Container>
                 <div href="#home" className='nav-logo d-flex justify-content-center align-items-center'>
                     <img src={Logo} alt='luxhut apparel' />
@@ -59,10 +59,7 @@ const NavBar = () => {
                 }
                     </Nav>
                     <div className='nav-cart d-flex'>
-                    <Link to="/cart">
-                                        <img src={cart_icon} alt='Luxhut Apparel'/>
-                    </Link>
-                    <div className='nav-cart-count d-flex align-items-center justify-content-center'>0</div>
+                   
                     </div>
                 </Navbar.Collapse>
             </Container>

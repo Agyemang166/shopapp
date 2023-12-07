@@ -46,6 +46,8 @@ const ProductDisplay = (props) => {
                         <div className="product-display-left-price-new">New Price: GH₵{product.new_price}</div>
                         <div className=" text-decoration-line-through text-secondary">Old Price: GH₵{product.old_price}</div>
                     </div>
+                    <h6 className='text-center'>PROVIDE ADEQUATE INFORMATION</h6>
+                    <hr/>
                     <form class="contact-form d-flex justify-content-center container" onSubmit={handleButtonClick}>
                         <div class="row">
                             <div class="col-sm-4 mb-2">

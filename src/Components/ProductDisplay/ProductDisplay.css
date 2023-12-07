@@ -1,0 +1,25 @@
+.productdisplay{
+    margin: 0 170px;
+}
+
+.productdisplay-img-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.productdisplay-img-list img{
+    width: 120px;
+    
+}
+
+.productdisplay-main-img {
+    height: 400px;
+    padding: 20px;
+}
+
+@media(max-width: 480px){
+    .productdisplay{
+        margin: 0;
+    }
+}

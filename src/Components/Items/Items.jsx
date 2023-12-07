@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 import "./Items.css"
@@ -8,7 +7,7 @@ const Items = (props) => {
   return (
     <div className='item'>
     <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" style={{height: "200px"}} src={props.image}/>
+    <Card.Img variant="top" style={{height: "300px"}} src={props.image}/>
     <Card.Body>
       <Card.Title className='title'>{props.name}</Card.Title>
       <Card.Text className='d-flex justify-content-between'>

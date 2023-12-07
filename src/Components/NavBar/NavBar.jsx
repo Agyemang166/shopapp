@@ -18,7 +18,7 @@ const navData = [
     },
     {
         key: 2,
-        anchor : "/men",
+        anchor : "/mens",
         name: "Men",
         subname: "mens"
     },
@@ -27,12 +27,6 @@ const navData = [
         anchor : "/womens",
         name: "Women",
         subname: "Womens"
-    },
-    {
-        key: 1,
-        anchor : "/kids",
-        name: "Kids",
-        subname: "kids"
     },
 ]
 const NavBar = () => {

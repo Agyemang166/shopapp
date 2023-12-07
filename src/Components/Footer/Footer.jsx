@@ -1,15 +1,23 @@
 import React from 'react'
 import "./Footer.css"
 import footer_logo from "../Assets/logo_big.png"
-import instagram_icon from "../Assets/instagram_icon.png"
-import whatsapp_icon from "../Assets/whatsapp_icon.png"
-import { Link } from 'react-router-dom'
+import { FaWhatsapp, FaTiktok,FaSnapchat } from "react-icons/fa";
 
 const socialLinks = [
     {
-        src: whatsapp_icon,
+        icon: FaWhatsapp,
         link: "https://wa.me/233591345224/",
         alt: "Luxhut Apparel Whatsapp Link"
+    },
+    {
+        icon: FaSnapchat,
+        link: "https://www.snapchat.com/add/philippa4353?share_id=MP1Nf88pYfg&locale=en-GH",
+        alt: "Luxhut Apparel Snapchat Link"
+    },
+    {
+        icon: FaTiktok,
+        link: "https://www.tiktok.com/@philippa.asamoah?_t=8hxwJkede8j&_r=1",
+        alt: "Luxhut Apparel Tiktok Link"
     },
 ]
 const Footer = () => {
@@ -23,10 +31,11 @@ const Footer = () => {
                 <h6 className='text-center'> Contact Us</h6>
                 <div className='d-flex justify-content-center align-items-center'>
                 {
-                    socialLinks.map(({ link, src, alt }) => {
+                    socialLinks.map(({ link, icon, alt }) => {
+                        const Icon = icon
                         return (
                             <a href={`${link}`} className="footer-icons-container m-2">
-                                <img src={src} alt={`${alt}`} />
+                                <Icon size={40} color='black'/>
                             </a>
                         )
                     })

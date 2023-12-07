@@ -1,16 +1,3 @@
-import p1_img from "./product_1.png";
-import p2_img from "./product_2.png";
-import p3_img from "./product_3.png";
-import p4_img from "./product_4.png";
-import p5_img from "./product_5.png";
-import p6_img from "./product_6.png";
-import p7_img from "./product_7.png";
-import p8_img from "./product_8.png";
-import p9_img from "./product_9.png";
-import p10_img from "./product_10.png";
-import p11_img from "./product_11.png";
-import p12_img from "./product_12.png";
-import p13_img from "./product_13.png";
 import p14_img from "./product_14.png";
 import p15_img from "./product_15.png";
 import p16_img from "./product_16.png";
@@ -22,111 +9,138 @@ import p21_img from "./product_21.png";
 import p22_img from "./product_22.png";
 import p23_img from "./product_23.png";
 import p24_img from "./product_24.png";
+import jogger1 from "./jogger1.jpeg"
+import jogger2 from "./jogger2.jpeg"
+import jogger3 from "./jogger3.jpeg"
+import bodysuit1 from "./bodysuit1.jpeg"
+import bodysuit2 from "./bodysuit2.jpeg"
+import bodysuit3 from "./bodysuit3.jpeg"
+import baggyjeans1 from "./baggyjeans1.jpeg"
+import baggyjeans2 from "./baggyjeans2.jpeg"
+import baggyjeans3 from "./baggyjeans3.jpeg"
+import maxidress1 from "./maxidress1.jpeg"
+import maxidress2 from "./maxidress2.jpeg"
+import maxidress3 from "./maxidress3.jpeg"
+import croptop1 from "./croptop1.png"
+import croptop2 from "./croptop2.png"
+import croptop3 from "./croptop3.jpg"
+import denimtop1 from "./denimtop1.jpeg"
+import denimtop2 from "./denimtop2.jpeg"
+import denimtop3 from "./denimtop3.jpeg"
+import dress1 from "./dress1.jpeg"
+import dress2 from "./dress2.jpeg"
+import dress3 from "./dress3.jpeg"
+import sidepocketskirt1 from "./sidepocketskirt1.jpeg"
+import sidepocketskirt2 from "./sidepocketskirt2.jpeg"
+import sidepocketskirt3 from "./sidepocketskirt3.jpeg"
+import maxiskirt1 from "./maxiskirt1.jpeg"
+import maxiskirt2 from "./maxiskirt2.jpeg"
+import maxiskirt3 from "./maxiskirt3.jpeg"
+import cargopants from "./cargopants.jpeg"
+import cargopants2 from "./cargopants2.jpeg"
+import cargopants1 from "./cargopants1.jpeg"
+
 
 let all_product = [
   {
     id: 1,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Sleek and Chic Bodysuits for the Modern Woman",
     category: "women",
-    image: p1_img,
-    new_price: 50.0,
+    image: bodysuit1,
+    image1: bodysuit2 ,
+    image2: bodysuit3,
+    new_price: 65.0,
     old_price: 80.5,
   },
   {
     id: 2,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Stunning, Flawless and Fashioned Forward Dresses",
     category: "women",
-    image: p2_img,
-    new_price: 85.0,
-    old_price: 120.5,
-  },
-  {
-    id: 3,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
-    image: p3_img,
-    new_price: 60.0,
-    old_price: 100.5,
-  },
-  {
-    id: 4,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
-    image: p4_img,
-    new_price: 100.0,
-    old_price: 150.0,
+    image: dress1,
+    image1: dress2,
+    image2: dress3,
+    new_price: 120.0,
+    old_price: 150.5,
   },
   {
     id: 5,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Stylish Baggy Jeans to Elevate Your Wardrobe ",
     category: "women",
-    image: p5_img,
-    new_price: 85.0,
+    image: baggyjeans1,
+    image1:baggyjeans2,
+    image2: baggyjeans3,
+    new_price: 90.0,
     old_price: 120.5,
   },
   {
     id: 6,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Flattering Cargo Pants for the Fashion Woman",
     category: "women",
-    image: p6_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    image: cargopants,
+    image2: cargopants1,
+    image1: cargopants2,
+    new_price: 110.0,
+    old_price: 130.5,
   },
   {
     id: 7,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Glamorous and Chic Dennim Tops to Make a Statemen",
     category: "women",
-    image: p7_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    image: denimtop1,
+    image2: denimtop2,
+    image1: denimtop3,
+    new_price: 75.0,
+    old_price: 105.5,
   },
   {
     id: 8,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Classy Side Pocket Skirt to Amp Up Your Fashion Game",
     category: "women",
-    image: p8_img,
+    image: sidepocketskirt1,
+    image1: sidepocketskirt3,
+    image2: sidepocketskirt2,
     new_price: 85.0,
     old_price: 120.5,
   },
   {
     id: 9,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "On-Trend Joggers for the Modern-Day Style Icon",
     category: "women",
-    image: p9_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    image: jogger1,
+    image1: jogger2 ,
+    image2: jogger3,
+    new_price: 65.0,
+    old_price: 90.5,
   },
   {
     id: 10,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Sophisticated Maxi Dress For Perfection",
     category: "women",
-    image: p10_img,
-    new_price: 85.0,
+    image: maxidress1,
+    image1: maxidress2,
+    image2: maxidress3,
+    new_price: 90.0,
     old_price: 120.5,
   },
   {
     id: 11,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Fashionable Crop Top for Fashion Enthusiast",
     category: "women",
-    image: p11_img,
+    image: croptop3,
+    image1: croptop1,
+    image2: croptop2,
     new_price: 85.0,
     old_price: 120.5,
   },
   {
     id: 12,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Effortless Maxi Skirt for the Fashion-Savvy Woman",
     category: "women",
-    image: p12_img,
-    new_price: 85.0,
-    old_price: 120.5,
-  },
-  {
-    id: 13,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
-    image: p13_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    image: maxiskirt1,
+    imag2: maxiskirt2,
+    image1: maxiskirt3,
+    new_price: 45.0,
+    old_price: 55.5,
   },
   {
     id: 14,

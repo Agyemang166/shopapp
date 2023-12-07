@@ -14,8 +14,8 @@ const Items = (props) => {
     <Card.Body>
       <Card.Title className='title'>{props.name}</Card.Title>
       <Card.Text className='d-flex justify-content-between'>
-       <p className='item-price-new text-black '>new:$ {props.new_price}</p>
-       <p className='item-price-old text-secondary'>old:$ {props.old_price}</p>
+       <p className='item-price-new text-black '>new:GH₵ {props.new_price}</p>
+       <p className='item-price-old text-secondary'>old:GH₵ {props.old_price}</p>
       </Card.Text>
       <Link to={`/product/${props.id}`}>
             <Button variant="success">Add to Cart</Button>

@@ -19,6 +19,20 @@ import wpinkcargo from "./wpinkcargo.jpeg"
 import wpinkcargo2 from "./wpinkcargo2.jpeg"
 import wpinkcargo1 from "./wpinkcargo1.jpeg"
 
+import blackdenim from "./blackdenim.jpeg"
+import blackdenim2 from "./blackdenim2.jpeg"
+import blackdenim1 from "./blackdenim1.jpeg"
+
+import darkbluedenim from "./darkbluedenim.jpeg"
+import darkbluedenim2 from "./darkbluedenim2.jpeg"
+import darkbluedenim1 from "./darkbluedenim1.jpeg"
+
+import blackbodysuit from "./blackbodysuit.jpeg"
+import blackbodysuit1 from "./blackbodysuit1.jpeg"
+import blackbodysuit2 from "./blackbodysuit2.jpeg"
+
+
+
 let new_collections = [
 
   {
@@ -40,6 +54,37 @@ let new_collections = [
     image2: wpinkcargo,
     new_price: 110,
     old_price: 125,
+  },
+  {
+    id: 20,
+    name: "Women Cream Cargo Pants ",
+    category: "women",
+    image: blackdenim,
+    image1: blackdenim1,
+    image2: blackdenim2,
+    new_price: 110,
+    old_price: 125,
+  },
+  {
+    id: 25,
+    name: " Auto Fitting Stretchy Bodysuits",
+    category: "women",
+    image: blackbodysuit,
+    image1: blackbodysuit1,
+    image2: blackbodysuit2,
+    new_price: 60,
+    old_price: 70,
+  },
+  
+  {
+    id: 24,
+    name: "Women Fitting Dark-Blue Denim Top ",
+    category: "women",
+    image: darkbluedenim,
+    image1: darkbluedenim2,
+    image2: darkbluedenim1,
+    new_price: 75,
+    old_price: 85,
   },
     {
     id: 15,

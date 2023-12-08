@@ -6,6 +6,18 @@ import washjogger from "./washjogger.jpeg"
 import washjogger1 from "./washjogger1.jpeg"
 import washjogger2 from "./washjogger2.jpeg"
 
+import blackbodysuit from "./blackbodysuit.jpeg"
+import blackbodysuit1 from "./blackbodysuit1.jpeg"
+import blackbodysuit2 from "./blackbodysuit2.jpeg"
+
+import bodysuit from "./bodysuit.jpeg"
+import bodysuit1 from "./bodysuit1.jpeg"
+import bodysuit2 from "./bodysuit2.jpeg"
+
+import redbodysuit from "./redbodysuit.jpeg"
+import redbodysuit1 from "./redbodysuit1.jpeg"
+import redbodysuit2 from "./redbodysuit2.jpeg"
+
 import wblackjogger from "./wblackjogger.jpeg"
 import wblackjogger1 from "./wblackjogger1.jpeg"
 import wblackjogger2 from "./wblackjogger2.jpeg"
@@ -63,6 +75,37 @@ import womenblackcargo from "./womenblackcargo.jpeg"
 import womenblackcargo2 from "./womenblackcargo2.jpeg"
 import womenblackcargo1 from "./womenblackcargo1.jpeg"
 
+import blackdenim from "./blackdenim.jpeg"
+import blackdenim2 from "./blackdenim2.jpeg"
+import blackdenim1 from "./blackdenim1.jpeg"
+
+import bluedenim from "./bluedenim.jpeg"
+import bluedenim2 from "./bluedenim2.jpeg"
+import bluedenim1 from "./bluedenim1.jpeg"
+
+import darkbluedenim from "./darkbluedenim.jpeg"
+import darkbluedenim2 from "./darkbluedenim2.jpeg"
+import darkbluedenim1 from "./darkbluedenim1.jpeg"
+
+import creamdenim from "./creamdenim.jpeg"
+import creamdenim2 from "./creamdenim2.jpeg"
+import creamdenim1 from "./creamdenim1.jpeg"
+
+
+import blackmaxi from "./blackmaxi.jpeg"
+import blackmaxi1 from "./blackmaxi1.jpeg"
+import blackmaxi2 from "./blackmaxi2.jpeg"
+
+import darkredmaxi from "./darkredmaxi.jpeg"
+import darkredmaxi1 from "./darkredmaxi1.jpeg"
+import darkredmaxi2 from "./darkredmaxi2.jpeg"
+
+import greenmaxi from "./greenmaxi.jpeg"
+import greenmaxi1 from "./greenmaxi1.jpeg"
+import greenmaxi2 from "./greenmaxi2.jpeg"
+
+
+
 
 // men
 import menblackcargo1 from "./menblackcargo1.jpeg"
@@ -74,7 +117,28 @@ import menashcargo from "./menashcargo.jpeg"
 import menashcargo2 from "./menashcargo2.jpeg"
 
 
+
 let all_product = [
+  {
+    id: 20,
+    name: "Women Black Denim Top ",
+    category: "women",
+    image: blackdenim,
+    image1: blackdenim1,
+    image2: blackdenim2,
+    new_price: 75,
+    old_price: 85,
+  },
+  {
+    id: 22,
+    name: "Top Woman Blue Denim  ",
+    category: "women",
+    image: bluedenim,
+    image1: bluedenim1,
+    image2: bluedenim2,
+    new_price: 75,
+    old_price: 85,
+  },
   {
     id: 1,
     name: "Sleek Black Cargo Pants for the Modern Woman",
@@ -106,6 +170,16 @@ let all_product = [
     old_price: 125,
   },
   {
+    id: 21,
+    name: "Stretchy Fitting Black Maxi Dress",
+    category: "women",
+    image: blackmaxi,
+    image1: blackmaxi1,
+    image2: blackmaxi2,
+    new_price: 90,
+    old_price: 100,
+  },
+  {
     id: 3,
     name: "Stylish Cream Maxi Skirts For Your Wardrobe ",
     category: "women",
@@ -135,6 +209,7 @@ let all_product = [
     new_price: 110,
     old_price: 125,
   },
+  
   {
     id: 18,
     name: "Incredible Cream Side Pocket Skirt",
@@ -146,6 +221,36 @@ let all_product = [
     old_price: 95.0,
   },
   {
+    id: 25,
+    name: "Stretchy Fitting Reddish Brown Maxi Dress",
+    category: "women",
+    image: darkredmaxi,
+    image1: darkredmaxi1,
+    image2: darkredmaxi2,
+    new_price: 90,
+    old_price: 100,
+  },
+  {
+    id: 24,
+    name: "Women Fitting Dark-Blue Denim Top ",
+    category: "women",
+    image: darkbluedenim,
+    image1: darkbluedenim2,
+    image2: darkbluedenim1,
+    new_price: 75,
+    old_price: 85,
+  },
+    {
+    id: 25,
+    name: "Bodysuit Auto Fitting Stretchy Dress",
+    category: "women",
+    image: blackbodysuit,
+    image1: blackbodysuit1,
+    image2: blackbodysuit2,
+    new_price: 60,
+    old_price: 70,
+  },
+  {
     id: 6,
     name: "Glamorous Ash Jogger to Make a Statemen",
     category: "women",
@@ -155,17 +260,16 @@ let all_product = [
     new_price: 65.0,
     old_price: 75.5,
   },
-  // {
-  //   id: 7,
-  //   name: "Classy Side Pocket Skirt to Amp Up Your Fashion Game",
-  //   category: "women",
-  //   image: sidepocketskirt1,
-  //   image1: sidepocketskirt3,
-  //   image2: sidepocketskirt2,
-  //   new_price: 85.0,
-  //   old_price: 120.5,
-  // },
-  // {
+  {
+    id: 7,
+    name: "Classy Green Maxi Dress Your Fashion Game",
+    category: "women",
+    image: greenmaxi,
+    image1: greenmaxi1,
+    image2: greenmaxi2,
+    new_price: 85.0,
+    old_price: 120.5,
+  },
     {
     id: 8,
     name: "Stylish Brown Maxi Skirts For Your Wardrobe ",
@@ -196,26 +300,36 @@ let all_product = [
     new_price: 110,
     old_price: 125,
   },
-  // {
-  //   id: 11,
-  //   name: "Sophisticated Maxi Dress For Perfection",
-  //   category: "women",
-  //   image: maxidress1,
-  //   image1: maxidress2,
-  //   image2: maxidress3,
-  //   new_price: 90.0,
-  //   old_price: 120.5,
-  // },
-  // {
-  //   id: 12,
-  //   name: "Fashionable Crop Top for Fashion Enthusiast",
-  //   category: "women",
-  //   image: croptop3,
-  //   image1: croptop1,
-  //   image2: croptop2,
-  //   new_price: 85.0,
-  //   old_price: 120.5,
-  // },
+  {
+    id: 23,
+    name: "Amazing Fitting Cream Denim Top ",
+    category: "women",
+    image: creamdenim,
+    image1: creamdenim2,
+    image2: creamdenim1,
+    new_price: 75,
+    old_price: 85,
+  },
+  {
+    id: 11,
+    name: "Sophisticated Bodysuit For Perfection",
+    category: "women",
+    image: bodysuit,
+    image1: bodysuit1,
+    image2: bodysuit2,
+    new_price: 60.0,
+    old_price: 70.0,
+  },
+  {
+    id: 12,
+    name: "Fashionable Body Suit for Fashion Enthusiast",
+    category: "women",
+    image: redbodysuit,
+    image1: redbodysuit1,
+    image2: redbodysuit2,
+    new_price: 60.0,
+    old_price: 70.0,
+  },
   {
     id: 13,
     name: "Effortless Blue Cargo for the Fashion-Savvy Woman",
@@ -258,7 +372,7 @@ let all_product = [
     old_price: 125,
   },
   {
-    id: 18,
+    id: 19,
     name: "Attractive Brown Side Pocket Skirt",
     category: "women",
     image: brownsideskirt,

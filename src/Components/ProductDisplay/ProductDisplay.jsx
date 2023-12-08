@@ -25,9 +25,9 @@ let buyerMessage;
             <div className="row container">
                 <div className="col-md-6 sm-12 d-flex">
                     <div className="productdisplay-img-list pt-4">
-                        <img src={product.image} alt="Luxhut Apparel" />
-                        <img src={product.image1} alt="Luxhut Apparel" />
                         <img src={product.image2} alt="Luxhut Apparel" />
+                        <img src={product.image1} alt="Luxhut Apparel" />
+                        <img src={product.image} alt="Luxhut Apparel" />
                     </div>
                     <div className="productdisplay-img">
                         <img className='productdisplay-main-img' src={product.image} alt='Luxhut Apparel' />
@@ -67,6 +67,9 @@ let buyerMessage;
                                 <Button className='button' type="submit" variant="danger"  onClick={handleButtonClick}>Order Now</Button>
                                 <p>NB: Payment Validates Order. Delivery at a Cost</p>
                             </div>
+                            <div class="col-sm-1 mb-2">
+                            <input class="form-control text-area" as="text-area" onChange={(e) => (buyerMessage = e.target.value)} name="message" placeholder="Additional Info,color, size & whatsapp contact" required />
+                        </div>
                         </div>
                     </form>
 

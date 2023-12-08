@@ -1,73 +1,99 @@
+import wcreammaxi from "./wcreammaxi.jpeg"
+import wcreammaxi1 from "./wcreammaxi1.jpeg"
+import wcreammaxi2 from "./wcreammaxi2.jpeg"
 
+import wblackcargo from "./wblackcargo.jpeg"
+import wblackcargo1 from "./wblackcargo1.jpeg"
+import wblackcargo2 from "./wblackcargo2.jpeg"
 
-import dress1 from "./dress1.jpeg"
-import dress2 from "./dress2.jpeg"
-import dress3 from "./dress3.jpeg"
-import bodysuit1 from "./bodysuit1.jpeg"
-import bodysuit2 from "./bodysuit2.jpeg"
-import bodysuit3 from "./bodysuit3.jpeg"
-import baggyjeans1 from "./baggyjeans1.jpeg"
-import baggyjeans2 from "./baggyjeans2.jpeg"
-import baggyjeans3 from "./baggyjeans3.jpeg"
-import cargopants from "./cargopants.jpeg"
-import cargopants2 from "./cargopants2.jpeg"
-import cargopants1 from "./cargopants1.jpeg"
-import denimtop1 from "./denimtop1.jpeg"
-import denimtop2 from "./denimtop2.jpeg"
-import denimtop3 from "./denimtop3.jpeg"
+import wcrop from "./wcrop.jpeg"
+import wcrop1 from "./wcrop1.jpeg"
+import wcrop2 from "./wcrop2.jpeg"
+
+import pinksideskirt from "./pinksideskirt.jpeg"
+import pinksideskirt1 from "./pinksideskirt1.jpeg"
+import pinksideskirt2 from "./pinksideskirt2.jpeg"
+
+import womenredcargo from "./womenredcargo.jpeg"
+import womenredcargo2 from "./womenredcargo2.jpeg"
+import womenredcargo1 from "./womenredcargo1.jpeg"
+
+import wdoublejogger from "./wdoublejogger.jpeg"
+import wdoublejogger1 from "./wdoublejogger1.jpeg"
+import wdoublejogger2 from "./wdoublejogger2.jpeg"
 
 let data_product = [
   {
-    id: 1,
-    name: "Sleek and Chic Bodysuits for the Modern Woman",
+    id: 15,
+    name: "Attractive Pink Side Pocket Skirt",
     category: "women",
-    image: bodysuit3,
-    image1: bodysuit2 ,
-    image2: bodysuit1,
-    new_price: 50.0,
-    old_price: 80.5,
-  },
-  {
-    id: 2,
-    name: "Stunning, Flawless and Fashioned Forward Dresses",
-    category: "women",
-    image: dress3,
-    image1: dress2,
-    image2: dress1,
+    image: pinksideskirt,
+    image1: pinksideskirt1,
+    image2: pinksideskirt2,
     new_price: 85.0,
-    old_price: 120.5,
+    old_price: 95.0,
   },
   {
-    id: 6,
-    name: "Flattering Cargo Pants for the Fashion Woman",
+    id: 1,
+    name: "Sleek Black Cargo Pants for the Modern Woman",
     category: "women",
-    image: cargopants2,
-    image2: cargopants1,
-    image1: cargopants,
-    new_price: 110.0,
-    old_price: 130.5,
+    image: wblackcargo1,
+    image1: wblackcargo ,
+    image2: wblackcargo2,
+    new_price: 110,
+    old_price: 125,
   },
   {
-    id: 7,
-    name: "Glamorous and Chic Dennim Tops to Make a Statemen",
+    id: 14,
+    name: "Fortune Black/Ash Jogger for Women",
     category: "women",
-    image: denimtop3,
-    image2: denimtop2,
-    image1: denimtop1,
-    new_price: 75.0,
-    old_price: 105.5,
+    image: wdoublejogger,
+    image2: wdoublejogger1,
+    image1: wdoublejogger2,
+    new_price: 65.0,
+    old_price: 75.5,
+  },
+  {
+    id: 16,
+    name: "Flattering black CropTop for the Fashion Woman",
+    category: "women",
+    image: wcrop,
+    image2: wcrop1,
+    image1: wcrop2,
+    new_price: 35.0,
+    old_price: 45.0,
+  },
+  {
+    id: 15,
+    name: "Attractive Pink Side Pocket Skirt",
+    category: "women",
+    image: pinksideskirt2,
+    image1: pinksideskirt1,
+    image2: pinksideskirt1,
+    new_price: 85.0,
+    old_price: 95.0,
+  },
+  {
+    id: 3,
+    name: "Stylish Cream Maxi Skirts For Your Wardrobe ",
+    category: "women",
+    image: wcreammaxi,
+    image1:wcreammaxi2,
+    image2: wcreammaxi1,
+    new_price: 30.0,
+    old_price: 40.0,
   },
   {
     id: 5,
-    name: "Stylish Baggy Jeans to Elevate Your Wardrobe ",
+    name: "Glamorous Red Cargo Pants for Women",
     category: "women",
-    image: baggyjeans2,
-    image1:baggyjeans1,
-    image2: baggyjeans3,
-    new_price: 85.0,
-    old_price: 120.5,
+    image: womenredcargo,
+    image2: womenredcargo1,
+    image1: womenredcargo2,
+    new_price: 110,
+    old_price: 125,
   },
-  
+
 ];
 
 export default data_product;

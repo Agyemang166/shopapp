@@ -8,14 +8,15 @@ import RelatedProducts from '../NewCollections/RelatedContent';
 const ProductDisplay = (props) => {
     const { product } = props;
 
+    let buyername;
+let buyerLocation;
+let delivery;
+let buyerMessage;
+
     const handleButtonClick = () => {
-        const emailContent = `Product: ${product.name}\nPrice: ${product.new_price}\nImage: ${product.image}`;
+        const emailContent = `Product: ${product.name}\nPrice: ${product.new_price}\nImage: ${product.image}\n\nForm Info:\nBuyer Name: ${buyername}\nBuyer Location: ${buyerLocation}\nDelivery Location: ${delivery}\nAdditional Info: ${buyerMessage}`;
 
-        // Logic to send the email with the content above
-        // You can use your preferred method or library to send the email
-        // Make sure to include the necessary email service provider configuration and credentials
-
-        // Example using the 'mailto' approach
+ 
         window.location.href = `mailto:philippaasamoah111@gmail.com?subject=Product Details&body=${encodeURIComponent(emailContent)}`;
     };
 
@@ -51,20 +52,20 @@ const ProductDisplay = (props) => {
                     <form class="contact-form d-flex justify-content-center container" onSubmit={handleButtonClick}>
                         <div class="row">
                             <div class="col-sm-4 mb-2">
-                                <input class="form-control" type="text" name="name" placeholder=" Your Name" required />
+                                <input class="form-control" type="text" name="name" onChange={(e) => (buyername = e.target.value)} placeholder=" Your Name" required />
                             </div>
                             <div class="col-sm-4 mb-2">
-                                <input class="form-control" type="text" name="location" placeholder="Your Location" required />
+                                <input class="form-control" type="text" name="location" onChange={(e) => (buyerLocation = e.target.value)} placeholder="Your Location" required />
                             </div>
                             <div class="col-sm-4 mb-2">
-                                <input class="form-control" type="text" name="delivery" placeholder="Pickup/Delivery" required />
+                                <input class="form-control" type="text" name="delivery" onChange={(e) => (delivery = e.target.value)} placeholder="Pickup/Delivery" required />
                             </div>
                             <div class="col-sm-12 mb-2">
-                                <input class="form-control text-area" as="text-area" name="message" placeholder="Additional Info,color, size & whatsapp contact" required />
+                                <input class="form-control text-area" as="text-area" onChange={(e) => (buyerMessage = e.target.value)} name="message" placeholder="Additional Info,color, size & whatsapp contact" required />
                             </div>
                             <div class="col-sm-12">
                                 <Button className='button' type="submit" variant="danger"  onClick={handleButtonClick}>Order Now</Button>
-                                <p>NB: Payment Validates Order</p>
+                                <p>NB: Payment Validates Order. Delivery at a Cost</p>
                             </div>
                         </div>
                     </form>

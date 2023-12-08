@@ -9,8 +9,8 @@ const Items = (props) => {
   return (
     <div className='item'>
     <Link to={`/product/${props.id}`} onClick={window.scroll(0,0)} className='text-decoration-none'>
-    <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" style={{height: "300px"}} src={props.image}/>
+    <Card style={{ width: '15rem' }}>
+    <Card.Img variant="top" style={{height: "200px"}} src={props.image}/>
     <Card.Body>
       <Card.Title className='title'>{props.name}</Card.Title>
       <Card.Text className='d-flex justify-content-between'>

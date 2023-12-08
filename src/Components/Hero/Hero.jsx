@@ -1,7 +1,6 @@
 import React from "react";
 import "./Hero.css";
 import hand_icon from "../Assets/hand_icon.png";
-import arrow_icon from "../Assets/arrow.png";
 import hero_image from "../Assets/hero_image.png"
 
 const Hero = () => {
@@ -18,7 +17,6 @@ const Hero = () => {
                     </div>
                     <div className="hero-latest-btn d-flex justify-content-center align-items-center">
                         <div className="">Latest Collection</div>
-                        <img src={arrow_icon} alt="Luxhut Apparel" />
                     </div>
                 </div>
 

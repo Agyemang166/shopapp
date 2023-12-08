@@ -1,256 +1,292 @@
-import p14_img from "./product_14.png";
-import p15_img from "./product_15.png";
-import p16_img from "./product_16.png";
-import p17_img from "./product_17.png";
-import p18_img from "./product_18.png";
-import p19_img from "./product_19.png";
-import p20_img from "./product_20.png";
-import p21_img from "./product_21.png";
-import p22_img from "./product_22.png";
-import p23_img from "./product_23.png";
-import p24_img from "./product_24.png";
-import jogger1 from "./jogger1.jpeg"
-import jogger2 from "./jogger2.jpeg"
-import jogger3 from "./jogger3.jpeg"
-import bodysuit1 from "./bodysuit1.jpeg"
-import bodysuit2 from "./bodysuit2.jpeg"
-import bodysuit3 from "./bodysuit3.jpeg"
-import baggyjeans1 from "./baggyjeans1.jpeg"
-import baggyjeans2 from "./baggyjeans2.jpeg"
-import baggyjeans3 from "./baggyjeans3.jpeg"
-import maxidress1 from "./maxidress1.jpeg"
-import maxidress2 from "./maxidress2.jpeg"
-import maxidress3 from "./maxidress3.jpeg"
-import croptop1 from "./croptop1.png"
-import croptop2 from "./croptop2.png"
-import croptop3 from "./croptop3.jpg"
-import denimtop1 from "./denimtop1.jpeg"
-import denimtop2 from "./denimtop2.jpeg"
-import denimtop3 from "./denimtop3.jpeg"
-import dress1 from "./dress1.jpeg"
-import dress2 from "./dress2.jpeg"
-import dress3 from "./dress3.jpeg"
-import sidepocketskirt1 from "./sidepocketskirt1.jpeg"
-import sidepocketskirt2 from "./sidepocketskirt2.jpeg"
-import sidepocketskirt3 from "./sidepocketskirt3.jpeg"
-import maxiskirt1 from "./maxiskirt1.jpeg"
-import maxiskirt2 from "./maxiskirt2.jpeg"
-import maxiskirt3 from "./maxiskirt3.jpeg"
-import cargopants from "./cargopants.jpeg"
-import cargopants2 from "./cargopants2.jpeg"
-import cargopants1 from "./cargopants1.jpeg"
+import wcrop from "./wcrop.jpeg"
+import wcrop1 from "./wcrop1.jpeg"
+import wcrop2 from "./wcrop2.jpeg"
+
+import washjogger from "./washjogger.jpeg"
+import washjogger1 from "./washjogger1.jpeg"
+import washjogger2 from "./washjogger2.jpeg"
+
+import wblackjogger from "./wblackjogger.jpeg"
+import wblackjogger1 from "./wblackjogger1.jpeg"
+import wblackjogger2 from "./wblackjogger2.jpeg"
+
+import wdoublejogger from "./wdoublejogger.jpeg"
+import wdoublejogger1 from "./wdoublejogger1.jpeg"
+import wdoublejogger2 from "./wdoublejogger2.jpeg"
+
+import brownsideskirt from "./brownsideskirt.jpeg"
+import brownsideskirt1 from "./brownsideskirt1.jpeg"
+import brownsideskirt2 from "./brownsideskirt2.jpeg"
+
+import creamsideskirt from "./creamsideskirt.jpeg"
+import creamsideskirt1 from "./creamsideskirt1.jpeg"
+import creamsideskirt2 from "./creamsideskirt2.jpeg"
+
+import pinksideskirt from "./pinksideskirt.jpeg"
+import pinksideskirt1 from "./pinksideskirt1.jpeg"
+import pinksideskirt2 from "./pinksideskirt2.jpeg"
+
+import wcropblack from "./wcropblack.jpeg"
+import wcropblack1 from "./wcropblack1.jpeg"
+import wcropblack2 from "./wcropblack2.jpeg"
+
+import wcreammaxi from "./wcreammaxi.jpeg"
+import wcreammaxi1 from "./wcreammaxi1.jpeg"
+import wcreammaxi2 from "./wcreammaxi2.jpeg"
+
+import wbrownmaxi from "./wbrownmaxi.jpeg"
+import wbrownmaxi1 from "./wbrownmaxi1.jpeg"
+import wbrownmaxi2 from "./wbrownmaxi2.jpeg"
+
+
+import wblackcargo from "./wblackcargo.jpeg"
+import wblackcargo1 from "./wblackcargo1.jpeg"
+import wblackcargo2 from "./wblackcargo2.jpeg"
+
+import wcreamcargo from "./wcreamcargo.jpeg"
+import wcreamcargo2 from "./wcreamcargo2.jpeg"
+import wcreamcargo1 from "./wcreamcargo1.jpeg"
+
+import wpinkcargo from "./wpinkcargo.jpeg"
+import wpinkcargo2 from "./wpinkcargo2.jpeg"
+import wpinkcargo1 from "./wpinkcargo1.jpeg"
+
+import wvioletcargo from "./wvioletcargo.jpeg"
+import wvioletcargo2 from "./wvioletcargo2.jpeg"
+import wvioletcargo1 from "./wvioletcargo1.jpeg"
+
+import womenredcargo from "./womenredcargo.jpeg"
+import womenredcargo2 from "./womenredcargo2.jpeg"
+import womenredcargo1 from "./womenredcargo1.jpeg"
+
+import womenblackcargo from "./womenblackcargo.jpeg"
+import womenblackcargo2 from "./womenblackcargo2.jpeg"
+import womenblackcargo1 from "./womenblackcargo1.jpeg"
+
+
+// men
+import menblackcargo1 from "./menblackcargo1.jpeg"
+import menblackcargo from "./menblackcargo.jpeg"
+import menblackcargo2 from "./menblackcargo2.jpeg"
+
+import menashcargo1 from "./menashcargo1.jpeg"
+import menashcargo from "./menashcargo.jpeg"
+import menashcargo2 from "./menashcargo2.jpeg"
 
 
 let all_product = [
   {
     id: 1,
-    name: "Sleek and Chic Bodysuits for the Modern Woman",
+    name: "Sleek Black Cargo Pants for the Modern Woman",
     category: "women",
-    image: bodysuit1,
-    image1: bodysuit2 ,
-    image2: bodysuit3,
-    new_price: 65.0,
-    old_price: 80.5,
-  },
-  {
-    id: 2,
-    name: "Stunning, Flawless and Fashioned Forward Dresses",
-    category: "women",
-    image: dress1,
-    image1: dress2,
-    image2: dress3,
-    new_price: 120.0,
-    old_price: 150.5,
-  },
-  {
-    id: 5,
-    name: "Stylish Baggy Jeans to Elevate Your Wardrobe ",
-    category: "women",
-    image: baggyjeans1,
-    image1:baggyjeans2,
-    image2: baggyjeans3,
-    new_price: 90.0,
-    old_price: 120.5,
-  },
-  {
-    id: 6,
-    name: "Flattering Cargo Pants for the Fashion Woman",
-    category: "women",
-    image: cargopants,
-    image2: cargopants1,
-    image1: cargopants2,
-    new_price: 110.0,
-    old_price: 130.5,
-  },
-  {
-    id: 7,
-    name: "Glamorous and Chic Dennim Tops to Make a Statemen",
-    category: "women",
-    image: denimtop1,
-    image2: denimtop2,
-    image1: denimtop3,
-    new_price: 75.0,
-    old_price: 105.5,
-  },
-  {
-    id: 8,
-    name: "Classy Side Pocket Skirt to Amp Up Your Fashion Game",
-    category: "women",
-    image: sidepocketskirt1,
-    image1: sidepocketskirt3,
-    image2: sidepocketskirt2,
-    new_price: 85.0,
-    old_price: 120.5,
-  },
-  {
-    id: 9,
-    name: "On-Trend Joggers for the Modern-Day Style Icon",
-    category: "women",
-    image: jogger1,
-    image1: jogger2 ,
-    image2: jogger3,
-    new_price: 65.0,
-    old_price: 90.5,
-  },
-  {
-    id: 10,
-    name: "Sophisticated Maxi Dress For Perfection",
-    category: "women",
-    image: maxidress1,
-    image1: maxidress2,
-    image2: maxidress3,
-    new_price: 90.0,
-    old_price: 120.5,
-  },
-  {
-    id: 11,
-    name: "Fashionable Crop Top for Fashion Enthusiast",
-    category: "women",
-    image: croptop3,
-    image1: croptop1,
-    image2: croptop2,
-    new_price: 85.0,
-    old_price: 120.5,
-  },
-  {
-    id: 12,
-    name: "Effortless Maxi Skirt for the Fashion-Savvy Woman",
-    category: "women",
-    image: maxiskirt1,
-    imag2: maxiskirt2,
-    image1: maxiskirt3,
-    new_price: 45.0,
-    old_price: 55.5,
-  },
-  {
-    id: 14,
-    name: "Men White-Black Solid Zippered Full-Zip  Fit Puffy Jacket",
-    category: "men",
-    image: p14_img,
-    image1: p14_img,
-    image2: p14_img,
-    new_price: 85.0,
-    old_price: 110.5,
+    image: wblackcargo1,
+    image1: wblackcargo ,
+    image2: wblackcargo2,
+    new_price: 110,
+    old_price: 125,
   },
   {
     id: 15,
-    name: "Men Army  Zippered Full-Zip Slim Fit Varsity Jacket",
-    category: "men",
-    image: p15_img,
-    image1: p15_img,
-    image2: p15_img,
-    new_price: 110.0,
-    old_price: 140.5,
-  },
-  {
-    id: 16,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
-    image: p16_img,
-    image1: p16_img,
-    image2: p16_img,
+    name: "Attractive Pink Side Pocket Skirt",
+    category: "women",
+    image: pinksideskirt,
+    image1: pinksideskirt1,
+    image2: pinksideskirt2,
     new_price: 85.0,
-    old_price: 120.5,
+    old_price: 95.0,
   },
   {
-    id: 17,
-    name: "Men Dirty-Blue Solid Buttom Non-Zip Slim Denim Trucker Jacket",
-    category: "men",
-    image: p17_img,
-    image1: p17_img,
-    image2: p17_img,
-    new_price: 130.0,
-    old_price: 160.5,
+    id: 2,
+    name: "Stunning, Flawless Pink Cargo Pants for Women",
+    category: "women",
+    image: wpinkcargo2,
+    image1: wpinkcargo1,
+    image2: wpinkcargo,
+    new_price: 110,
+    old_price: 125,
+  },
+  {
+    id: 3,
+    name: "Stylish Cream Maxi Skirts For Your Wardrobe ",
+    category: "women",
+    image: wcreammaxi,
+    image1:wcreammaxi2,
+    image2: wcreammaxi1,
+    new_price: 30.0,
+    old_price: 40.0,
+  },
+  {
+    id: 4,
+    name: "Flattering black CropTop for the Fashion Woman",
+    category: "women",
+    image: wcropblack,
+    image2: wcropblack1,
+    image1: wcropblack2,
+    new_price: 35.0,
+    old_price: 45.0,
+  },
+  {
+    id: 5,
+    name: "Glamorous Red Cargo Pants for Women",
+    category: "women",
+    image: womenredcargo,
+    image2: womenredcargo1,
+    image1: womenredcargo2,
+    new_price: 110,
+    old_price: 125,
   },
   {
     id: 18,
-    name: "Men Grey Solid Zippered Full-Zip Fit Ruberished Jacket",
-    category: "men",
-    image: p18_img,
-    image1: p18_img,
-    image2: p18_img,
+    name: "Incredible Cream Side Pocket Skirt",
+    category: "women",
+    image: creamsideskirt,
+    image1: creamsideskirt1,
+    image2: creamsideskirt2,
     new_price: 85.0,
-    old_price: 120.5,
+    old_price: 95.0,
   },
   {
-    id: 19,
-    name: "Men White Solid Zippered Full-Zip Slim Fit Ruberished Jacket",
-    category: "men",
-    image: p19_img,
-    image1: p19_img,
-    image2: p19_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    id: 6,
+    name: "Glamorous Ash Jogger to Make a Statemen",
+    category: "women",
+    image: washjogger,
+    image2: washjogger1,
+    image1: washjogger2,
+    new_price: 65.0,
+    old_price: 75.5,
+  },
+  // {
+  //   id: 7,
+  //   name: "Classy Side Pocket Skirt to Amp Up Your Fashion Game",
+  //   category: "women",
+  //   image: sidepocketskirt1,
+  //   image1: sidepocketskirt3,
+  //   image2: sidepocketskirt2,
+  //   new_price: 85.0,
+  //   old_price: 120.5,
+  // },
+  // {
+    {
+    id: 8,
+    name: "Stylish Brown Maxi Skirts For Your Wardrobe ",
+    category: "women",
+    image: wbrownmaxi,
+    image1:wbrownmaxi1,
+    image2: wbrownmaxi2,
+    new_price: 30.0,
+    old_price: 40.0,
   },
   {
-    id: 20,
-    name: "Men Blue-Black Solid Zippered Full-Zip Pocket Ski-wear Jacket",
+    id: 9,
+    name: "Tremendous Black Jogger to Make a Day",
+    category: "women",
+    image: wblackjogger,
+    image2: wblackjogger2,
+    image1: wblackjogger1,
+    new_price: 65.0,
+    old_price: 75.5,
+  },
+  {
+    id: 10,
+    name: "Women On-Trend Black Cargo Pants Style Icon",
+    category: "women",
+    image: womenblackcargo,
+    image1: womenblackcargo1 ,
+    image2: womenblackcargo2,
+    new_price: 110,
+    old_price: 125,
+  },
+  // {
+  //   id: 11,
+  //   name: "Sophisticated Maxi Dress For Perfection",
+  //   category: "women",
+  //   image: maxidress1,
+  //   image1: maxidress2,
+  //   image2: maxidress3,
+  //   new_price: 90.0,
+  //   old_price: 120.5,
+  // },
+  // {
+  //   id: 12,
+  //   name: "Fashionable Crop Top for Fashion Enthusiast",
+  //   category: "women",
+  //   image: croptop3,
+  //   image1: croptop1,
+  //   image2: croptop2,
+  //   new_price: 85.0,
+  //   old_price: 120.5,
+  // },
+  {
+    id: 13,
+    name: "Effortless Blue Cargo for the Fashion-Savvy Woman",
+    category: "women",
+    image: wvioletcargo1,
+    imag2: wvioletcargo2,
+    image1: wvioletcargo,
+    new_price: 110,
+    old_price: 125,
+  },
+  {
+    id: 14,
+    name: "Fortune Black/Ash Jogger for Women",
+    category: "women",
+    image: wdoublejogger,
+    image2: wdoublejogger1,
+    image1: wdoublejogger2,
+    new_price: 65.0,
+    old_price: 75.5,
+  },
+
+    {
+    id: 16,
+    name: "Flattering black CropTop for the Fashion Woman",
+    category: "women",
+    image: wcrop,
+    image2: wcrop1,
+    image1: wcrop2,
+    new_price: 35.0,
+    old_price: 45.0,
+  },
+  {
+    id: 17,
+    name: "Women Cream Cargo Pants ",
+    category: "women",
+    image: wcreamcargo,
+    image1: wcreamcargo1,
+    image2: wcreamcargo2,
+    new_price: 110,
+    old_price: 125,
+  },
+  {
+    id: 18,
+    name: "Attractive Brown Side Pocket Skirt",
+    category: "women",
+    image: brownsideskirt,
+    image1: brownsideskirt2,
+    image2: brownsideskirt1,
+    new_price: 85.0,
+    old_price: 95.0,
+  },
+ 
+  {
+    id: 50,
+    name: "Men Black On Trend Cargo Pants",
     category: "men",
-    image: p20_img,
-    image1: p20_img,
-    image2: p20_img,
-    new_price: 95.0,
+    image: menblackcargo,
+    image1: menblackcargo2,
+    image2: menblackcargo1,
+    new_price: 120,
     old_price: 125.5,
   },
   {
-    id: 21,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    id: 51,
+    name: "Fautless Men Ash On Trend Cargo Pants",
     category: "men",
-    image: p21_img,
-    image1: p21_img,
-    image2: p21_img,
-    new_price: 85.0,
-    old_price: 120.5,
-  },
-  {
-    id: 22,
-    name: "Men Multi-Color Solid Zippered Full-Zip Slim Fit Hoddie Jacket",
-    category: "men",
-    image: p22_img,
-    image1: p22_img,
-    image2: p22_img,
-    new_price: 125.0,
-    old_price: 150.5,
-  },
-  {
-    id: 23,
-    name: "Men Ash Solid Buttom Full-Buttom  Fit Bomber Hoddie",
-    category: "men",
-    image: p23_img,
-    image1: p23_img,
-    image2: p23_img,
-    new_price: 85.0,
-    old_price: 120.5,
-  },
-  {
-    id: 24,
-    name: " Black Solid Zippered Buttom  Fit Coat Jacket",
-    category: "men",
-    image: p24_img,
-    image1: p24_img,
-    image2: p24_img,
-    new_price: 90.0,
-    old_price: 110.5,
+    image: menashcargo2,
+    image1: menashcargo,
+    image2: menashcargo1,
+    new_price: 120,
+    old_price: 125.5,
   },
   
 ];

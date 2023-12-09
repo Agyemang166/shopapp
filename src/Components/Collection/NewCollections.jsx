@@ -9,7 +9,7 @@ import Items from '../Items/Items'
 
 import new_collections from "../Assets/new_collections"
 
-const Offers = () => {
+const NewCollections = () => {
 
   const responsive = {
     superLargeDesktop: {
@@ -18,7 +18,7 @@ const Offers = () => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 4
+      items: 6
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -26,7 +26,7 @@ const Offers = () => {
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 1
+      items: 2
     }
   };
 
@@ -49,4 +49,4 @@ const Offers = () => {
   )
 }
 
-export default Offers
+export default NewCollections

@@ -1,14 +1,15 @@
 import React from 'react'
 import Hero from '../Components/Hero/Hero'
-import Popular from '../Components/Popular/Popular'
-import NewCollection from '../Components/NewCollections/NewCollections'
+import PopularInWomen from '../Components/Popular/PopularInWomen'
+import RelatedProduct from '../Components/Collection/RelatedContent'
+
 
 const Shop = () => {
   return (
     <div>
       <Hero/>
-      <Popular/>
-    <NewCollection/>
+      <PopularInWomen/>
+      <RelatedProduct/>
     </div>
   )
 }

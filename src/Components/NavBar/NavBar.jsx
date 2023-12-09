@@ -6,7 +6,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 import Logo from "../Assets/logo.png"
-import cart_icon from "../Assets/cart_icon.png"
 import { Link } from 'react-router-dom';
 
 const navData = [
@@ -58,9 +57,6 @@ const NavBar = () => {
                     })
                 }
                     </Nav>
-                    <div className='nav-cart d-flex'>
-                   
-                    </div>
                 </Navbar.Collapse>
             </Container>
         </Navbar>

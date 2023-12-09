@@ -3,7 +3,8 @@ import "./ProductDisplay.css"
 import star_icon from "../Assets/star_icon.png"
 
 import Button from 'react-bootstrap/Button';
-import RelatedProducts from '../NewCollections/RelatedContent';
+import RelatedProducts from '../Collection/RelatedContent';
+
 
 const ProductDisplay = (props) => {
     const { product } = props;
@@ -17,7 +18,7 @@ let buyerMessage;
         const emailContent = `Product: ${product.name}\nPrice: ${product.new_price}\nImage: ${product.image}\n\nForm Info:\nBuyer Name: ${buyername}\nBuyer Location: ${buyerLocation}\nDelivery Location: ${delivery}\nAdditional Info: ${buyerMessage}`;
 
  
-        window.location.href = `mailto:philippaasamoah111@gmail.com?subject=Product Details&body=${encodeURIComponent(emailContent)}`;
+        window.location.href = `mailto:gyamfiagyemang999@gmail.com?subject=Product Details&body=${encodeURIComponent(emailContent)}`;
     };
 
     return (

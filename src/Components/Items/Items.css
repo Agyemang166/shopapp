@@ -30,7 +30,7 @@
     }
     .item img{
         max-height: 100%;
-        max-width: auto;
+        max-width: 120px;
     }
     .title-head{
         font-size: 10px;

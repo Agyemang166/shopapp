@@ -9,7 +9,7 @@ const Items = (props) => {
   return (
     <div className='item'>
     <Link to={`/product/${props.id}`} onClick={window.scroll(0,0)} className='text-decoration-none'>
-    <Card className='card-item' style={{ width: '15rem' }}>
+    <Card className='card-item' style={{ width: '17rem' }}>
     <Card.Img variant="top" style={{height: "200px"}} src={props.image}/>
     <Card.Body> 
       <p className='title-head'>{props.name}</p>

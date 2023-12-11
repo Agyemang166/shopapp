@@ -20,8 +20,11 @@
 }
 
 @media  (max-width: 500px) {
+    .item{
+        max-width: 100px;
+    }
     .card-item{
-        max-width: 100%;
+        max-width: 1000px;
         display: flex;
         flex-direction: row;
     }

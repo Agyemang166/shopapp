@@ -1,5 +1,5 @@
 import React from 'react'
-import women_popular_data from "../Assets/women_popular_data"
+import men_popular_data from "../Assets/men_popular_data"
 
 import "./Popular.css"
 
@@ -8,7 +8,7 @@ import "react-multi-carousel/lib/styles.css";
 
 import Items from '../Items/Items'
 
-const Popular = () => {
+const PopularInMen = () => {
 
     const responsive = {
   superLargeDesktop: {
@@ -31,11 +31,11 @@ const Popular = () => {
 
   return (
     <div className='popular new m-0 p-0'>
-      <h1 className='text-center font-pFonts '>POPULAR IN WOMEN</h1>
+      <h1 className='text-center font-pFonts '>POPULAR IN MEN</h1>
       <hr/>
       <div className="popular-item">
       <Carousel responsive={responsive}  infinite={true} removeArrowOnDeviceType={["tablet", "mobile"]} autoPlay={true} className='px-0' autoPlaySpeed={5000} swipeable={true} draggable={true}>
-      {women_popular_data.map((item,i) => {
+      {men_popular_data.map((item,i) => {
         return(
             <div className='w-full m-5'>
                        <Items key={i} id={item.id} name={item.name}  image={item.image} new_price={item.new_price} old_price={item.old_price} />
@@ -48,4 +48,4 @@ const Popular = () => {
   )
 }
 
-export default Popular
+export default PopularInMen

@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="hero container">
             <div className="row">
                 <div className="col-md-6 hero-left">
-                    <h2>NEW ARRIVALS ONLY</h2>
+                    <p className="text-center">Merry Christmas Lovely Customer <br /> <br /> Welcome to Luxhut Apparel Website</p>
 
                     <div className="hero-hand-icon d-flex align-items-center">
                         <p>new</p>
@@ -16,7 +16,7 @@ const Hero = () => {
                     <p>collections</p>
                     </div>
                     <div className="hero-latest-btn d-flex justify-content-center align-items-center">
-                        <div className="">Latest Collection</div>
+                        <button>Lastest Collection</button>
                     </div>
                 </div>
 

@@ -24,9 +24,15 @@ import darkbluedinner from "./darkbluedinner.jpeg"
 import darkbluedinner1 from "./darkbluedinner1.jpeg"
 import darkbluedinner2 from "./darkbluedinner2.jpeg"
 
-import darkgreendinner from "./darkgreendinner.jpeg"
-import darkgreendinner1 from "./darkgreendinner1.jpeg"
-import darkgreendinner2 from "./darkgreendinner2.jpeg"
+import dinnerwear from "./dinnerwear.jpeg"
+import dinnerwear1 from "./dinnerwear1.jpeg"
+import dinnerwear2 from "./dinnerwear2.jpeg"
+
+import violetdinnerwear from "./violetdinnerwear.jpeg"
+import violetdinnerwear1 from "./violetdinnerwear1.jpeg"
+
+
+
 
 import darkreddinner from "./darkreddinner.jpeg"
 import darkreddinner1 from "./darkreddinner1.jpeg"
@@ -167,6 +173,27 @@ import menashcargo1 from "./menashcargo1.jpeg"
 import menashcargo from "./menashcargo.jpeg"
 import menashcargo2 from "./menashcargo2.jpeg"
 
+import menknicker from "./menknicker.jpeg"
+import menknicker1 from "./menknicker1.jpeg"
+import menknicker2 from "./menknicker2.jpeg"
+import menknicker3 from "./menknicker3.jpeg"
+import menknicker4 from "./menknicker4.jpeg"
+import menknicker5 from "./menknicker5.jpeg"
+import menknicker6 from "./menknicker6.jpeg"
+import menknicker7 from "./menknicker7.jpeg"
+
+import jean1 from "./jean1.jpeg"
+import jean2 from "./jean2.jpeg"
+import jean3 from "./jean3.jpeg"
+import jean4 from "./jean4.jpeg"
+import jean5 from "./jean5.jpeg"
+import jean6 from "./jean6.jpeg"
+import jean7 from "./jean7.jpeg"
+import jean8 from "./jean8.jpeg"
+import jean9 from "./jean9.jpeg"
+import jean10 from "./jean10.jpeg"
+
+
 
 
 let all_product = [
@@ -222,13 +249,13 @@ let all_product = [
   },
   {
     id: 6,
-    name: "Tremendous Long Dark-Green Dinner Dress",
+    name: "Dinner Delight For Opulent Ocations",
     category: "women",
-    image: darkgreendinner,
-    image1: darkgreendinner1,
-    image2: darkgreendinner2,
-    new_price: 190,
-    old_price: 210,
+    image: dinnerwear2,
+    image1: dinnerwear1,
+    image2: dinnerwear,
+    new_price: 180,
+    old_price: 200,
   },
   {
     id: 7,
@@ -291,7 +318,18 @@ let all_product = [
     image2: snakecolor2,
     new_price: 120.0,
     old_price: 130.0,
+  }, 
+   {
+    id: 13,
+    name: "Dine In Violet Dress In Evenings",
+    category: "women",
+    image: violetdinnerwear,
+    image1: violetdinnerwear1,
+    image2: violetdinnerwear,
+    new_price: 130,
+    old_price: 145,
   },
+
   // ,13,14,15,16,
   {
     id: 17,
@@ -345,7 +383,7 @@ let all_product = [
     old_price: 70,
   },
   {
-    id: 25,
+    id: 26,
     name: "Glamorous Ash Jogger to Make a Statemen",
     category: "women",
     image: washjogger,
@@ -540,6 +578,16 @@ let all_product = [
   },
   {
     id: 101,
+    name: "Blue Dapper Denim Trousers For Men",
+    category: "men",
+    image: jean1,
+    image1: jean1,
+    image2: jean1,
+    new_price: 130,
+    old_price: 150,
+  },
+  {
+    id: 103,
     name: "Fautless Men Ash On Trend Cargo Pants",
     category: "men",
     image: menashcargo2,
@@ -548,7 +596,208 @@ let all_product = [
     new_price: 120,
     old_price: 125.5,
   },
-  
+  {
+    id: 104,
+    name: "Baja Stylish Dark Shorts Men",
+    category: "men",
+    image:menknicker7,
+    image2:menknicker7,
+    image1:menknicker7,
+    new_price: 110.0,
+    old_price: 130.5,
+  },
+  // ,105,106
+  {
+    id: 107,
+    name: "Fautless Gentlemen Breeches Pants",
+    category: "men",
+    image: menknicker,
+    image1: menknicker,
+    image2: menknicker,
+    new_price: 70,
+    old_price: 85,
+  },
+  {
+    id: 108,
+    name: "Men Chino Chinos Dark-Blue Denim Trousers",
+    category: "men",
+    image: jean2,
+    image1: jean2,
+    image2: jean2,
+    new_price: 130,
+    old_price: 150,
+  },
+  {
+    id: 109,
+    name: "Fashionable Britches Pants For Men",
+    category: "men",
+    image: menknicker2,
+    image1: menknicker2,
+    image2: menknicker2,
+    new_price: 70,
+    old_price: 85,
+  },
+  // 110,111 112 
+  {
+    id: 113,
+    name: "Men Stylish Stubbies Navy Blue Denim Trousers",
+    category: "men",
+    image: jean3,
+    image1: jean3,
+    image2: jean3,
+    new_price: 130,
+    old_price: 150,
+  },
+  {
+    id: 114,
+    name: "Glamorous Ash Jogger to Make a Statemen",
+    category: "men",
+    image: washjogger,
+    image2: washjogger1,
+    image1: washjogger2,
+    new_price: 65.0,
+    old_price: 75.5,
+  },
+  {
+    id: 115,
+    name: "Classic Culottes For Fashionable Men",
+    category: "men",
+    image:menknicker3,
+    image2:menknicker3,
+    image1:menknicker3,
+    new_price: 70.0,
+    old_price: 80.5,
+  },
+  // 116,117,118
+  {
+    id: 119,
+    name: "Men Fashionable Fades Ripped Blue Denim Trousers",
+    category: "men",
+    image: jean4,
+    image1: jean4,
+    image2: jean4,
+    new_price: 130,
+    old_price: 150,
+  },
+  {
+    id: 120,
+    name: "Incredible Alien Style Shorts Men",
+    category: "men",
+    image:menknicker1,
+    image2:menknicker1,
+    image1:menknicker1,
+    new_price: 70.0,
+    old_price: 80.5,
+  },
+  {
+    id: 121,
+    name: "Fortune Black/Ash Jogger for Men",
+    category: "men",
+    image: wdoublejogger,
+    image2: wdoublejogger1,
+    image1: wdoublejogger2,
+    new_price: 65.0,
+    old_price: 75.5,
+  },
+  // 122,123
+  {
+    id: 124,
+    name: "Men Distressed Dark Denim Trousers",
+    category: "men",
+    image: jean5,
+    image1: jean5,
+    image2: jean5,
+    new_price: 130,
+    old_price: 150,
+  },
+  // 125,126
+  {
+    id: 127,
+    name: "Mexican Stylish  Shorts Men",
+    category: "men",
+    image:menknicker6,
+    image2:menknicker6,
+    image1:menknicker6,
+    new_price: 110.0,
+    old_price: 130.5,
+  },
+// 128,129
+
+  {
+    id: 130,
+    name: "Men White Patched Blue Trendy DenimTrousers",
+    category: "men",
+    image: jean6,
+    image1: jean6,
+    image2: jean6,
+    new_price: 130,
+    old_price: 150,
+  },
+  // 131,132,133
+  {
+    id: 134,
+    name: "Men Light Dirty Distressed Denim Trousers",
+    category: "men",
+    image: jean7,
+    image1: jean7,
+    image2: jean7,
+    new_price: 130,
+    old_price: 150,
+  },
+
+  // 135,136
+  {
+    id: 137,
+    name: "Men Blue Denim Trousers",
+    category: "men",
+    image: jean8,
+    image1: jean8,
+    image2: jean8,
+    new_price: 130,
+    old_price: 150,
+  },
+  // 138,139
+  {
+    id: 140,
+    name: "Tremendous Light Dark Wash Jeans",
+    category: "men",
+    image: jean9,
+    image1: jean9,
+    image2: jean9,
+    new_price: 130,
+    old_price: 150,
+  },
+  // 141,142,143
+  {
+    id: 144,
+    name: "Classic Alien Culottes For Fashionable Men",
+    category: "men",
+    image:menknicker4,
+    image2:menknicker4,
+    image1:menknicker4,
+    new_price: 70.0,
+    old_price: 80.5,
+  },
+  {
+    id: 145,
+    name: "Ultimate Dark Wash Denim Trousers",
+    category: "men",
+    image: jean10,
+    image1: jean10,
+    image2: jean10,
+    new_price: 130,
+    old_price: 150,
+  },
+  {
+    id: 146,
+    name: "Incredible Guayaberas Culottes For Fashionable Men",
+    category: "men",
+    image:menknicker5,
+    image2:menknicker5,
+    image1:menknicker5,
+    new_price: 70.0,
+    old_price: 80.5,
+  },
 ];
 
 export default all_product;

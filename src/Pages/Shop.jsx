@@ -1,7 +1,8 @@
 import React from 'react'
 import Hero from '../Components/Hero/Hero'
 import PopularInWomen from '../Components/Popular/PopularInWomen'
-import RelatedProduct from '../Components/Collection/RelatedContent'
+import PopularInMen from '../Components/Popular/PopularInMen'
+import PopularCollections from '../Components/Popular/PopularCollections'
 
 
 const Shop = () => {
@@ -9,7 +10,8 @@ const Shop = () => {
     <div>
       <Hero/>
       <PopularInWomen/>
-      <RelatedProduct/>
+      <PopularInMen/>
+      <PopularCollections/>
     </div>
   )
 }

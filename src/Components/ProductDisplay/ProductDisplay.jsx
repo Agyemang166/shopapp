@@ -3,8 +3,9 @@ import "./ProductDisplay.css"
 import star_icon from "../Assets/star_icon.png"
 
 import Button from 'react-bootstrap/Button';
-import RelatedProducts from '../Collection/RelatedContent';
-
+import PopularInMen from '../Popular/PopularInMen';
+import PopularInWomen from '../Popular/PopularInWomen';
+import PopularCollections from '../Popular/PopularCollections';
 
 const ProductDisplay = (props) => {
     const { product } = props;
@@ -76,7 +77,9 @@ let buyerMessage;
 
                 </div>
             </div>
-            <RelatedProducts />
+            <PopularInMen/>
+            <PopularCollections/>
+            <PopularInWomen/>
         </div>
     )
 }

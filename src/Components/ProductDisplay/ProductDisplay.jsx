@@ -63,14 +63,14 @@ let buyerMessage;
                                 <input class="form-control" type="text" name="delivery" onChange={(e) => (delivery = e.target.value)} placeholder="Pickup/Delivery" required />
                             </div>
                             <div class="col-sm-12 mb-2">
-                                <input class="form-control text-area" as="text-area" onChange={(e) => (buyerMessage = e.target.value)} name="message" placeholder="Additional Info,color, size & whatsapp contact" required />
+                                <input style={{height:"150px"}} class="form-control text-area" as="text-area" onChange={(e) => (buyerMessage = e.target.value)} name="message" placeholder="Size Color Quantity Whatsapp Contact" required />
                             </div>
                             <div class="col-sm-12">
                                 <Button className='button' type="submit" variant="danger"  onClick={handleButtonClick}>Order Now</Button>
                                 <p>NB: Payment Validates Order. Delivery at a Cost</p>
                             </div>
                             <div class="col-sm-1 mb-2">
-                            <input class="form-control text-area" as="text-area" onChange={(e) => (buyerMessage = e.target.value)} name="message" placeholder="Additional Info,color, size & whatsapp contact" required />
+                            <input class="form-control text-area" as="text-area" onChange={(e) => (buyerMessage = e.target.value)} name="message" placeholder="" required />
                         </div>
                         </div>
                     </form>

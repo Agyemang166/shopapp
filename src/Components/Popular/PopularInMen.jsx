@@ -34,7 +34,7 @@ const PopularInMen = () => {
       <h1 className='text-center font-pFonts '>POPULAR IN MEN</h1>
       <hr/>
       <div className="popular-item">
-      <Carousel responsive={responsive}  infinite={true} removeArrowOnDeviceType={["tablet", "mobile"]} autoPlay={true} className='px-0' autoPlaySpeed={5000} swipeable={true} draggable={true}>
+      <Carousel responsive={responsive}  infinite={true} removeArrowOnDeviceType={["tablet", "mobile"]} autoPlay={true} className='px-0' autoPlaySpeed={5500} swipeable={true} draggable={true}>
       {men_popular_data.map((item,i) => {
         return(
             <div className='w-full m-5'>

@@ -14,10 +14,13 @@ const ProductDisplay = (props) => {
 let buyerLocation;
 let delivery;
 let buyerMessage;
+let contact;
+let quantity;
+
 
     const handleButtonClick = () => {
-        const emailContent = `Product: ${product.name}\nPrice: ${product.new_price}\nImage: ${product.image}\n\nForm Info:\nBuyer Name: ${buyername}\nBuyer Location: ${buyerLocation}\nDelivery Location: ${delivery}\nAdditional Info: ${buyerMessage}`;
-
+        alert("Merry Christmas❄️🎄🎅 Lovely Customer. Please, You can order a single item at a time. Happy Shopping from Luxhut Apparel. Add your next item to the cart after this one")
+        const emailContent = `Product: ${product.name}\nPrice: ${product.new_price}\nImage: ${product.image}\n\nForm Info:\nBuyer's Name: ${buyername}\nBuyer's Location: ${buyerLocation} \nBuyer's WhatsApp Contact: ${contact}  \nQuantity : ${quantity}\nDelivery Location: ${delivery}\nAdditional Info: ${buyerMessage}`;
  
         window.location.href = `mailto:gyamfiagyemang999@gmail.com?subject=Product Details&body=${encodeURIComponent(emailContent)}`;
     };
@@ -53,17 +56,23 @@ let buyerMessage;
                     <hr/>
                     <form class="contact-form d-flex justify-content-center container" onSubmit={handleButtonClick}>
                         <div class="row">
-                            <div class="col-sm-4 mb-2">
+                            <div class="col-sm-4 col-6 mb-2">
                                 <input class="form-control" type="text" name="name" onChange={(e) => (buyername = e.target.value)} placeholder=" Your Name" required />
                             </div>
+                            <div class="col-sm-4 col-6 mb-2">
+                            <input class="form-control" type="text" name="delivery" onChange={(e) => (delivery = e.target.value)} placeholder="Pickup/Delivery" required />
+                        </div>
                             <div class="col-sm-4 mb-2">
-                                <input class="form-control" type="text" name="location" onChange={(e) => (buyerLocation = e.target.value)} placeholder="Your Location" required />
+                                <input class="form-control" type="text" name="location" onChange={(e) => (buyerLocation = e.target.value)} placeholder="Your Location $ Address" required />
                             </div>
-                            <div class="col-sm-4 mb-2">
-                                <input class="form-control" type="text" name="delivery" onChange={(e) => (delivery = e.target.value)} placeholder="Pickup/Delivery" required />
+                            <div class="col-sm-4 col-6 mb-2">
+                                <input class="form-control" type="tel" name="contact" onChange={(e) => (contact = e.target.value)} placeholder="Whatsapp Number" required />
+                            </div>
+                            <div class="col-sm-4 col-6 mb-2">
+                                <input class="form-control" type="tel" name="quatity" onChange={(e) => (quantity = e.target.value)} placeholder="Quantity & size" required />
                             </div>
                             <div class="col-sm-12 mb-2">
-                                <input style={{height:"150px"}} class="form-control text-area" as="text-area" onChange={(e) => (buyerMessage = e.target.value)} name="message" placeholder="Size Color Quantity Whatsapp Contact" required />
+                                <input style={{height:"150px"}} class="form-control text-area" as="text-area" onChange={(e) => (buyerMessage = e.target.value)} name="message" placeholder="Give Other Relevant Detailed Description" required />
                             </div>
                             <div class="col-sm-12">
                                 <Button className='button' type="submit" variant="danger"  onClick={handleButtonClick}>Order Now</Button>

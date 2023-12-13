@@ -195,6 +195,31 @@ import jean10 from "./jean10.jpeg"
 
 
 
+// Perfumes
+import perfumeberriesweekend from "./perfumeberriesweekend.webp"
+import perfumenightclub from "./perfumenightclub.jpeg"
+import perfumeaventosforher from "./perfumeaventosforher.webp"
+import perfumeaventosblue from "./perfumeaventosblue.webp"
+import perfumekristal from "./perfumekristal.jpeg"
+import perfumemousuf from "./perfumemousuf.jpeg"
+import perfumetawel from "./perfumetawel.jpeg"
+import perfumesuspenso from "./perfumesuspenso.jpeg"
+import perfumebarakatrouge from "./perfumebarakatrouge.jpeg"
+import perfumepride from "./perfumepride.jpeg"
+import perfumealqiam from "./perfumealqiam.jpeg"
+import perfumeyaba from "./perfumeyaba.jpeg"
+import perfumesuave from "./perfumesuave.jpeg"
+import perfumepegasus from "./perfumepegasus.jpeg"
+import perfumeintensenoir from "./perfumeintensenoir.jpeg"
+import perfumefiero from "./perfumefiero.jpeg"
+import perfumebarakat from "./perfumebarakat.jpeg"
+import perfumeoldtouch from "./perfumeoldtouch.jpg"
+import perfumeaventosgreen from "./perfumeaventosgreen.jpg"
+import perfumeouddearabia from "./perfumeouddearabia.jpg"
+import perfumeishq from "./perfumeishq.jpg"
+import perfumeshaheen from "./perfumeshaheen.jpg"
+import perfumeurway from "./perfumeurway.jpg"
+import perfumewinners from "./perfumewinners.jpg"
 
 let all_product = [
   {
@@ -296,8 +321,7 @@ let all_product = [
     image1: womenredcargo2,
     new_price: 110,
     old_price: 125,
-  },
-  
+  }, 
   {
     id: 11,
     name: "Incredible Cream Side Pocket Skirt",
@@ -308,7 +332,6 @@ let all_product = [
     new_price: 85.0,
     old_price: 95.0,
   },
-
   {
     id: 12,
     name: "Perfect fitting Greyish Dress",
@@ -797,6 +820,248 @@ let all_product = [
     image1:menknicker5,
     new_price: 70.0,
     old_price: 80.5,
+  },
+
+  // Perfumes
+  {
+    id: 200,
+    name: "Berries Weekend Pink Edition",
+    category: "perfume",
+    image:perfumeberriesweekend,
+    image2:perfumeberriesweekend,
+    image1:perfumeberriesweekend,
+    new_price: 150,
+    old_price: 160,
+  },
+  {
+    id: 201,
+    name: "Perfume Yaba Lattafa",
+    category: "perfume",
+    image:perfumeyaba,
+    image2:perfumeyaba,
+    image1:perfumeyaba,
+    new_price: 300,
+    old_price: 320,
+  },
+  {
+    id: 202,
+    name: "Night Club Irish Green",
+    category: "perfume",
+    image:perfumenightclub,
+    image2:perfumenightclub,
+    image1:perfumenightclub,
+    new_price: 150,
+    old_price: 160,
+  },
+  {
+    id: 203,
+    name: "Suave",
+    category: "perfume",
+    image:perfumesuave,
+    image2:perfumesuave,
+    image1:perfumesuave,
+    new_price: 150,
+    old_price: 160,
+  },
+  {
+    id: 205,
+    name: "Aventos White For Her",
+    category: "perfume",
+    image:perfumeaventosforher,
+    image2:perfumeaventosforher,
+    image1:perfumeaventosforher,
+    new_price: 150,
+    old_price: 160,
+  },
+  {
+    id: 206,
+    name: "Aventos Blue For Him",
+    category: "perfume",
+    image:perfumeaventosblue,
+    image2:perfumeaventosblue,
+    image1:perfumeaventosblue,
+    new_price: 150,
+    old_price: 160,
+  },
+  {
+    id: 207,
+    name: "Ur Way Fragrance World",
+    category: "perfume",
+    image:perfumeurway,
+    image2:perfumeurway,
+    image1:perfumeurway,
+    new_price: 150,
+    old_price: 160,
+  },
+  {
+    id: 208,
+    name: "Ta'weel Ciel Collection Lattafa",
+    category: "perfume",
+    image:perfumetawel,
+    image2:perfumetawel,
+    image1:perfumetawel,
+    new_price: 250,
+    old_price: 270,
+  },
+  {
+    id: 209,
+    name: "Ishq Al Shuyukh Gold Lattafa",
+    category: "perfume",
+    image:perfumeishq,
+    image2:perfumeishq,
+    image1:perfumeishq,
+    new_price: 340,
+    old_price: 360,
+  },
+  {
+    id: 210,
+    name: "Kristal Eau De Perfume",
+    category: "perfume",
+    image:perfumekristal,
+    image2:perfumekristal,
+    image1:perfumekristal,
+    new_price: 150,
+    old_price: 160,
+  },
+  {
+    id: 211,
+    name: "Pegasus Perfume 50ml",
+    category: "perfume",
+    image:perfumepegasus,
+    image2:perfumepegasus,
+    image1:perfumepegasus,
+    new_price: 50,
+    old_price: 60,
+  },
+  {
+    id: 212,
+    name: "Fiero Bleu For Him",
+    category: "perfume",
+    image:perfumefiero,
+    image2:perfumefiero,
+    image1:perfumefiero,
+    new_price: 150,
+    old_price: 160,
+  },
+  {
+    id: 213,
+    name: "Al Qiam Gold Lattafa",
+    category: "perfume",
+    image:perfumealqiam,
+    image2:perfumealqiam,
+    image1:perfumealqiam,
+    new_price: 370,
+    old_price: 340,
+  },
+  {
+    id: 214,
+    name: "Frank Oliver Oud Touch",
+    category: "perfume",
+    image:perfumeoldtouch,
+    image2:perfumeoldtouch,
+    image1:perfumeoldtouch,
+    new_price: 260,
+    old_price: 280,
+  },
+  {
+    id: 215,
+    name: "Perfume Suspenso For Men",
+    category: "perfume",
+    image:perfumesuspenso,
+    image2:perfumesuspenso,
+    image1:perfumesuspenso,
+    new_price: 160,
+    old_price: 180,
+  },
+  {
+    id: 216,
+    name: "Barakat Gentle Perfume",
+    category: "perfume",
+    image:perfumebarakat,
+    image2:perfumebarakat,
+    image1:perfumebarakat,
+    new_price: 150,
+    old_price: 160,
+  },
+  {
+    id: 217,
+    name: "Pride Of Lattafa",
+    category: "perfume",
+    image:perfumepride,
+    image2:perfumepride,
+    image1:perfumepride,
+    new_price: 370,
+    old_price: 340,
+  },
+  {
+    id: 218,
+    name: "Barakat Rouge 50ml",
+    category: "perfume",
+    image:perfumebarakatrouge,
+    image2:perfumebarakatrouge,
+    image1:perfumebarakatrouge,
+    new_price: 50,
+    old_price: 60,
+  },
+  {
+    id: 219,
+    name: "Shaheen Silver Lattafa Perfume",
+    category: "perfume",
+    image:perfumeshaheen,
+    image2:perfumeshaheen,
+    image1:perfumeshaheen,
+    new_price: 340,
+    old_price: 360,
+  },
+  {
+    id: 220,
+    name: "Aventos Green For Him",
+    category: "perfume",
+    image:perfumeaventosgreen,
+    image2:perfumeaventosgreen,
+    image1:perfumeaventosgreen,
+    new_price: 150,
+    old_price: 160,
+  },
+  {
+    id: 221,
+    name: "Mousuf Arabian Perfume 50ml",
+    category: "perfume",
+    image:perfumemousuf,
+    image2:perfumemousuf,
+    image1:perfumemousuf,
+    new_price: 60,
+    old_price: 70,
+  },
+  {
+    id: 222,
+    name: "Oud De Arabia Perfume",
+    category: "perfume",
+    image:perfumeouddearabia,
+    image2:perfumeouddearabia,
+    image1:perfumeouddearabia,
+    new_price: 150,
+    old_price: 160,
+  },
+  {
+    id: 223,
+    name: "Intense Noir 50ml",
+    category: "perfume",
+    image:perfumeintensenoir,
+    image2:perfumeintensenoir,
+    image1:perfumeintensenoir,
+    new_price: 50,
+    old_price: 60,
+  },
+  {
+    id: 224,
+    name: "Winner's Trophy Perfume",
+    category: "perfume",
+    image:perfumewinners,
+    image2:perfumewinners,
+    image1:perfumewinners,
+    new_price: 350,
+    old_price: 370,
   },
 ];
 

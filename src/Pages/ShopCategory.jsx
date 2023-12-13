@@ -9,7 +9,7 @@ const ShopCategory = (props) => {
   const { all_product } = useContext(ShopContext)
   return (
     <div className='shop-category'>
-      <img src={props.banner} alt='Luxhut Apparel' />
+      <img src={props.banner} style={{width:"100%", height:"200px"}} alt='Luxhut Apparel' />
       <div className="shopcategory-product">
         {
           all_product.map((item, i) => {

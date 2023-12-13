@@ -20,6 +20,13 @@ import jean5 from "./jean5.jpeg"
 import jean6 from "./jean6.jpeg"
 import jean7 from "./jean7.jpeg"
 
+import perfumeaventosblue from "./perfumeaventosblue.webp"
+import perfumesuave from "./perfumesuave.jpeg"
+import perfumefiero from "./perfumefiero.jpeg"
+import perfumeshaheen from "./perfumeshaheen.jpg"
+import perfumesuspenso from "./perfumesuspenso.jpeg"
+
+
 let men_popular_data = [
     {
     id: 119,
@@ -30,6 +37,16 @@ let men_popular_data = [
     image2: jean4,
     new_price: 130,
     old_price: 150,
+  },
+  {
+    id: 219,
+    name: "Shaheen Silver Lattafa Perfume",
+    category: "perfume",
+    image:perfumeshaheen,
+    image2:perfumeshaheen,
+    image1:perfumeshaheen,
+    new_price: 340,
+    old_price: 360,
   },
     {
     id: 100,
@@ -53,6 +70,16 @@ let men_popular_data = [
     old_price: 75.5,
   },
   {
+    id: 206,
+    name: "Aventos Blue For Him",
+    category: "perfume",
+    image:perfumeaventosblue,
+    image2:perfumeaventosblue,
+    image1:perfumeaventosblue,
+    new_price: 150,
+    old_price: 160,
+  },
+  {
     id: 124,
     name: "Men Distressed Dark Denim Trousers",
     category: "men",
@@ -61,6 +88,16 @@ let men_popular_data = [
     image2: jean5,
     new_price: 130,
     old_price: 150,
+  },
+  {
+    id: 215,
+    name: "Perfume Suspenso For Men",
+    category: "perfume",
+    image:perfumesuspenso,
+    image2:perfumesuspenso,
+    image1:perfumesuspenso,
+    new_price: 160,
+    old_price: 180,
   },
   {
     id: 120,
@@ -83,6 +120,16 @@ let men_popular_data = [
     old_price: 125.5,
   },
   {
+    id: 203,
+    name: "Suave",
+    category: "perfume",
+    image:perfumesuave,
+    image2:perfumesuave,
+    image1:perfumesuave,
+    new_price: 150,
+    old_price: 160,
+  },
+  {
     id: 130,
     name: "Men White Patched Blue Trendy Denim Trousers",
     category: "men",
@@ -101,6 +148,16 @@ let men_popular_data = [
     image2: menknicker,
     new_price: 70,
     old_price: 85,
+  },
+  {
+    id: 212,
+    name: "Fiero Bleu For Him",
+    category: "perfume",
+    image:perfumefiero,
+    image2:perfumefiero,
+    image1:perfumefiero,
+    new_price: 150,
+    old_price: 160,
   },
   {
     id: 109,

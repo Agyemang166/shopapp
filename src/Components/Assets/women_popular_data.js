@@ -45,6 +45,14 @@ import brownsideskirt1 from "./brownsideskirt1.jpeg"
 import brownsideskirt2 from "./brownsideskirt2.jpeg"
 
 
+import perfumepride from "./perfumepride.jpeg"
+import perfumeaventosforher from "./perfumeaventosforher.webp"
+import perfumemousuf from "./perfumemousuf.jpeg"
+import perfumeberriesweekend from "./perfumeberriesweekend.webp"
+import perfumeurway from "./perfumeurway.jpg"
+
+
+
 let women_popular_data = [
   {
     id: 10,
@@ -57,6 +65,16 @@ let women_popular_data = [
     old_price: 125,
   },
   {
+    id: 217,
+    name: "Pride Of Lattafa",
+    category: "perfume",
+    image:perfumepride,
+    image2:perfumepride,
+    image1:perfumepride,
+    new_price: 370,
+    old_price: 340,
+  },
+  {
     id: 4,
     name: "Attractive Pink Side Pocket Skirt",
     category: "women",
@@ -65,6 +83,16 @@ let women_popular_data = [
     image2: pinksideskirt2,
     new_price: 85.0,
     old_price: 95.0,
+  },
+  {
+    id: 205,
+    name: "Aventos White For Her",
+    category: "perfume",
+    image:perfumeaventosforher,
+    image2:perfumeaventosforher,
+    image1:perfumeaventosforher,
+    new_price: 150,
+    old_price: 160,
   },
   {
     id: 7,
@@ -77,6 +105,16 @@ let women_popular_data = [
     old_price: 100,
   },
   {
+    id: 200,
+    name: "Berries Weekend Pink Edition",
+    category: "perfume",
+    image:perfumeberriesweekend,
+    image2:perfumeberriesweekend,
+    image1:perfumeberriesweekend,
+    new_price: 150,
+    old_price: 160,
+  },
+  {
     id: 9,
     name: "Flattering black CropTop for the Fashion Woman",
     category: "women",
@@ -85,6 +123,16 @@ let women_popular_data = [
     image1: wcropblack2,
     new_price: 35.0,
     old_price: 45.0,
+  },
+  {
+    id: 221,
+    name: "Mousuf Arabian Perfume 50ml",
+    category: "perfume",
+    image:perfumemousuf,
+    image2:perfumemousuf,
+    image1:perfumemousuf,
+    new_price: 60,
+    old_price: 70,
   },
   {
     id: 12,
@@ -135,6 +183,16 @@ let women_popular_data = [
     image2: tinkabel2,
     new_price: 100.0,
     old_price: 120.0,
+  },
+  {
+    id: 207,
+    name: "Ur Way Fragrance World",
+    category: "perfume",
+    image:perfumeurway,
+    image2:perfumeurway,
+    image1:perfumeurway,
+    new_price: 150,
+    old_price: 160,
   },
   {
     id: 57,

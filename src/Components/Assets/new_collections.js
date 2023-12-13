@@ -23,6 +23,12 @@ import wdoublejogger from "./wdoublejogger.jpeg"
 import wdoublejogger1 from "./wdoublejogger1.jpeg"
 import wdoublejogger2 from "./wdoublejogger2.jpeg"
 
+import perfumekristal from "./perfumekristal.jpeg"
+import perfumeishq from "./perfumeishq.jpg"
+import perfumebarakat from "./perfumebarakat.jpeg"
+
+
+
 let new_collections = [
   {
     id: 100,
@@ -33,6 +39,16 @@ let new_collections = [
     image2: menblackcargo1,
     new_price: 120,
     old_price: 125.5,
+  },
+  {
+    id: 210,
+    name: "Kristal Eau De Perfume",
+    category: "perfume",
+    image:perfumekristal,
+    image2:perfumekristal,
+    image1:perfumekristal,
+    new_price: 150,
+    old_price: 160,
   },
   {
     id: 109,
@@ -65,6 +81,16 @@ let new_collections = [
     old_price: 75.5,
   },
   {
+    id: 209,
+    name: "Ishq Al Shuyukh Gold Lattafa",
+    category: "perfume",
+    image:perfumeishq,
+    image2:perfumeishq,
+    image1:perfumeishq,
+    new_price: 340,
+    old_price: 360,
+  },
+  {
     id: 3,
     name: "Sleek Black Cargo Pants for the Modern Woman",
     category: "women",
@@ -93,6 +119,16 @@ let new_collections = [
     image2: menashcargo1,
     new_price: 120,
     old_price: 125.5,
+  },
+  {
+    id: 216,
+    name: "Barakat Gentle Perfume",
+    category: "perfume",
+    image:perfumebarakat,
+    image2:perfumebarakat,
+    image1:perfumebarakat,
+    new_price: 150,
+    old_price: 160,
   },
 ];
 

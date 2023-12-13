@@ -27,6 +27,12 @@ const navData = [
     name: "Men",
     subname: "mens",
   },
+  {
+    key: 4,
+    anchor: "/perfumes",
+    name: "Perfume",
+    subname: "perfume",
+  },
 ];
 const NavBar = () => {
   const [menu, setMenu] = useState("shop");

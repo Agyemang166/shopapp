@@ -76,7 +76,7 @@ let quantity;
                             </div>
                             <div class="col-sm-12">
                                 <Button className='button' type="submit" variant="danger"  onClick={handleButtonClick}>Order Now</Button>
-                                <p>NB: Payment Validates Order. Delivery at a Cost</p>
+                                <p>NB: Payment Validates Order. Delivery at a Cost & Nationwide</p>
                             </div>
                             <div class="col-sm-1 mb-2">
                             <input class="form-control text-area" as="text-area" onChange={(e) => (buyerMessage = e.target.value)} name="message" placeholder="" required />

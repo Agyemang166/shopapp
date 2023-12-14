@@ -220,6 +220,24 @@ import perfumeishq from "./perfumeishq.jpg"
 import perfumeshaheen from "./perfumeshaheen.jpg"
 import perfumeurway from "./perfumeurway.jpg"
 import perfumewinners from "./perfumewinners.jpg"
+import perfumeaudvanille from "./perfumeaudvanille.jpg"
+
+// shoes
+import menblackhalfshoe from "./menblackhalfshoe.jpeg"
+import menblackshoe from "./menblackshoe.jpeg"
+import menblackshoe1 from "./menblackshoe1.jpeg"
+import menblackslipper1 from "./menblackslipper1.jpeg"
+import menblacksuedeshoe from "./menblacksuedeshoe.jpeg"
+import menbrowndessertboot from "./menbrowndessertboot.jpeg"
+import menbrownshoe from "./menbrownshoe.jpeg"
+import menbrownslipper from "./menbrownslipper.jpeg"
+import menbrownslipper1 from "./menbrownslipper1.jpeg"
+import mendarkbrownslippers from "./mendarkbrownslippers.jpeg"
+import menbrownslippers from "./menbrownslippers.jpeg"
+import menpolishableshoe from "./menpolishableshoe.jpeg"
+import menversaceblackslippers from "./menversaceblackslippers.jpeg"
+import menwhiteversaceslippers from "./menwhiteversaceslippers.jpeg"
+
 
 let all_product = [
   {
@@ -845,14 +863,15 @@ let all_product = [
   },
   {
     id: 202,
-    name: "Night Club Irish Green",
+    name: "Frank Olivier Oud Vanille",
     category: "perfume",
-    image:perfumenightclub,
-    image2:perfumenightclub,
-    image1:perfumenightclub,
-    new_price: 150,
-    old_price: 160,
+    image:perfumeaudvanille,
+    image2:perfumeaudvanille,
+    image1:perfumeaudvanille,
+    new_price: 330,
+    old_price: 400,
   },
+
   {
     id: 203,
     name: "Suave",
@@ -1062,6 +1081,177 @@ let all_product = [
     image1:perfumewinners,
     new_price: 350,
     old_price: 370,
+  },
+  {
+    id: 225,
+    name: "Night Club Irish Green",
+    category: "perfume",
+    image:perfumenightclub,
+    image2:perfumenightclub,
+    image1:perfumenightclub,
+    new_price: 150,
+    old_price: 160,
+  },
+
+
+  // Footwear
+  {
+    id: 300,
+    name: "Men Black Loafers Half-Shoe",
+    category: "footwear",
+    image:menblackhalfshoe,
+    image2:menblackhalfshoe,
+    image1:menblackhalfshoe,
+    new_price: 230,
+    old_price: 250,
+  },
+  {
+    id: 301,
+    name: "Men Occasional Formal Black Shoes ",
+    category: "footwear",
+    image:menblackshoe,
+    image2:menblackshoe,
+    image1:menblackshoe,
+    new_price: 240,
+    old_price: 260,
+  },
+  // 302,303,304
+  {
+    id: 305,
+    name: "Bottom Heavy Formal Black Shoe",
+    category: "footwear",
+    image:menblackshoe1,
+    image2:menblackshoe1,
+    image1:menblackshoe1,
+    new_price: 235,
+    old_price: 250,
+  },
+  {
+    id: 306,
+    name: "Men Black Event Slippers ",
+    category: "footwear",
+    image:menblackslipper1,
+    image2:menblackslipper1,
+    image1:menblackslipper1,
+    new_price: 150,
+    old_price: 170,
+  },
+  // 307,308,309
+  {
+    id: 310,
+    name: "Black Suede Shoes For Men",
+    category: "footwear",
+    image:menblacksuedeshoe,
+    image2:menblacksuedeshoe,
+    image1:menblacksuedeshoe,
+    new_price: 230,
+    old_price: 250,
+  },
+  {
+    id: 311,
+    name: "Brown Dessert Fashion Boots",
+    category: "footwear",
+    image:menbrowndessertboot,
+    image2:menbrowndessertboot,
+    image1:menbrowndessertboot,
+    new_price: 340,
+    old_price: 370,
+  },
+  {
+    id: 312,
+    name: "Brown Shoe For the Modern Man",
+    category: "footwear",
+    image:menbrownshoe,
+    image2:menbrownshoe,
+    image1:menbrownshoe,
+    new_price: 215,
+    old_price: 230,
+  },
+  // 313,314,315,316
+  {
+    id: 317,
+    name: "Best Brown Event Slippers",
+    category: "footwear",
+    image:menbrownslipper,
+    image2:menbrownslipper,
+    image1:menbrownslipper,
+    new_price: 140,
+    old_price: 160,
+  },
+  {
+    id: 318,
+    name: "Tremendous Black Polishable Shoe",
+    category: "footwear",
+    image:menpolishableshoe,
+    image2:menpolishableshoe,
+    image1:menpolishableshoe,
+    new_price: 240,
+    old_price: 260,
+  },
+  // 319,320
+  {
+    id: 321,
+    name: "Brown Occasional Party Slippers",
+    category: "footwear",
+    image:menbrownslipper1,
+    image2:menbrownslipper1,
+    image1:menbrownslipper1,
+    new_price: 140,
+    old_price: 160,
+  },
+  {
+    id: 322,
+    name: "Fashionist Versace Black Slippers",
+    category: "footwear",
+    image:menwhiteversaceslippers,
+    image2:menwhiteversaceslippers,
+    image1:menwhiteversaceslippers,
+    new_price: 150,
+    old_price: 180,
+  },
+
+  // 323,324,325,
+  {
+    id: 326,
+    name: "Men Dark Brown Fancy Slippers",
+    category: "footwear",
+    image:mendarkbrownslippers,
+    image2:mendarkbrownslippers,
+    image1:mendarkbrownslippers,
+    new_price: 150,
+    old_price: 160,
+  },
+  {
+    id: 327,
+    name: "Men Elegant Versace Black Slippers",
+    category: "footwear",
+    image:menversaceblackslippers,
+    image2:menversaceblackslippers,
+    image1:menversaceblackslippers,
+    new_price: 145,
+    old_price: 160,
+  },
+// 338 339 340
+{
+    id: 341,
+    name: "Stylish Brown Event Slippers",
+    category: "footwear",
+    image:mendarkbrownslippers,
+    image2:mendarkbrownslippers,
+    image1:mendarkbrownslippers,
+    new_price: 120,
+    old_price: 140,
+  },
+  // 342,343 344
+  {
+    id: 345,
+    name: "Fancy Brown Occasional Slippers",
+    category: "footwear",
+    image:menbrownslippers,
+    image2:menbrownslippers,
+    image1:menbrownslippers,
+    new_price: 130,
+    old_price: 150,
   },
 ];
 

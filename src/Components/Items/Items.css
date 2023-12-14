@@ -34,7 +34,7 @@
     }
     .title-head{
         font-size: 10px;
-        font-weight: 600;
+        font-weight: 800;
     }
     .item-price-new{
         font-size: 10px;
@@ -48,5 +48,9 @@
     .item .button{
         max-width: 100px;
         font-size: 10px;
+    }
+    .item .christmas{
+        font-size: 8px;
+        padding: 0px;
     }
 }

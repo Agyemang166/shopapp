@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-import Logo from "../Assets/logo.png";
+import Logo from "../Assets/logo.jpeg";
 import { Link } from "react-router-dom";
 
 const navData = [
@@ -33,6 +33,12 @@ const navData = [
     name: "Perfume",
     subname: "perfume",
   },
+  {
+    key: 5,
+    anchor: "/footwear",
+    name: "Footwear",
+    subname: "footwear",
+  },
 ];
 const NavBar = () => {
   const [menu, setMenu] = useState("shop");
@@ -44,8 +50,8 @@ const NavBar = () => {
           href="#home"
           className="nav-logo d-flex justify-content-center align-items-center"
         >
-          <img src={Logo} alt="luxhut apparel" />
-          <p className="mt-3">Luxhut Apparel</p>
+          <img src={Logo} alt="luxhut apparel" className="pr-3" style={{width:"50px"}} />
+          <p className="mt-3 p-1">Luxhut Apparel</p>
         </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

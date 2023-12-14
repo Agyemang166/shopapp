@@ -19,12 +19,19 @@ import jean4 from "./jean4.jpeg"
 import jean5 from "./jean5.jpeg"
 import jean6 from "./jean6.jpeg"
 import jean7 from "./jean7.jpeg"
+import jean10 from "./jean10.jpeg"
 
 import perfumeaventosblue from "./perfumeaventosblue.webp"
 import perfumesuave from "./perfumesuave.jpeg"
 import perfumefiero from "./perfumefiero.jpeg"
 import perfumeshaheen from "./perfumeshaheen.jpg"
 import perfumesuspenso from "./perfumesuspenso.jpeg"
+
+
+import menblackhalfshoe from "./menblackhalfshoe.jpeg"
+import menblackshoe from "./menblackshoe.jpeg"
+import menpolishableshoe from "./menpolishableshoe.jpeg"
+import menbrowndessertboot from "./menbrowndessertboot.jpeg"
 
 
 let men_popular_data = [
@@ -35,6 +42,26 @@ let men_popular_data = [
     image: jean4,
     image1: jean4,
     image2: jean4,
+    new_price: 130,
+    old_price: 150,
+  },
+  {
+    id: 311,
+    name: "Brown Dessert Fashion Boots",
+    category: "footwear",
+    image:menbrowndessertboot,
+    image2:menbrowndessertboot,
+    image1:menbrowndessertboot,
+    new_price: 340,
+    old_price: 370,
+  },
+  {
+    id: 145,
+    name: "Ultimate Dark Wash Denim Trousers",
+    category: "men",
+    image: jean10,
+    image1: jean10,
+    image2: jean10,
     new_price: 130,
     old_price: 150,
   },
@@ -58,7 +85,16 @@ let men_popular_data = [
     new_price: 120,
     old_price: 125.5,
   },
-
+  {
+    id: 301,
+    name: "Men Occasional Formal Black Shoes ",
+    category: "footwear",
+    image:menblackshoe,
+    image2:menblackshoe,
+    image1:menblackshoe,
+    new_price: 240,
+    old_price: 260,
+  },
   {
     id: 121,
     name: "Fortune Black/Ash Jogger for Men",
@@ -88,6 +124,16 @@ let men_popular_data = [
     image2: jean5,
     new_price: 130,
     old_price: 150,
+  },
+  {
+    id: 318,
+    name: "Tremendous Black Polishable Shoe",
+    category: "footwear",
+    image:menpolishableshoe,
+    image2:menpolishableshoe,
+    image1:menpolishableshoe,
+    new_price: 240,
+    old_price: 260,
   },
   {
     id: 215,
@@ -178,6 +224,16 @@ let men_popular_data = [
     image2: jean7,
     new_price: 130,
     old_price: 150,
+  },
+  {
+    id: 300,
+    name: "Men Black Loafers Half-Shoe",
+    category: "footwear",
+    image:menblackhalfshoe,
+    image2:menblackhalfshoe,
+    image1:menblackhalfshoe,
+    new_price: 230,
+    old_price: 250,
   },
 
 ];

@@ -13,6 +13,7 @@ const Items = (props) => {
     <Card.Img variant="top" style={{height: "200px"}} src={props.image}/>
     <Card.Body> 
       <p className='title-head'>{props.name}</p>
+      <p className="christmas">Christmas Offers🎄❄️🧑‍🎄</p>
       <Card.Text className='d-flex justify-content-between'>
        <p className='item-price-new text-black '>new:GH₵ {props.new_price}</p>
        <p className='item-price-old text-secondary'>old:GH₵ {props.old_price}</p>

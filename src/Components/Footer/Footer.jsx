@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Footer.css"
-import footer_logo from "../Assets/logo_big.png"
+import footer_logo from "../Assets/logo.jpeg"
 import { FaWhatsapp, FaTiktok,FaSnapchat } from "react-icons/fa";
 
 const socialLinks = [
@@ -24,7 +24,7 @@ const Footer = () => {
     return (
         <div className='footer'>
             <div className="footer-logo d-flex justify-content-center align-items-center ">
-                <img src={footer_logo} alt='luxhut Apparel' />
+                <img src={footer_logo} alt='luxhut Apparel' className='pt-3 rounded-full' style={{width:"50px"}}/>
                 <p className='m-2'>LUXHUT APPAREL</p>
             </div>
             <div className="footer-social-icon">

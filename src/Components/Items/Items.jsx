@@ -10,10 +10,12 @@ const Items = (props) => {
     <div className='item'>
     <Link to={`/product/${props.id}`} onClick={window.scroll(0,0)} className='text-decoration-none'>
     <Card className='card-item' style={{ width: '17rem' }}>
-    <Card.Img variant="top" style={{height: "200px"}} src={props.image}/>
+    <div className='img'>
+        <Card.Img variant="top" style={{height: "200px"}} src={props.image}/>
+    </div>
     <Card.Body> 
       <p className='title-head'>{props.name}</p>
-      <p className="christmas">Christmas Offers🎄❄️🧑‍🎄</p>
+      <p className="christmas">Enjoy Christmas Promo🎄❄️🧑‍🎄</p>
       <Card.Text className='d-flex justify-content-between'>
        <p className='item-price-new text-black '>new:GH₵ {props.new_price}</p>
        <p className='item-price-old text-secondary'>old:GH₵ {props.old_price}</p>

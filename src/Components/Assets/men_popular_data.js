@@ -32,18 +32,21 @@ import menblackhalfshoe from "./menblackhalfshoe.jpeg"
 import menblackshoe from "./menblackshoe.jpeg"
 import menpolishableshoe from "./menpolishableshoe.jpeg"
 import menbrowndessertboot from "./menbrowndessertboot.jpeg"
+import mensemimirror from "./men-semi-mirror.jpeg"
+import menbrownishpatent from "./menbrownishpatent.jpeg"
+import menqualitybrown from "./menqualitybrown.jpeg"
 
 
 let men_popular_data = [
-    {
+  {
     id: 119,
     name: "Men Fashionable Fades Ripped Blue Denim Trousers",
     category: "men",
     image: jean4,
     image1: jean4,
     image2: jean4,
-    new_price: 130,
-    old_price: 150,
+new_price: 150,
+old_price: 180
   },
   {
     id: 311,
@@ -62,8 +65,18 @@ let men_popular_data = [
     image: jean10,
     image1: jean10,
     image2: jean10,
-    new_price: 130,
-    old_price: 150,
+new_price: 150,
+old_price: 180
+  },
+  {
+    id: 307,
+    name: "Men M Elegant Leather Shoe",
+    category: "footwear",
+    image:mensemimirror,
+    image2:mensemimirror,
+    image1:mensemimirror,
+    new_price: 250,
+    old_price: 270,
   },
   {
     id: 219,
@@ -75,15 +88,15 @@ let men_popular_data = [
     new_price: 340,
     old_price: 360,
   },
-    {
+  {
     id: 100,
     name: "Men Black On Trend Cargo Pants",
     category: "men",
     image: menblackcargo,
     image1: menblackcargo2,
     image2: menblackcargo1,
-    new_price: 120,
-    old_price: 125.5,
+new_price: 190,
+old_price: 210
   },
   {
     id: 301,
@@ -102,8 +115,8 @@ let men_popular_data = [
     image: wdoublejogger,
     image2: wdoublejogger1,
     image1: wdoublejogger2,
-    new_price: 65.0,
-    old_price: 75.5,
+new_price: 90,
+old_price: 110
   },
   {
     id: 206,
@@ -116,14 +129,24 @@ let men_popular_data = [
     old_price: 160,
   },
   {
+    id: 319,
+    name: "Men M Brown Patent Shoe",
+    category: "footwear",
+    image:menbrownishpatent,
+    image2:menbrownishpatent,
+    image1:menbrownishpatent,
+    new_price: 250,
+    old_price: 270,
+  },
+  {
     id: 124,
     name: "Men Distressed Dark Denim Trousers",
     category: "men",
     image: jean5,
     image1: jean5,
     image2: jean5,
-    new_price: 130,
-    old_price: 150,
+new_price: 150,
+old_price: 180
   },
   {
     id: 318,
@@ -162,8 +185,18 @@ let men_popular_data = [
     image: menashcargo2,
     image1: menashcargo,
     image2: menashcargo1,
-    new_price: 120,
-    old_price: 125.5,
+new_price: 190,
+old_price: 210
+  },
+  {
+    id: 342,
+    name: "Casual Stylish Leather Shoe",
+    category: "footwear",
+    image:menqualitybrown,
+    image2:menqualitybrown,
+    image1:menqualitybrown,
+    new_price: 260,
+    old_price: 290,
   },
   {
     id: 203,
@@ -182,8 +215,8 @@ let men_popular_data = [
     image: jean6,
     image1: jean6,
     image2: jean6,
-    new_price: 130,
-    old_price: 150,
+    new_price: 150,
+    old_price: 180,
   },
   {
     id: 107,
@@ -222,8 +255,8 @@ let men_popular_data = [
     image: jean7,
     image1: jean7,
     image2: jean7,
-    new_price: 130,
-    old_price: 150,
+    new_price: 150,
+    old_price: 180,
   },
   {
     id: 300,

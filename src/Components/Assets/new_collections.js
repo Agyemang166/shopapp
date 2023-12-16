@@ -26,10 +26,22 @@ import wdoublejogger2 from "./wdoublejogger2.jpeg"
 import perfumekristal from "./perfumekristal.jpeg"
 import perfumeishq from "./perfumeishq.jpg"
 import perfumebarakat from "./perfumebarakat.jpeg"
-
+import menbrownishpatent from "./menbrownishpatent.jpeg"
+import mensemimirror from "./men-semi-mirror.jpeg"
+import menqualitybrown from "./menqualitybrown.jpeg"
 
 
 let new_collections = [
+  {
+    id: 319,
+    name: "Men M Brown Patent Shoe",
+    category: "footwear",
+    image:menbrownishpatent,
+    image2:menbrownishpatent,
+    image1:menbrownishpatent,
+    new_price: 250,
+    old_price: 270,
+  },
   {
     id: 100,
     name: "Men Black On Trend Cargo Pants",
@@ -37,8 +49,8 @@ let new_collections = [
     image: menblackcargo,
     image1: menblackcargo2,
     image2: menblackcargo1,
-    new_price: 120,
-    old_price: 125.5,
+new_price: 190,
+old_price: 210
   },
   {
     id: 210,
@@ -61,14 +73,24 @@ let new_collections = [
     old_price: 85,
   },
   {
+    id: 307,
+    name: "Men M Elegant Leather Shoe",
+    category: "footwear",
+    image:mensemimirror,
+    image2:mensemimirror,
+    image1:mensemimirror,
+    new_price: 250,
+    old_price: 270,
+  },
+  {
     id: 121,
     name: "Fortune Black/Ash Jogger for Men",
     category: "men",
     image: wdoublejogger,
     image2: wdoublejogger1,
     image1: wdoublejogger2,
-    new_price: 65.0,
-    old_price: 75.5,
+new_price: 90,
+old_price: 110
   },
   {
     id: 114,
@@ -77,8 +99,8 @@ let new_collections = [
     image: washjogger,
     image2: washjogger1,
     image1: washjogger2,
-    new_price: 65.0,
-    old_price: 75.5,
+    new_price: 90.0,
+    old_price: 110.00,
   },
   {
     id: 209,
@@ -97,8 +119,8 @@ let new_collections = [
     image: wblackcargo1,
     image1: wblackcargo ,
     image2: wblackcargo2,
-    new_price: 110,
-    old_price: 125,
+    new_price: 190,
+    old_price: 210,
   },
   {
     id: 115,
@@ -117,8 +139,8 @@ let new_collections = [
     image: menashcargo2,
     image1: menashcargo,
     image2: menashcargo1,
-    new_price: 120,
-    old_price: 125.5,
+    new_price: 190,
+    old_price: 210,
   },
   {
     id: 216,
@@ -129,6 +151,16 @@ let new_collections = [
     image1:perfumebarakat,
     new_price: 150,
     old_price: 160,
+  },
+  {
+    id: 342,
+    name: "Casual Stylish Leather Shoe",
+    category: "footwear",
+    image:menqualitybrown,
+    image2:menqualitybrown,
+    image1:menqualitybrown,
+    new_price: 260,
+    old_price: 290,
   },
 ];
 

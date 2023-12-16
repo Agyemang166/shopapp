@@ -13,6 +13,9 @@ import women_banner from "./Components/Assets/banner_women.png"
 import perfume_banner from "./Components/Assets/perfume_banner.jpg"
 import shoes_banner from "./Components/Assets/shoes_banner.jpg"
 
+import 'lightbox2/dist/css/lightbox.min.css';
+import 'lightbox2/dist/js/lightbox.min.js';
+
 function App() {
   return (
     <div>

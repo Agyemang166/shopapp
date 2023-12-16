@@ -61,9 +61,9 @@ let women_popular_data = [
     image: womenredcargo,
     image2: womenredcargo1,
     image1: womenredcargo2,
-    new_price: 110,
-    old_price: 125,
-  },
+   new_price: 190,
+   old_price: 210
+  }, 
   {
     id: 217,
     name: "Pride Of Lattafa",
@@ -81,8 +81,8 @@ let women_popular_data = [
     image: pinksideskirt,
     image1: pinksideskirt1,
     image2: pinksideskirt2,
-    new_price: 85.0,
-    old_price: 95.0,
+    new_price: 105.0,
+    old_price: 120.0,
   },
   {
     id: 205,
@@ -121,8 +121,8 @@ let women_popular_data = [
     image: wcropblack,
     image2: wcropblack1,
     image1: wcropblack2,
-    new_price: 35.0,
-    old_price: 45.0,
+new_price: 45,
+old_price: 60
   },
   {
     id: 221,
@@ -151,8 +151,8 @@ let women_popular_data = [
     image: wpinkcargo2,
     image1: wpinkcargo1,
     image2: wpinkcargo,
-    new_price: 110,
-    old_price: 125,
+    new_price: 190,
+    old_price: 210,
   }, 
   {
     id: 2,
@@ -161,8 +161,8 @@ let women_popular_data = [
     image: bluedenim,
     image1: bluedenim1,
     image2: bluedenim2,
-    new_price: 75,
-    old_price: 85,
+    new_price: 110,
+    old_price: 130,
   },
   {
     id: 48,
@@ -171,8 +171,8 @@ let women_popular_data = [
     image: wvioletcargo1,
     imag2: wvioletcargo2,
     image1: wvioletcargo,
-    new_price: 110,
-    old_price: 125,
+    new_price: 190,
+    old_price: 210,
   },
   {
     id: 30,

@@ -237,6 +237,9 @@ import menbrownslippers from "./menbrownslippers.jpeg"
 import menpolishableshoe from "./menpolishableshoe.jpeg"
 import menversaceblackslippers from "./menversaceblackslippers.jpeg"
 import menwhiteversaceslippers from "./menwhiteversaceslippers.jpeg"
+import mensemimirror from "./men-semi-mirror.jpeg"
+import menbrownishpatent from "./menbrownishpatent.jpeg"
+import menqualitybrown from "./menqualitybrown.jpeg"
 
 
 let all_product = [
@@ -247,8 +250,8 @@ let all_product = [
     image: blackdenim,
     image1: blackdenim1,
     image2: blackdenim2,
-    new_price: 75,
-    old_price: 85,
+    new_price: 110,
+    old_price: 130,
   },
   {
     id: 2,
@@ -257,8 +260,8 @@ let all_product = [
     image: bluedenim,
     image1: bluedenim1,
     image2: bluedenim2,
-    new_price: 75,
-    old_price: 85,
+    new_price: 110,
+    old_price: 130,
   },
   {
     id: 3,
@@ -267,8 +270,8 @@ let all_product = [
     image: wblackcargo1,
     image1: wblackcargo ,
     image2: wblackcargo2,
-    new_price: 110,
-    old_price: 125,
+   new_price: 190,
+   old_price: 210
   },
   {
     id: 4,
@@ -277,8 +280,8 @@ let all_product = [
     image: pinksideskirt,
     image1: pinksideskirt1,
     image2: pinksideskirt2,
-    new_price: 85.0,
-    old_price: 95.0,
+    new_price: 105.0,
+    old_price:120,
   },
   {
     id: 5,
@@ -287,8 +290,8 @@ let all_product = [
     image: wpinkcargo2,
     image1: wpinkcargo1,
     image2: wpinkcargo,
-    new_price: 110,
-    old_price: 125,
+   new_price: 190,
+   old_price: 210
   },
   {
     id: 6,
@@ -297,8 +300,8 @@ let all_product = [
     image: dinnerwear2,
     image1: dinnerwear1,
     image2: dinnerwear,
-    new_price: 180,
-    old_price: 200,
+new_price: 250,
+old_price: 270,
   },
   {
     id: 7,
@@ -327,8 +330,8 @@ let all_product = [
     image: wcropblack,
     image2: wcropblack1,
     image1: wcropblack2,
-    new_price: 35.0,
-    old_price: 45.0,
+new_price: 45,
+old_price: 60
   },
   {
     id: 10,
@@ -337,8 +340,8 @@ let all_product = [
     image: womenredcargo,
     image2: womenredcargo1,
     image1: womenredcargo2,
-    new_price: 110,
-    old_price: 125,
+   new_price: 190,
+   old_price: 210
   }, 
   {
     id: 11,
@@ -347,8 +350,8 @@ let all_product = [
     image: creamsideskirt,
     image1: creamsideskirt1,
     image2: creamsideskirt2,
-    new_price: 85.0,
-    old_price: 95.0,
+    new_price: 105.0,
+    old_price:120,
   },
   {
     id: 12,
@@ -399,8 +402,8 @@ let all_product = [
     image: darkbluedenim,
     image1: darkbluedenim2,
     image2: darkbluedenim1,
-    new_price: 75,
-    old_price: 85,
+    new_price: 110,
+    old_price: 130,
   },
   {
     id: 20,
@@ -420,8 +423,8 @@ let all_product = [
     image: blackbodysuit,
     image1: blackbodysuit1,
     image2: blackbodysuit2,
-    new_price: 60,
-    old_price: 70,
+new_price: 80,
+old_price: 100
   },
   {
     id: 26,
@@ -430,8 +433,8 @@ let all_product = [
     image: washjogger,
     image2: washjogger1,
     image1: washjogger2,
-    new_price: 65.0,
-    old_price: 75.5,
+new_price: 90,
+old_price: 110
   },
   {
     id: 27,
@@ -440,7 +443,7 @@ let all_product = [
     image: greenmaxi,
     image1: greenmaxi1,
     image2: greenmaxi2,
-    new_price: 85.0,
+    new_price: 105.0,
     old_price: 120.5,
   },
   {
@@ -450,8 +453,8 @@ let all_product = [
     image: darkreddinner,
     image1: darkreddinner1,
     image2: darkreddinner2,
-    new_price: 180.0,
-    old_price: 200.5,
+new_price: 235,
+old_price: 250
   },
     {
     id: 29,
@@ -481,8 +484,8 @@ let all_product = [
     image: darkbluedinner,
     image2: darkbluedinner1,
     image1: darkbluedinner2,
-    new_price: 160.0,
-    old_price: 180.0,
+new_price: 270,
+old_price: 290
   },
   {
     id: 36,
@@ -491,8 +494,8 @@ let all_product = [
     image: wblackjogger,
     image2: wblackjogger2,
     image1: wblackjogger1,
-    new_price: 65.0,
-    old_price: 75.5,
+new_price: 90,
+old_price: 110
   },
   {
     id: 37,
@@ -501,8 +504,8 @@ let all_product = [
     image: womenblackcargo,
     image1: womenblackcargo1 ,
     image2: womenblackcargo2,
-    new_price: 110,
-    old_price: 125,
+   new_price: 190,
+   old_price: 210
   },
   {
     id: 38,
@@ -511,8 +514,8 @@ let all_product = [
     image: creamdenim,
     image1: creamdenim2,
     image2: creamdenim1,
-    new_price: 75,
-    old_price: 85,
+    new_price: 110,
+    old_price: 130,
   },
   {
     id: 39,
@@ -521,8 +524,8 @@ let all_product = [
     image: bodysuit,
     image1: bodysuit1,
     image2: bodysuit2,
-    new_price: 60.0,
-    old_price: 70.0,
+    new_price: 80,
+old_price: 100
   },
   // 40,41 42 43 44 45
   {
@@ -542,8 +545,8 @@ let all_product = [
     image: redbodysuit,
     image1: redbodysuit1,
     image2: redbodysuit2,
-    new_price: 60.0,
-    old_price: 70.0,
+    new_price: 80,
+old_price: 100
   },
   {
     id: 48,
@@ -552,8 +555,8 @@ let all_product = [
     image: wvioletcargo1,
     imag2: wvioletcargo2,
     image1: wvioletcargo,
-    new_price: 110,
-    old_price: 125,
+   new_price: 190,
+   old_price: 210
   },
   {
     id: 49,
@@ -562,8 +565,8 @@ let all_product = [
     image: wdoublejogger,
     image2: wdoublejogger1,
     image1: wdoublejogger2,
-    new_price: 65.0,
-    old_price: 75.5,
+new_price: 90,
+old_price: 110
   },
 
     {
@@ -573,8 +576,8 @@ let all_product = [
     image: wcrop,
     image2: wcrop1,
     image1: wcrop2,
-    new_price: 35.0,
-    old_price: 45.0,
+new_price: 45,
+old_price: 60
   },
   // 51,52, 53 54 55
   {
@@ -584,8 +587,8 @@ let all_product = [
     image: wcreamcargo,
     image1: wcreamcargo1,
     image2: wcreamcargo2,
-    new_price: 110,
-    old_price: 125,
+   new_price: 190,
+   old_price: 210
   },
   {
     id: 57,
@@ -594,8 +597,8 @@ let all_product = [
     image: brownsideskirt,
     image1: brownsideskirt2,
     image2: brownsideskirt1,
-    new_price: 85.0,
-    old_price: 95.0,
+    new_price: 105.0,
+    old_price:120,
   },
   {
     id: 58,
@@ -604,8 +607,8 @@ let all_product = [
     image: greendinner,
     image1: greendinner1,
     image2: greendinner2,
-    new_price: 200.0,
-    old_price: 200.0,
+new_price: 260,
+old_price: 290
   },
   {
     id: 100,
@@ -614,8 +617,8 @@ let all_product = [
     image: menblackcargo,
     image1: menblackcargo2,
     image2: menblackcargo1,
-    new_price: 120,
-    old_price: 125.5,
+new_price: 190,
+old_price: 210
   },
   {
     id: 101,
@@ -624,8 +627,8 @@ let all_product = [
     image: jean1,
     image1: jean1,
     image2: jean1,
-    new_price: 130,
-    old_price: 150,
+new_price: 150,
+old_price: 180
   },
   {
     id: 103,
@@ -634,8 +637,8 @@ let all_product = [
     image: menashcargo2,
     image1: menashcargo,
     image2: menashcargo1,
-    new_price: 120,
-    old_price: 125.5,
+new_price: 190,
+old_price: 210
   },
   {
     id: 104,
@@ -656,7 +659,7 @@ let all_product = [
     image1: menknicker,
     image2: menknicker,
     new_price: 70,
-    old_price: 85,
+    old_price: 105,
   },
   {
     id: 108,
@@ -665,8 +668,8 @@ let all_product = [
     image: jean2,
     image1: jean2,
     image2: jean2,
-    new_price: 130,
-    old_price: 150,
+new_price: 150,
+old_price: 180
   },
   {
     id: 109,
@@ -676,7 +679,7 @@ let all_product = [
     image1: menknicker2,
     image2: menknicker2,
     new_price: 70,
-    old_price: 85,
+    old_price: 105,
   },
   // 110,111 112 
   {
@@ -686,8 +689,8 @@ let all_product = [
     image: jean3,
     image1: jean3,
     image2: jean3,
-    new_price: 130,
-    old_price: 150,
+new_price: 150,
+old_price: 180
   },
   {
     id: 114,
@@ -696,8 +699,8 @@ let all_product = [
     image: washjogger,
     image2: washjogger1,
     image1: washjogger2,
-    new_price: 65.0,
-    old_price: 75.5,
+new_price: 90,
+old_price: 110
   },
   {
     id: 115,
@@ -717,8 +720,8 @@ let all_product = [
     image: jean4,
     image1: jean4,
     image2: jean4,
-    new_price: 130,
-    old_price: 150,
+new_price: 150,
+old_price: 180
   },
   {
     id: 120,
@@ -737,8 +740,8 @@ let all_product = [
     image: wdoublejogger,
     image2: wdoublejogger1,
     image1: wdoublejogger2,
-    new_price: 65.0,
-    old_price: 75.5,
+new_price: 90,
+old_price: 110
   },
   // 122,123
   {
@@ -748,8 +751,8 @@ let all_product = [
     image: jean5,
     image1: jean5,
     image2: jean5,
-    new_price: 130,
-    old_price: 150,
+new_price: 150,
+old_price: 180
   },
   // 125,126
   {
@@ -771,8 +774,8 @@ let all_product = [
     image: jean6,
     image1: jean6,
     image2: jean6,
-    new_price: 130,
-    old_price: 150,
+new_price: 150,
+old_price: 180
   },
   // 131,132,133
   {
@@ -782,8 +785,8 @@ let all_product = [
     image: jean7,
     image1: jean7,
     image2: jean7,
-    new_price: 130,
-    old_price: 150,
+new_price: 150,
+old_price: 180
   },
 
   // 135,136
@@ -794,8 +797,8 @@ let all_product = [
     image: jean8,
     image1: jean8,
     image2: jean8,
-    new_price: 130,
-    old_price: 150,
+new_price: 150,
+old_price: 180
   },
   // 138,139
   {
@@ -805,8 +808,8 @@ let all_product = [
     image: jean9,
     image1: jean9,
     image2: jean9,
-    new_price: 130,
-    old_price: 150,
+new_price: 150,
+old_price: 180
   },
   // 141,142,143
   {
@@ -826,8 +829,8 @@ let all_product = [
     image: jean10,
     image1: jean10,
     image2: jean10,
-    new_price: 130,
-    old_price: 150,
+new_price: 150,
+old_price: 180
   },
   {
     id: 146,
@@ -1136,6 +1139,16 @@ let all_product = [
     new_price: 150,
     old_price: 170,
   },
+  {
+    id: 307,
+    name: "Men M Elegant Leather Shoe",
+    category: "footwear",
+    image:mensemimirror,
+    image2:mensemimirror,
+    image1:mensemimirror,
+    new_price: 250,
+    old_price: 270,
+  },
   // 307,308,309
   {
     id: 310,
@@ -1187,6 +1200,16 @@ let all_product = [
     image1:menpolishableshoe,
     new_price: 240,
     old_price: 260,
+  },
+  {
+    id: 319,
+    name: "Men M Brown Patent Shoe",
+    category: "footwear",
+    image:menbrownishpatent,
+    image2:menbrownishpatent,
+    image1:menbrownishpatent,
+    new_price: 250,
+    old_price: 270,
   },
   // 319,320
   {
@@ -1242,6 +1265,16 @@ let all_product = [
     new_price: 120,
     old_price: 140,
   },
+  {
+    id: 342,
+    name: "Casual Stylish Leather Shoe",
+    category: "footwear",
+    image:menqualitybrown,
+    image2:menqualitybrown,
+    image1:menqualitybrown,
+    new_price: 260,
+    old_price: 290,
+  },
   // 342,343 344
   {
     id: 345,
@@ -1250,9 +1283,10 @@ let all_product = [
     image:menbrownslippers,
     image2:menbrownslippers,
     image1:menbrownslippers,
-    new_price: 130,
-    old_price: 150,
+new_price: 150,
+old_price: 180
   },
+
 ];
 
 export default all_product;

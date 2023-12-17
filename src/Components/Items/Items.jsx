@@ -11,7 +11,7 @@ const Items = (props) => {
     <Link to={`/product/${props.id}`} onClick={window.scroll(0,0)} className='text-decoration-none'>
     <Card className='card-item' style={{ width: '17rem' }}>
     <div className='img'>
-        <Card.Img variant="top" style={{height: "200px"}} src={props.image}/>
+        <Card.Img variant="top" style={{height: "100%"}} src={props.image}/>
     </div>
     <Card.Body> 
       <p className='title-head'>{props.name}</p>

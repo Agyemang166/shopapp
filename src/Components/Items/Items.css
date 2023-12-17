@@ -35,8 +35,7 @@
     }
     .item .img{
         max-height: 100%;
-        max-width: 120px;
-        background-size: cover;
+        max-width: 140px;
     }
     .title-head{
         font-size: 10px;

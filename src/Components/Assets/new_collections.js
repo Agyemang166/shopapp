@@ -29,6 +29,25 @@ import perfumebarakat from "./perfumebarakat.jpeg"
 import menbrownishpatent from "./menbrownishpatent.jpeg"
 import mensemimirror from "./men-semi-mirror.jpeg"
 import menqualitybrown from "./menqualitybrown.jpeg"
+import jordan4white from "./jordan4white.jpeg"
+import whiteforce from "./whiteforce.jpeg"
+import ashj4 from "./ashj4.jpeg"
+
+import blacknikeslipper from "./blacknikeslipper.jpeg"
+import blacknikeslippers from "./blacknikeslippers.jpeg"
+import pinknikeslipper from "./pinknikeslipper.jpeg"
+import rednikeslippers from "./rednikeslippers.jpeg"
+import whitenikeslippers from "./whitenikeslippers.jpeg"
+import whitenikeslipper from "./whitenikeslipper.jpeg"
+
+import redmenamiri from "./redmenamiri.jpeg"
+import redmenshirt from "./redmenshirt.jpeg"
+import redmensinner from "./redmensinner.jpeg"
+import creamamiri from "./creamamiri.jpeg"
+import creammensta from "./creammensta.jpeg"
+import creamsinner from "./creamsinner.jpeg"
+import blackamiri2 from "./blackamiri2.jpeg"
+import blackamiri from "./blackamiri.jpeg"
 
 
 let new_collections = [
@@ -43,6 +62,36 @@ let new_collections = [
     old_price: 270,
   },
   {
+    id: 307,
+    name: "KNUST Footwear In White Jordan 4",
+    category: "footwear",
+    image:jordan4white,
+    image2:jordan4white,
+    image1:jordan4white,
+    new_price: 350,
+    old_price: 380,
+  },
+  {
+    id: 308,
+    name: "White Nike Slippers Fresh In Box With 2 Nike Socks",
+    category: "footwear",
+    image:whitenikeslipper,
+    image2:whitenikeslippers,
+    image1:whitenikeslipper,
+    new_price: 140,
+    old_price: 150,
+  },
+  {
+    id: 116,
+    name: "Varsity Vibes Red 3-Different Designer T-Shirt",
+    category: "men",
+    image: redmenshirt,
+    image1: redmenamiri,
+    image2: redmensinner,
+    new_price: 120,
+    old_price: 140,
+  },
+  {
     id: 100,
     name: "Men Black On Trend Cargo Pants",
     category: "men",
@@ -51,6 +100,16 @@ let new_collections = [
     image2: menblackcargo1,
 new_price: 190,
 old_price: 210
+  },
+  {
+    id: 314,
+    name: "Campus Tremendous White Original Nike Air-Force",
+    category: "footwear",
+    image:whiteforce,
+    image2:whiteforce,
+    image1:whiteforce,
+    new_price: 250,
+    old_price: 280,
   },
   {
     id: 210,
@@ -71,6 +130,36 @@ old_price: 210
     image2: menknicker2,
     new_price: 70,
     old_price: 85,
+  },
+  {
+    id: 309,
+    name: "Pink Nike Slippers Fresh In Box With 2 Nike Socks",
+    category: "footwear",
+    image:pinknikeslipper,
+    image2:pinknikeslipper,
+    image1:pinknikeslipper,
+    new_price: 140,
+    old_price: 150,
+  },
+  {
+    id: 128,
+    name: "Campus Cream 3-Different Designer Clean T-Shirt",
+    category: "men",
+    image: creammensta,
+    image1: creamsinner,
+    image2: creamamiri,
+    new_price: 120,
+    old_price: 140,
+  },
+  {
+    id: 320,
+    name: "KNUST Ash Jordan 4 Vibes",
+    category: "footwear",
+    image:ashj4,
+    image2:ashj4,
+    image1:ashj4,
+    new_price: 350,
+    old_price: 380,
   },
   {
     id: 307,
@@ -111,6 +200,36 @@ old_price: 110
     image1:perfumeishq,
     new_price: 340,
     old_price: 360,
+  },
+    {
+    id: 304,
+    name: "Black Nike Slippers Fresh In Box With 2 Nike Socks",
+    category: "footwear",
+    image:blacknikeslipper,
+    image2:blacknikeslippers,
+    image1:blacknikeslippers,
+    new_price: 140,
+    old_price: 150,
+  },
+  {
+    id: 105,
+    name: "Perfect Fitting Black Amiri T-Shirt",
+    category: "men",
+    image: blackamiri,
+    image1: blackamiri2,
+    image2: blackamiri,
+    new_price: 120,
+    old_price: 140,
+  },
+  {
+    id: 314,
+    name: "Campus Tremendous White Original Nike Air-Force",
+    category: "footwear",
+    image:whiteforce,
+    image2:whiteforce,
+    image1:whiteforce,
+    new_price: 250,
+    old_price: 280,
   },
   {
     id: 3,
@@ -161,6 +280,16 @@ old_price: 110
     image1:menqualitybrown,
     new_price: 260,
     old_price: 290,
+  },
+  {
+    id: 339,
+    name: "Red Nike Slippers Fresh In Box With 2 Nike Socks",
+    category: "footwear",
+    image:rednikeslippers,
+    image2:rednikeslippers,
+    image1:rednikeslippers,
+    new_price: 140,
+    old_price: 150,
   },
 ];
 

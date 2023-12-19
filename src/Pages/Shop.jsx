@@ -7,7 +7,7 @@ import PopularCollections from '../Components/Popular/PopularCollections'
 
 const Shop = () => {
   return (
-    <div>
+    <div >
       <Hero/>
       <PopularInWomen/>
       <PopularInMen/>

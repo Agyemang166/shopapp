@@ -51,6 +51,8 @@ import perfumemousuf from "./perfumemousuf.jpeg"
 import perfumeberriesweekend from "./perfumeberriesweekend.webp"
 import perfumeurway from "./perfumeurway.jpg"
 
+import pinknikeslipper from "./pinknikeslipper.jpeg"
+
 
 
 let women_popular_data = [
@@ -64,6 +66,16 @@ let women_popular_data = [
    new_price: 190,
    old_price: 210
   }, 
+  {
+    id: 309,
+    name: "Pink Nike Slippers Fresh In Box With 2 Nike Socks",
+    category: "footwear",
+    image:pinknikeslipper,
+    image2:pinknikeslipper,
+    image1:pinknikeslipper,
+    new_price: 140,
+    old_price: 150,
+  },
   {
     id: 217,
     name: "Pride Of Lattafa",

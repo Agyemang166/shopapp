@@ -33,7 +33,7 @@ const PopularCollections = () => {
 
   return (
      <div className='popular new m-0 p-0'>
-      <h1 className='text-center font-pFonts '>POPULAR FOR GENDER INCLUSIVE</h1>
+      <h1 className='text-center font-pFonts '>NEW COLLECTION</h1>
       <hr/>
       <div className="popular-item">
       <Carousel responsive={responsive}  infinite={true} removeArrowOnDeviceType={["tablet", "mobile"]} autoPlay={true} className='px-0' autoPlaySpeed={5000} swipeable={true} draggable={true}>
@@ -46,7 +46,7 @@ const PopularCollections = () => {
       })}      
       </Carousel>
       </div>
-      <h1 className='text-center font-pFonts '>JUST IN</h1>
+      <h1 className='text-center font-pFonts '>ALL COLLECTION</h1>
       <hr/>
       <div className="popular-item">
       <Carousel responsive={responsive}  infinite={true} removeArrowOnDeviceType={["tablet", "mobile"]} autoPlay={true} className='px-0' autoPlaySpeed={6000} swipeable={true} draggable={true}>

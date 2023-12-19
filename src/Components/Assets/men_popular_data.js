@@ -21,6 +21,14 @@ import jean6 from "./jean6.jpeg"
 import jean7 from "./jean7.jpeg"
 import jean10 from "./jean10.jpeg"
 
+import creamamiri from "./creamamiri.jpeg"
+import creammensta from "./creammensta.jpeg"
+import creamsinner from "./creamsinner.jpeg"
+import redmenamiri from "./redmenamiri.jpeg"
+import redmenshirt from "./redmenshirt.jpeg"
+import redmensinner from "./redmensinner.jpeg"
+import whiteshirt from "./whiteshirt.jpeg"
+
 import perfumeaventosblue from "./perfumeaventosblue.webp"
 import perfumesuave from "./perfumesuave.jpeg"
 import perfumefiero from "./perfumefiero.jpeg"
@@ -35,7 +43,17 @@ import menbrowndessertboot from "./menbrowndessertboot.jpeg"
 import mensemimirror from "./men-semi-mirror.jpeg"
 import menbrownishpatent from "./menbrownishpatent.jpeg"
 import menqualitybrown from "./menqualitybrown.jpeg"
-
+import whiteforce from "./whiteforce.jpeg"
+import jordan4white from "./jordan4white.jpeg"
+import blackforce from "./blackforce.jpeg"
+import ashj4 from "./ashj4.jpeg"
+import jordan111 from "./jordan111.jpeg"
+import jordan11 from "./jordan11.jpg"
+import blacknikeslipper from "./blacknikeslipper.jpeg"
+import blacknikeslippers from "./blacknikeslippers.jpeg"
+import rednikeslippers from "./rednikeslippers.jpeg"
+import whitenikeslippers from "./whitenikeslippers.jpeg"
+import whitenikeslipper from "./whitenikeslipper.jpeg"
 
 let men_popular_data = [
   {
@@ -49,6 +67,16 @@ new_price: 150,
 old_price: 180
   },
   {
+    id: 116,
+    name: "Varsity Vibes Red 3-Different Designer T-Shirt",
+    category: "men",
+    image: redmensinner,
+    image1: redmenamiri,
+    image2: redmenshirt,
+    new_price: 120,
+    old_price: 140,
+  },
+  {
     id: 311,
     name: "Brown Dessert Fashion Boots",
     category: "footwear",
@@ -57,6 +85,16 @@ old_price: 180
     image1:menbrowndessertboot,
     new_price: 340,
     old_price: 370,
+  },
+  {
+    id: 307,
+    name: "KNUST Footwear In White Jordan 4",
+    category: "footwear",
+    image:jordan4white,
+    image2:jordan4white,
+    image1:jordan4white,
+    new_price: 350,
+    old_price: 380,
   },
   {
     id: 145,
@@ -89,6 +127,36 @@ old_price: 180
     old_price: 360,
   },
   {
+    id: 308,
+    name: "White Nike Slippers Fresh In Box With 2 Nike Socks",
+    category: "footwear",
+    image:whitenikeslipper,
+    image2:whitenikeslippers,
+    image1:whitenikeslipper,
+    new_price: 140,
+    old_price: 150,
+  },
+  {
+    id: 106,
+    name: "Stunning White Designer T-Shirt",
+    category: "men",
+    image: whiteshirt,
+    image1: whiteshirt,
+    image2: whiteshirt,
+    new_price: 120,
+    old_price: 140,
+  },
+  {
+    id: 320,
+    name: "KNUST Ash Jordan 4 Vibes",
+    category: "footwear",
+    image:ashj4,
+    image2:ashj4,
+    image1:ashj4,
+    new_price: 350,
+    old_price: 380,
+  },
+  {
     id: 100,
     name: "Men Black On Trend Cargo Pants",
     category: "men",
@@ -119,6 +187,16 @@ new_price: 90,
 old_price: 110
   },
   {
+    id: 302,
+    name: "UST Jordan 11 Fresh In Box",
+    category: "footwear",
+    image:jordan111,
+    image2:jordan11,
+    image1:jordan111,
+    new_price: 350,
+    old_price: 380,
+  },
+  {
     id: 206,
     name: "Aventos Blue For Him",
     category: "perfume",
@@ -129,6 +207,16 @@ old_price: 110
     old_price: 160,
   },
   {
+    id: 314,
+    name: "Campus Tremendous White Original Nike Air-Force",
+    category: "footwear",
+    image:whiteforce,
+    image2:whiteforce,
+    image1:whiteforce,
+    new_price: 250,
+    old_price: 280,
+  },
+  {
     id: 319,
     name: "Men M Brown Patent Shoe",
     category: "footwear",
@@ -137,6 +225,26 @@ old_price: 110
     image1:menbrownishpatent,
     new_price: 250,
     old_price: 270,
+  },
+  {
+    id: 323,
+    name: "Original Black Nike Air-Force For Fashion",
+    category: "footwear",
+    image:blackforce,
+    image2:blackforce,
+    image1:blackforce,
+    new_price: 350,
+    old_price: 380,
+  },
+  {
+    id: 128,
+    name: "Campus Cream 3-Different Designer Clean T-Shirt",
+    category: "men",
+    image: creamsinner,
+    image1: creammensta,
+    image2: creamamiri,
+    new_price: 120,
+    old_price: 140,
   },
   {
     id: 124,
@@ -157,6 +265,16 @@ old_price: 180
     image1:menpolishableshoe,
     new_price: 240,
     old_price: 260,
+  },
+  {
+    id: 304,
+    name: "Black Nike Slippers Fresh In Box With 2 Nike Socks",
+    category: "footwear",
+    image:blacknikeslippers,
+    image2:blacknikeslippers,
+    image1:blacknikeslipper,
+    new_price: 140,
+    old_price: 150,
   },
   {
     id: 215,
@@ -237,6 +355,16 @@ old_price: 210
     image1:perfumefiero,
     new_price: 150,
     old_price: 160,
+  },
+  {
+    id: 339,
+    name: "Red Nike Slippers Fresh In Box With 2 Nike Socks",
+    category: "footwear",
+    image:rednikeslippers,
+    image2:rednikeslippers,
+    image1:rednikeslippers,
+    new_price: 140,
+    old_price: 150,
   },
   {
     id: 109,

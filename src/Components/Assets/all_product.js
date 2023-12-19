@@ -44,20 +44,6 @@ import greendinner2 from "./greendinner2.jpeg"
 
 
 
-import blackbodysuit from "./blackbodysuit.jpeg"
-import blackbodysuit1 from "./blackbodysuit1.jpeg"
-import blackbodysuit2 from "./blackbodysuit2.jpeg"
-
-import redbodysuit from "./redbodysuit.jpeg"
-import redbodysuit1 from "./redbodysuit1.jpeg"
-import redbodysuit2 from "./redbodysuit2.jpeg"
-
-import bodysuit from "./bodysuit.jpeg"
-import bodysuit1 from "./bodysuit1.jpeg"
-import bodysuit2 from "./bodysuit2.jpeg"
-
-
-
 import washjogger from "./washjogger.jpeg"
 import washjogger1 from "./washjogger1.jpeg"
 import washjogger2 from "./washjogger2.jpeg"
@@ -152,13 +138,6 @@ import greenmaxi from "./greenmaxi.jpeg"
 import greenmaxi1 from "./greenmaxi1.jpeg"
 import greenmaxi2 from "./greenmaxi2.jpeg"
 
-import wcreammaxi from "./wcreammaxi.jpeg"
-import wcreammaxi1 from "./wcreammaxi1.jpeg"
-import wcreammaxi2 from "./wcreammaxi2.jpeg"
-
-import wbrownmaxi from "./wbrownmaxi.jpeg"
-import wbrownmaxi1 from "./wbrownmaxi1.jpeg"
-import wbrownmaxi2 from "./wbrownmaxi2.jpeg"
 
 
 
@@ -192,6 +171,23 @@ import jean7 from "./jean7.jpeg"
 import jean8 from "./jean8.jpeg"
 import jean9 from "./jean9.jpeg"
 import jean10 from "./jean10.jpeg"
+
+import blackamiri from "./blackamiri.jpeg"
+import blackamiri2 from "./blackamiri2.jpeg"
+import blackmensinner from "./blackmensinner.jpeg"
+import blacksta from "./blacksta.jpeg"
+import creamamiri from "./creamamiri.jpeg"
+import creammensta from "./creammensta.jpeg"
+import creamsinner from "./creamsinner.jpeg"
+import menblacktshirt from "./menblacktshirt.jpeg"
+import menwhitesinner from "./menwhitesinner.jpeg"
+import redmenamiri from "./redmenamiri.jpeg"
+import redmenshirt from "./redmenshirt.jpeg"
+import redmensinner from "./redmensinner.jpeg"
+import redtshirt from "./redtshirt.jpeg"
+import whiteamiri from "./whiteamiri.jpeg"
+import whitemenamiri from "./whitemenamiri.jpeg"
+import whiteshirt from "./whiteshirt.jpeg"
 
 
 
@@ -241,6 +237,23 @@ import mensemimirror from "./men-semi-mirror.jpeg"
 import menbrownishpatent from "./menbrownishpatent.jpeg"
 import menqualitybrown from "./menqualitybrown.jpeg"
 
+import ashj4 from "./ashj4.jpeg"
+import blackforce from "./blackforce.jpeg"
+import blackj4 from "./blackj4.jpeg"
+import whiteforce from "./whiteforce.jpeg"
+import nikesbblackwhite from "./nikesbblackwhite.jpeg"
+import jordanredblack from "./jordanredblack.jpeg"
+import jordanredblack1 from "./jordanredblack1.jpeg"
+import jordan111 from "./jordan111.jpeg"
+import jordan11 from "./jordan11.jpg"
+import jordan4white from "./jordan4white.jpeg"
+
+import blacknikeslipper from "./blacknikeslipper.jpeg"
+import blacknikeslippers from "./blacknikeslippers.jpeg"
+import pinknikeslipper from "./pinknikeslipper.jpeg"
+import rednikeslippers from "./rednikeslippers.jpeg"
+import whitenikeslippers from "./whitenikeslippers.jpeg"
+import whitenikeslipper from "./whitenikeslipper.jpeg"
 
 let all_product = [
   {
@@ -312,16 +325,6 @@ old_price: 270,
     image2: blackmaxi2,
     new_price: 90,
     old_price: 100,
-  },
-  {
-    id: 8,
-    name: "Stylish Cream Maxi Skirts For Your Wardrobe ",
-    category: "women",
-    image: wcreammaxi,
-    image1:wcreammaxi2,
-    image2: wcreammaxi1,
-    new_price: 30.0,
-    old_price: 40.0,
   },
   {
     id: 9,
@@ -415,17 +418,7 @@ old_price: 60
     new_price: 100,
     old_price: 120,
   },
-// 20, 21, 22, 23, 24
-    {
-    id: 25,
-    name: "Bodysuit Auto Fitting Stretchy Dress",
-    category: "women",
-    image: blackbodysuit,
-    image1: blackbodysuit1,
-    image2: blackbodysuit2,
-new_price: 80,
-old_price: 100
-  },
+// 20, 21, 22, 23, 24,25
   {
     id: 26,
     name: "Glamorous Ash Jogger to Make a Statemen",
@@ -456,16 +449,7 @@ old_price: 110
 new_price: 235,
 old_price: 250
   },
-    {
-    id: 29,
-    name: "Stylish Brown Maxi Skirts For Your Wardrobe ",
-    category: "women",
-    image: wbrownmaxi,
-    image1:wbrownmaxi1,
-    image2: wbrownmaxi2,
-    new_price: 30.0,
-    old_price: 40.0,
-  },
+// 29
     {
     id: 30,
     name: "Tinkabel Style Ladies Apparel",
@@ -517,17 +501,8 @@ old_price: 110
     new_price: 110,
     old_price: 130,
   },
-  {
-    id: 39,
-    name: "Sophisticated Bodysuit For Perfection",
-    category: "women",
-    image: bodysuit,
-    image1: bodysuit1,
-    image2: bodysuit2,
-    new_price: 80,
-old_price: 100
-  },
-  // 40,41 42 43 44 45
+
+  //39 40,41 42 43 44 45
   {
     id: 46,
     name: "Effortless  Black Long Dinner Dress",
@@ -538,16 +513,7 @@ old_price: 100
     new_price: 200.0,
     old_price: 200.0,
   },
-  {
-    id: 47,
-    name: "Fashionable Body Suit for Fashion Enthusiast",
-    category: "women",
-    image: redbodysuit,
-    image1: redbodysuit1,
-    image2: redbodysuit2,
-    new_price: 80,
-old_price: 100
-  },
+// 47
   {
     id: 48,
     name: "Effortless Blue Cargo for the Fashion-Savvy Woman",
@@ -610,6 +576,10 @@ old_price: 60
 new_price: 260,
 old_price: 290
   },
+
+
+  // men
+
   {
     id: 100,
     name: "Men Black On Trend Cargo Pants",
@@ -650,7 +620,27 @@ old_price: 210
     new_price: 110.0,
     old_price: 130.5,
   },
-  // ,105,106
+  {
+    id: 105,
+    name: "Perfect Fitting Black Amiri T-Shirt",
+    category: "men",
+    image: blackamiri,
+    image1: blackamiri2,
+    image2: blackamiri,
+    new_price: 120,
+    old_price: 140,
+  },
+  {
+    id: 106,
+    name: "Stunning White Designer T-Shirt",
+    category: "men",
+    image: whiteshirt,
+    image1: whiteshirt,
+    image2: whiteshirt,
+    new_price: 120,
+    old_price: 140,
+  },
+
   {
     id: 107,
     name: "Fautless Gentlemen Breeches Pants",
@@ -681,7 +671,27 @@ old_price: 180
     new_price: 70,
     old_price: 105,
   },
-  // 110,111 112 
+  {
+    id: 110,
+    name: "Campus Threads White Amiri T-Shirt",
+    category: "men",
+    image: whiteamiri,
+    image1: whitemenamiri,
+    image2: whiteamiri,
+    new_price: 120,
+    old_price: 140,
+  },
+  {
+    id: 111,
+    name: "Study In Style Red T-Shirt",
+    category: "men",
+    image: redtshirt,
+    image1: redtshirt,
+    image2: redtshirt,
+    new_price: 120,
+    old_price: 140,
+  },
+  //  112 
   {
     id: 113,
     name: "Men Stylish Stubbies Navy Blue Denim Trousers",
@@ -711,6 +721,16 @@ old_price: 110
     image1:menknicker3,
     new_price: 70.0,
     old_price: 80.5,
+  },
+  {
+    id: 116,
+    name: "Varsity Vibes Red 3-Different Designer T-Shirt",
+    category: "men",
+    image: redmensinner,
+    image1: redmenamiri,
+    image2: redmenshirt,
+    new_price: 120,
+    old_price: 140,
   },
   // 116,117,118
   {
@@ -743,6 +763,16 @@ old_price: 180
 new_price: 90,
 old_price: 110
   },
+  {
+    id: 122,
+    name: "Fashion On Campus Men White Sinner T-Shirt",
+    category: "men",
+    image: menwhitesinner,
+    image1: menwhitesinner,
+    image2: menwhitesinner,
+    new_price: 120,
+    old_price: 140,
+  },
   // 122,123
   {
     id: 124,
@@ -753,6 +783,16 @@ old_price: 110
     image2: jean5,
 new_price: 150,
 old_price: 180
+  },
+  {
+    id: 141,
+    name: "Figure It Out With Black STA T-Shirt",
+    category: "men",
+    image: blacksta,
+    image1: blacksta,
+    image2: blacksta,
+    new_price: 120,
+    old_price: 140,
   },
   // 125,126
   {
@@ -765,7 +805,17 @@ old_price: 180
     new_price: 110.0,
     old_price: 130.5,
   },
-// 128,129
+  {
+    id: 128,
+    name: "Campus Cream 3-Different Designer Clean T-Shirt",
+    category: "men",
+    image: creamsinner,
+    image1: creammensta,
+    image2: creamamiri,
+    new_price: 120,
+    old_price: 140,
+  },
+// ,129
 
   {
     id: 130,
@@ -811,7 +861,17 @@ old_price: 180
 new_price: 150,
 old_price: 180
   },
-  // 141,142,143
+  {
+    id: 141,
+    name: "Collegiate Couture With Black Sinner T-Shirt",
+    category: "men",
+    image: blackmensinner,
+    image1: blackmensinner,
+    image2: blackmensinner,
+    new_price: 120,
+    old_price: 140,
+  },
+  // ,142,143
   {
     id: 144,
     name: "Classic Alien Culottes For Fashionable Men",
@@ -841,6 +901,16 @@ old_price: 180
     image1:menknicker5,
     new_price: 70.0,
     old_price: 80.5,
+  },
+  {
+    id: 147,
+    name: "Campus Strings Black Clean T-Shirt",
+    category: "men",
+    image: menblacktshirt,
+    image1: menblacktshirt,
+    image2: menblacktshirt,
+    new_price: 120,
+    old_price: 140,
   },
 
   // Perfumes
@@ -1118,7 +1188,47 @@ old_price: 180
     new_price: 240,
     old_price: 260,
   },
-  // 302,303,304
+  {
+    id: 309,
+    name: "Pink Nike Slippers Fresh In Box With 2 Nike Socks",
+    category: "footwear",
+    image:pinknikeslipper,
+    image2:pinknikeslipper,
+    image1:pinknikeslipper,
+    new_price: 140,
+    old_price: 150,
+  },
+  {
+    id: 302,
+    name: "UST Jordan 11 Fresh In Box",
+    category: "footwear",
+    image:jordan111,
+    image2:jordan11,
+    image1:jordan111,
+    new_price: 350,
+    old_price: 380,
+  },
+  {
+    id: 303,
+    name: "Campus Sneaks With Red-Black Jordan",
+    category: "footwear",
+    image:jordanredblack,
+    image2: jordanredblack1,
+    image1:jordanredblack,
+    new_price: 350,
+    old_price: 380,
+  },
+  
+  {
+    id: 304,
+    name: "Black Nike Slippers Fresh In Box With 2 Nike Socks",
+    category: "footwear",
+    image:blacknikeslippers,
+    image2:blacknikeslippers,
+    image1:blacknikeslipper,
+    new_price: 140,
+    old_price: 150,
+  },
   {
     id: 305,
     name: "Bottom Heavy Formal Black Shoe",
@@ -1149,7 +1259,26 @@ old_price: 180
     new_price: 250,
     old_price: 270,
   },
-  // 307,308,309
+  {
+    id: 307,
+    name: "KNUST Footwear In White Jordan 4",
+    category: "footwear",
+    image:jordan4white,
+    image2:jordan4white,
+    image1:jordan4white,
+    new_price: 350,
+    old_price: 380,
+  },
+  {
+    id: 308,
+    name: "White Nike Slippers Fresh In Box With 2 Nike Socks",
+    category: "footwear",
+    image:whitenikeslipper,
+    image2:whitenikeslippers,
+    image1:whitenikeslipper,
+    new_price: 140,
+    old_price: 150,
+  },
   {
     id: 310,
     name: "Black Suede Shoes For Men",
@@ -1159,6 +1288,16 @@ old_price: 180
     image1:menblacksuedeshoe,
     new_price: 230,
     old_price: 250,
+  },
+  {
+    id: 314,
+    name: "Campus Tremendous White Original Nike Air-Force",
+    category: "footwear",
+    image:whiteforce,
+    image2:whiteforce,
+    image1:whiteforce,
+    new_price: 250,
+    old_price: 280,
   },
   {
     id: 311,
@@ -1180,7 +1319,17 @@ old_price: 180
     new_price: 215,
     old_price: 230,
   },
-  // 313,314,315,316
+  {
+    id: 313,
+    name: "Varsity Vibe Nike SB Black-White",
+    category: "footwear",
+    image:nikesbblackwhite,
+    image2:nikesbblackwhite,
+    image1:nikesbblackwhite,
+    new_price: 350,
+    old_price: 380,
+  },
+  // ,315,316
   {
     id: 317,
     name: "Best Brown Event Slippers",
@@ -1211,7 +1360,17 @@ old_price: 180
     new_price: 250,
     old_price: 270,
   },
-  // 319,320
+  {
+    id: 320,
+    name: "KNUST Ash Jordan 4 Vibes",
+    category: "footwear",
+    image:ashj4,
+    image2:ashj4,
+    image1:ashj4,
+    new_price: 350,
+    old_price: 380,
+  },
+  // ,320
   {
     id: 321,
     name: "Brown Occasional Party Slippers",
@@ -1232,8 +1391,18 @@ old_price: 180
     new_price: 150,
     old_price: 180,
   },
+  {
+    id: 323,
+    name: "Original Black Nike Air-Force For Fashion",
+    category: "footwear",
+    image:blackforce,
+    image2:blackforce,
+    image1:blackforce,
+    new_price: 350,
+    old_price: 380,
+  },
 
-  // 323,324,325,
+  //,324,325,
   {
     id: 326,
     name: "Men Dark Brown Fancy Slippers",
@@ -1254,7 +1423,27 @@ old_price: 180
     new_price: 145,
     old_price: 160,
   },
-// 338 339 340
+  {
+    id: 338,
+    name: "Walk Vibes With Black Jordan 4 on Campus",
+    category: "footwear",
+    image:blackj4,
+    image2:blackj4,
+    image1:blackj4,
+    new_price: 350,
+    old_price: 380,
+  },
+  {
+    id: 339,
+    name: "Red Nike Slippers Fresh In Box With 2 Nike Socks",
+    category: "footwear",
+    image:rednikeslippers,
+    image2:rednikeslippers,
+    image1:rednikeslippers,
+    new_price: 140,
+    old_price: 150,
+  },
+// 340
 {
     id: 341,
     name: "Stylish Brown Event Slippers",
@@ -1275,7 +1464,7 @@ old_price: 180
     new_price: 260,
     old_price: 290,
   },
-  // 342,343 344
+  //  344
   {
     id: 345,
     name: "Fancy Brown Occasional Slippers",

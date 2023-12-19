@@ -29,22 +29,20 @@
         overflow: hidden;
     }
 @media  (max-width: 500px) {
-    .item{
-        max-width: 1000px;
-    }
     .card-item{
-        max-width: 1000px;
+       width: 300px;
+       height: auto;
         display: flex;
         flex-direction: row;
     }
     .img {
-        max-width: 200px; /* Set the desired width for the parent div */
-        max-height: 240px; /* Set the desired height for the parent div */
+        max-width: 600px; /* Set the desired width for the parent div */
+       max-height: 240px; 
+        object-fit: cover;/* Set the desired height for the parent div */
       }
     .item .img img{
         width: 599px;
         height: 100%;
-        object-fit: cover;
     } 
     .title-head{
         font-size: 10px;

@@ -9,9 +9,9 @@ const Items = (props) => {
   return (
     <div className='item'>
     <Link to={`/product/${props.id}`} onClick={window.scroll(0,0)} className='text-decoration-none'>
-    <Card className='card-item' style={{ width: '17rem' }}>
+    <Card className='card-item' >
     <div className='img'>
-        <img alt='Luxhut Apparel' style={{height: "100%"}} src={props.image}/>
+        <img alt='Luxhut Apparel'  src={props.image}/>
     </div>
     <Card.Body> 
       <p className='title-head'>{props.name}</p>

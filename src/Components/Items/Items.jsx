@@ -15,7 +15,7 @@ const Items = (props) => {
     </div>
     <Card.Body> 
       <p className='title-head'>{props.name}</p>
-      <p className="christmas">Enjoy Christmas Promo🎄❄️🧑‍🎄</p>
+      <p className="christmas font-bold">Freshers' Christmas Promo🎄❄️🧑‍🎄</p>
       <Card.Text className='d-flex justify-content-between'>
        <p className='item-price-new text-black '>new:GH₵ {props.new_price}</p>
        <p className='item-price-old text-secondary'>old:GH₵ {props.old_price}</p>

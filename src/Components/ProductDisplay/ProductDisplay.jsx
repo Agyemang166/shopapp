@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./ProductDisplay.css"
 import star_icon from "../Assets/star_icon.png"
+
+import Col from 'react-bootstrap/Col';
+import Form from 'react-bootstrap/Form';
+import InputGroup from 'react-bootstrap/InputGroup';
+import Row from 'react-bootstrap/Row';
 
 import Button from 'react-bootstrap/Button';
 import PopularInMen from '../Popular/PopularInMen';
@@ -16,13 +21,31 @@ const ProductDisplay = (props) => {
     let buyerMessage;
     let contact;
     let quantity;
+    const [validated, setValidated] = useState(false);
 
+    const handleButtonClick = (e) => {
+        const form = e.currentTarget;
+        e.preventDefault();
+        e.stopPropagation();
+        if (form.checkValidity() === false) {
+            setValidated(true);
+        } else {
+            setValidated(true);
+            alert("Merry Christmas❄️🎄🎅 Lovely Customer! Please note that you can only order one item at a time. Happy Shopping from Luxhut Apparel. After adding this item to your cart, you can proceed to add the next one.");
 
-    const handleButtonClick = () => {
-        alert("Merry Christmas❄️🎄🎅 Lovely Customer. Please, You can order a single item at a time. Happy Shopping from Luxhut Apparel. Add your next item to the cart after this one")
-        const emailContent = `Product: ${product.name}\nPrice: ${product.new_price}\nImage: ${product.image}\n\nForm Info:\nBuyer's Name: ${buyername}\nBuyer's Location: ${buyerLocation} \nBuyer's WhatsApp Contact: ${contact}  \nQuantity : ${quantity}\nDelivery Location: ${delivery}\nAdditional Info: ${buyerMessage}`;
+            const emailContent = `
+            Product: ${product.name}\n
+            Price: ${product.new_price}\n
+            Image: ${product.image}\n\n
+            Name: ${form.elements["validationCustom01"].value}\n
+            Contact: ${form.elements["validationCustom03"].value}\n
+            Location: ${form.elements["validationCustom04"].value}\n
+            Quantity & Size: ${form.elements["validationCustom05"].value}\n
+            Extra Relevant Info: ${form.elements["validationCustom06"].value}\n
+            Pickup Option: ${ form.elements["pickup"].checked ? "Pick up" : "Delivery"}`;
 
-        window.location.href = `mailto:gyamfiagyemang999@gmail.com?subject=Product Details&body=${encodeURIComponent(emailContent)}`;
+            window.location.href = `mailto:gyamfiagyemang999@gmail.com?subject=Product Details&body=${encodeURIComponent(emailContent)}`;
+        }
     };
 
     return (
@@ -63,35 +86,81 @@ const ProductDisplay = (props) => {
                     </div>
                     <h6 className='text-center'>PROVIDE ADEQUATE INFORMATION</h6>
                     <hr />
-                    <form class="contact-form d-flex justify-content-center container" onSubmit={handleButtonClick}>
-                        <div class="row">
-                            <div class="col-sm-4 col-6 mb-2">
-                                <input class="form-control" type="text" name="name" onChange={(e) => (buyername = e.target.value)} placeholder=" Your Name" required />
-                            </div>
-                            <div class="col-sm-4 col-6 mb-2">
-                                <input class="form-control" type="text" name="delivery" onChange={(e) => (delivery = e.target.value)} placeholder="Pickup/Delivery" required />
-                            </div>
-                            <div class="col-sm-4 mb-2">
-                                <input class="form-control" type="text" name="location" onChange={(e) => (buyerLocation = e.target.value)} placeholder="Your Location $ Address" required />
-                            </div>
-                            <div class="col-sm-4 col-6 mb-2">
-                                <input class="form-control" type="tel" name="contact" onChange={(e) => (contact = e.target.value)} placeholder="Whatsapp Number" required />
-                            </div>
-                            <div class="col-sm-4 col-6 mb-2">
-                                <input class="form-control" type="tel" name="quatity" onChange={(e) => (quantity = e.target.value)} placeholder="Quantity & size" required />
-                            </div>
-                            <div class="col-sm-12 mb-2">
-                                <input style={{ height: "150px" }} class="form-control text-area" as="text-area" onChange={(e) => (buyerMessage = e.target.value)} name="message" placeholder="Give Other Relevant Detailed Description" required />
-                            </div>
-                            <div class="col-sm-12">
-                                <Button className='button' type="submit" variant="danger" onClick={handleButtonClick}>Order Now</Button>
-                                <p>NB: Payment Validates Order. Delivery at a Cost & Nationwide</p>
-                            </div>
-                            <div class="col-sm-1 mb-2">
-                                <input class="form-control text-area" as="text-area" onChange={(e) => (buyerMessage = e.target.value)} name="message" placeholder="" required />
-                            </div>
-                        </div>
-                    </form>
+
+                    <Form noValidate validated={validated} onSubmit={handleButtonClick}>
+
+                        <Row className="mb-3">
+                            <Form.Group as={Col} md="6" xs='6' controlId="validationCustom01">
+                                <Form.Label>NAME</Form.Label>
+                                <Form.Control
+                                    required
+                                    type="text"
+                                    placeholder="Input Your Name"
+                                    defaultValue=""
+                                />
+                                <Form.Control.Feedback type="invalid">
+                                    Provide a valid  Name
+                                </Form.Control.Feedback>
+                                <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+                            </Form.Group>
+                            <Form.Group as={Col} md="6" xs="6" controlId="validationCustom03">
+                                <Form.Label> CONTACT</Form.Label>
+                                <Form.Control type="tel" placeholder="Contact" required />
+                                <Form.Control.Feedback type="invalid">
+                                    Provide a valid  contact
+                                </Form.Control.Feedback>
+                                <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+                            </Form.Group>
+                        </Row>
+                        <Row className="mb-3">
+
+                            <Form.Group as={Col} md="4" xs="6" controlId="validationCustom04">
+                                <Form.Label>LOCATION</Form.Label>
+                                <Form.Control type="text" placeholder="Input Location/Address" required />
+                                <Form.Control.Feedback type="invalid">
+                                    Please provide a valid location.
+                                </Form.Control.Feedback>
+                                <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+                            </Form.Group>
+                            <Form.Group as={Col} md="4" xs="6" controlId="validationCustom05">
+                                <Form.Label>QUANTITY & SIZE</Form.Label>
+                                <Form.Control type="text" placeholder="Quantity & Size" required />
+                                <Form.Control.Feedback type="invalid">
+                                    Please provide a quantity & size
+                                </Form.Control.Feedback>
+                            </Form.Group>
+                            <Form.Group as={Col} md="4" controlId="validationCustom06">
+                                <Form.Label>DETAILED INFO</Form.Label>
+                                <Form.Control type="text" placeholder="Extra Relevant Information" required />
+                                <Form.Control.Feedback type="invalid">
+                                    Provide Relevant Information
+                                </Form.Control.Feedback>
+                            </Form.Group>
+                        </Row>
+                        <Row>
+                        </Row>
+                        <Form.Check
+                        type="radio"
+                        name="pickup"
+                        label="Pick up"
+                        id="radio1"
+                      />
+                      <Form.Check
+                        type="radio"
+                        name="delivery"
+                        label="Delivery"
+                        id="radio2"
+                      />
+                        <Form.Group className="mb-3">
+                            <Form.Check
+                                required
+                                label="Agree to payment validates order"
+                                feedback="You must agree before submitting."
+                                feedbackType="invalid"
+                            />
+                        </Form.Group>
+                        <Button type="submit">ORDER NOW</Button>
+                    </Form>
 
                 </div>
             </div>

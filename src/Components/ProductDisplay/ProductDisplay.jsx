@@ -36,13 +36,15 @@ const ProductDisplay = (props) => {
             const emailContent = `
             Product: ${product.name}\n
             Price: ${product.new_price}\n
-            Image: ${product.image}\n\n
-            Name: ${form.elements["validationCustom01"].value}\n
+            Customer's Name: ${form.elements["validationCustom01"].value}\n
             Contact: ${form.elements["validationCustom03"].value}\n
             Location: ${form.elements["validationCustom04"].value}\n
             Quantity & Size: ${form.elements["validationCustom05"].value}\n
             Extra Relevant Info: ${form.elements["validationCustom06"].value}\n
-            Pickup Option: ${ form.elements["pickup"].checked ? "Pick up" : "Delivery"}`;
+            Pickup Option: ${ form.elements["Delivery Option"].checked ? "Pick up" : "Delivery"}\n
+            
+            Image: ${product.image}\n\n
+            `;
 
             window.location.href = `mailto:gyamfiagyemang999@gmail.com?subject=Product Details&body=${encodeURIComponent(emailContent)}`;
         }
@@ -141,13 +143,13 @@ const ProductDisplay = (props) => {
                         </Row>
                         <Form.Check
                         type="radio"
-                        name="pickup"
+                        name="Delivery Option"
                         label="Pick up"
                         id="radio1"
                       />
                       <Form.Check
                         type="radio"
-                        name="delivery"
+                        name="Delivery Option"
                         label="Delivery"
                         id="radio2"
                       />

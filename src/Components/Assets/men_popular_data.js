@@ -87,7 +87,7 @@ old_price: 180
     old_price: 370,
   },
   {
-    id: 307,
+    id: 315,
     name: "KNUST Footwear In White Jordan 4",
     category: "footwear",
     image:jordan4white,

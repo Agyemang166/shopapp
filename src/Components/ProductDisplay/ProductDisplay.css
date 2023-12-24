@@ -10,12 +10,14 @@
 
 .productdisplay-img-list img{
     width: 120px;
+    border-radius: 20px;
     
 }
 
-.productdisplay-main-img {
+.productdisplay-img img{
     height: 400px;
     padding: 20px;
+    border-radius: 30px;
 }
 
 @media(max-width: 480px){

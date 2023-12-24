@@ -23,7 +23,10 @@ const socialLinks = [
 const Footer = () => {
     return (
         <div className='footer'>
-            <div className="footer-logo d-flex justify-content-center align-items-center ">
+        <div className='google-map mb-5'>
+        <iframe src="https://maps.google.com/maps?q=knust,kokobrastreet,usa&amp;t=&amp;z=18&amp;ie=UTF18&amp;iwloc=&amp;output=embed" title='Campus Apparel Location'></iframe>
+        </div>
+                    <div className="footer-logo d-flex justify-content-center align-items-center ">
                 <img src={footer_logo} alt='luxhut Apparel' className='pt-3 rounded-full' style={{width:"50px"}}/>
                 <p className='m-2'>LUXHUT APPAREL</p>
             </div>

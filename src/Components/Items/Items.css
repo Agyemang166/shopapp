@@ -52,10 +52,9 @@
         font-size: 10px;
         font-weight: 600;
     }
-    .item-price-old{
+    .item-campus{
         font-size: 10px;
         font-weight: 500;
-        text-decoration: line-through;
     }
     .item .button{
         max-width: 100px;

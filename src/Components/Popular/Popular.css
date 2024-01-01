@@ -1,15 +1,26 @@
-.popular h1{
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 20px;
+.shopcategory-product{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px 170px;
+    gap: 20px;
 }
 
-.new{
-    background: linear-gradient(180deg, rgb(255, 227, 225), #e1ffea 60%);
+.product-display-right-prices{
+  font-weight: 700;
+  margin: 40px 0px;
+  font-size: 23px;
 }
 
-@media(max-width: 500px) {
-    .popular{
-        padding-right: 200px;
+product-display-left-price-new{
+  color: #ff4141;
+}
+
+.productdisplay .button{
+width: 100%;
+}
+
+@media (max-width: 640px) {
+    h1{
+        font-size: 16px;
     }
-}
+  }

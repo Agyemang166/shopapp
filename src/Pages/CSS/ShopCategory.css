@@ -1,6 +1,6 @@
 .shopcategory-product{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, fr);
     margin: 20px 170px;
     gap: 20px;
 }

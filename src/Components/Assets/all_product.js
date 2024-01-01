@@ -1,582 +1,265 @@
-import elasticblue from "./elasticblue.jpeg"
-import elasticblue1 from "./elasticblue1.jpeg"
-import elasticblue2 from "./elasticblue2.jpeg"
+// KNUST FEMALE PRODUCTS
 
-import snakecolor from "./snakecolor.jpeg"
-import snakecolor1 from "./snakecolor1.jpeg"
-import snakecolor2 from "./snakecolor2.jpeg"
+// DRESSES
+import blackdenim from "../Assets/knustwomenproduct/blackdenim.jpeg"
+import blackdenim1 from "../Assets/knustwomenproduct/blackdenim1.jpeg"
+import blackdenim2 from "../Assets/knustwomenproduct/blackdenim2.jpeg"
 
-import tinkabel from "./tinkabel.jpeg"
-import tinkabel1 from "./tinkabel1.jpeg"
-import tinkabel2 from "./tinkabel2.jpeg"
+import blacksideskirt from "../Assets/knustwomenproduct/blacksideskirt.jpeg"
+import blacksideskirt1 from "../Assets/knustwomenproduct/blacksideskirt1.jpeg"
+import blacksideskirt2 from "../Assets/knustwomenproduct/blacksideskirt2.jpeg"
 
+import bluedenim from "../Assets/knustwomenproduct/bluedenim.jpeg"
+import bluedenim1 from "../Assets/knustwomenproduct/bluedenim1.jpeg"
+import bluedenim2 from "../Assets/knustwomenproduct/bluedenim2.jpeg"
 
+import knustwomenblackcargo from "../Assets/knustwomenproduct/knustwomenblackcargo.jpeg"
+import knustwomenblackcargo1 from "../Assets/knustwomenproduct/knustwomenblackcargo1.jpeg"
+import knustwomenblackcargo2 from "../Assets/knustwomenproduct/knustwomenblackcargo2.jpeg"
 
-import blackdinner from "./blackdinner.jpeg"
-import blackdinner1 from "./blackdinner1.jpeg"
-import blackdinner2 from "./blackdinner2.jpeg"
-
-import creamdinner from "./creamdinner.jpeg"
-import creamdinner1 from "./creamdinner1.jpeg"
-import creamdinner2 from "./creamdinner2.jpeg"
-
-import darkbluedinner from "./darkbluedinner.jpeg"
-import darkbluedinner1 from "./darkbluedinner1.jpeg"
-import darkbluedinner2 from "./darkbluedinner2.jpeg"
-
-import dinnerwear from "./dinnerwear.jpeg"
-import dinnerwear1 from "./dinnerwear1.jpeg"
-import dinnerwear2 from "./dinnerwear2.jpeg"
-
-import violetdinnerwear from "./violetdinnerwear.jpeg"
-import violetdinnerwear1 from "./violetdinnerwear1.jpeg"
+import wdoublejogger from "../Assets/knustwomenproduct/wdoublejogger.jpeg"
+import wdoublejogger1 from "../Assets/knustwomenproduct/wdoublejogger1.jpeg"
+import wdoublejogger2 from "../Assets/knustwomenproduct/wdoublejogger2.jpeg"
 
 
 
 
-import darkreddinner from "./darkreddinner.jpeg"
-import darkreddinner1 from "./darkreddinner1.jpeg"
-import darkreddinner2 from "./darkreddinner2.jpeg"
-
-import greendinner from "./greendinner.jpeg"
-import greendinner1 from "./greendinner1.jpeg"
-import greendinner2 from "./greendinner2.jpeg"
-
-
-
-import washjogger from "./washjogger.jpeg"
-import washjogger1 from "./washjogger1.jpeg"
-import washjogger2 from "./washjogger2.jpeg"
-
-import wblackjogger from "./wblackjogger.jpeg"
-import wblackjogger1 from "./wblackjogger1.jpeg"
-import wblackjogger2 from "./wblackjogger2.jpeg"
-
-import wdoublejogger from "./wdoublejogger.jpeg"
-import wdoublejogger1 from "./wdoublejogger1.jpeg"
-import wdoublejogger2 from "./wdoublejogger2.jpeg"
-
-
-
-import brownsideskirt from "./brownsideskirt.jpeg"
-import brownsideskirt1 from "./brownsideskirt1.jpeg"
-import brownsideskirt2 from "./brownsideskirt2.jpeg"
-
-import creamsideskirt from "./creamsideskirt.jpeg"
-import creamsideskirt1 from "./creamsideskirt1.jpeg"
-import creamsideskirt2 from "./creamsideskirt2.jpeg"
-
-import pinksideskirt from "./pinksideskirt.jpeg"
-import pinksideskirt1 from "./pinksideskirt1.jpeg"
-import pinksideskirt2 from "./pinksideskirt2.jpeg"
-
-
-
-import wcropblack from "./wcropblack.jpeg"
-import wcropblack1 from "./wcropblack1.jpeg"
-import wcropblack2 from "./wcropblack2.jpeg"
-
-import wcrop from "./wcrop.jpeg"
-import wcrop1 from "./wcrop1.jpeg"
-import wcrop2 from "./wcrop2.jpeg"
-
-
-import wblackcargo from "./wblackcargo.jpeg"
-import wblackcargo1 from "./wblackcargo1.jpeg"
-import wblackcargo2 from "./wblackcargo2.jpeg"
-
-import wcreamcargo from "./wcreamcargo.jpeg"
-import wcreamcargo2 from "./wcreamcargo2.jpeg"
-import wcreamcargo1 from "./wcreamcargo1.jpeg"
-
-import wpinkcargo from "./wpinkcargo.jpeg"
-import wpinkcargo2 from "./wpinkcargo2.jpeg"
-import wpinkcargo1 from "./wpinkcargo1.jpeg"
-
-import wvioletcargo from "./wvioletcargo.jpeg"
-import wvioletcargo2 from "./wvioletcargo2.jpeg"
-import wvioletcargo1 from "./wvioletcargo1.jpeg"
-
-import womenredcargo from "./womenredcargo.jpeg"
-import womenredcargo2 from "./womenredcargo2.jpeg"
-import womenredcargo1 from "./womenredcargo1.jpeg"
-
-import womenblackcargo from "./womenblackcargo.jpeg"
-import womenblackcargo2 from "./womenblackcargo2.jpeg"
-import womenblackcargo1 from "./womenblackcargo1.jpeg"
-
-
-
-import blackdenim from "./blackdenim.jpeg"
-import blackdenim2 from "./blackdenim2.jpeg"
-import blackdenim1 from "./blackdenim1.jpeg"
-
-import bluedenim from "./bluedenim.jpeg"
-import bluedenim2 from "./bluedenim2.jpeg"
-import bluedenim1 from "./bluedenim1.jpeg"
-
-import darkbluedenim from "./darkbluedenim.jpeg"
-import darkbluedenim2 from "./darkbluedenim2.jpeg"
-import darkbluedenim1 from "./darkbluedenim1.jpeg"
-
-import creamdenim from "./creamdenim.jpeg"
-import creamdenim2 from "./creamdenim2.jpeg"
-import creamdenim1 from "./creamdenim1.jpeg"
-
-
-
-
-import blackmaxi from "./blackmaxi.jpeg"
-import blackmaxi1 from "./blackmaxi1.jpeg"
-import blackmaxi2 from "./blackmaxi2.jpeg"
-
-import darkredmaxi from "./darkredmaxi.jpeg"
-import darkredmaxi1 from "./darkredmaxi1.jpeg"
-import darkredmaxi2 from "./darkredmaxi2.jpeg"
-
-import greenmaxi from "./greenmaxi.jpeg"
-import greenmaxi1 from "./greenmaxi1.jpeg"
-import greenmaxi2 from "./greenmaxi2.jpeg"
+// UG FEMALE PRODUCTS
 
 
 
 
 
+// UDS FEMALE PRODUCTS
+// DRESSES
 
-// men
-import menblackcargo1 from "./menblackcargo1.jpeg"
-import menblackcargo from "./menblackcargo.jpeg"
-import menblackcargo2 from "./menblackcargo2.jpeg"
 
-import menashcargo1 from "./menashcargo1.jpeg"
-import menashcargo from "./menashcargo.jpeg"
-import menashcargo2 from "./menashcargo2.jpeg"
+// JEWELRIES
+import judithcustomizablebracelets1 from "../Assets/jewelries/judithcustomizablebracelets1.jpeg"
+import judithcustomizablebracelets2 from "../Assets/jewelries/judithcustomizablebracelets2.jpeg"
+import judithcustomizablebracelets3 from "../Assets/jewelries/judithcustomizablebracelets3.jpeg"
 
-import menknicker from "./menknicker.jpeg"
-import menknicker1 from "./menknicker1.jpeg"
-import menknicker2 from "./menknicker2.jpeg"
-import menknicker3 from "./menknicker3.jpeg"
-import menknicker4 from "./menknicker4.jpeg"
-import menknicker5 from "./menknicker5.jpeg"
-import menknicker6 from "./menknicker6.jpeg"
-import menknicker7 from "./menknicker7.jpeg"
+import judithcustomizablenecklace1 from "../Assets/jewelries/judithcustomizablenecklace1.jpeg"
+import judithcustomizablenecklace2 from "../Assets/jewelries/judithcustomizablenecklace2.jpeg"
+import judithcustomizablenecklace3 from "../Assets/jewelries/judithcustomizablenecklace3.jpeg"
 
-import jean1 from "./jean1.jpeg"
-import jean2 from "./jean2.jpeg"
-import jean3 from "./jean3.jpeg"
-import jean4 from "./jean4.jpeg"
-import jean5 from "./jean5.jpeg"
-import jean6 from "./jean6.jpeg"
-import jean7 from "./jean7.jpeg"
-import jean8 from "./jean8.jpeg"
-import jean9 from "./jean9.jpeg"
-import jean10 from "./jean10.jpeg"
+import judithpendant1 from "../Assets/jewelries/judithpendant1.jpeg"
+import judithpendant2 from "../Assets/jewelries/judithpendant2.jpeg"
+import judithpendant3 from "../Assets/jewelries/judithpendant3.jpeg"
 
-import blackamiri from "./blackamiri.jpeg"
-import blackamiri2 from "./blackamiri2.jpeg"
-import blackmensinner from "./blackmensinner.jpeg"
-import blacksta from "./blacksta.jpeg"
-import creamamiri from "./creamamiri.jpeg"
-import creammensta from "./creammensta.jpeg"
-import creamsinner from "./creamsinner.jpeg"
-import menblacktshirt from "./menblacktshirt.jpeg"
-import menwhitesinner from "./menwhitesinner.jpeg"
-import redmenamiri from "./redmenamiri.jpeg"
-import redmenshirt from "./redmenshirt.jpeg"
-import redmensinner from "./redmensinner.jpeg"
-import redtshirt from "./redtshirt.jpeg"
-import whiteamiri from "./whiteamiri.jpeg"
-import whitemenamiri from "./whitemenamiri.jpeg"
-import whiteshirt from "./whiteshirt.jpeg"
+
+// KNUST MALE PRODUCTS
+// clothes
+import menblackcargo1 from "./knustmenproduct/clothes/menblackcargo1.jpeg"
+import menblackcargo from "./knustmenproduct/clothes/menblackcargo.jpeg"
+import menblackcargo2 from "./knustmenproduct/clothes/menblackcargo2.jpeg"
+import menashcargo1 from "./knustmenproduct/clothes/menashcargo1.jpeg"
+import menashcargo from "./knustmenproduct/clothes/menashcargo.jpeg"
+import menashcargo2 from "./knustmenproduct/clothes/menashcargo2.jpeg"
+import menknicker from "./knustmenproduct/clothes/menknicker.jpeg"
+import menknicker1 from "./knustmenproduct/clothes/menknicker1.jpeg"
+import menknicker2 from "./knustmenproduct/clothes/menknicker2.jpeg"
+import menknicker3 from "./knustmenproduct/clothes/menknicker3.jpeg"
+import menknicker4 from "./knustmenproduct/clothes/menknicker4.jpeg"
+import menknicker5 from "./knustmenproduct/clothes/menknicker5.jpeg"
+import menknicker6 from "./knustmenproduct/clothes/menknicker6.jpeg"
+import menknicker7 from "./knustmenproduct/clothes/menknicker7.jpeg"
+import jean1 from "./knustmenproduct/clothes/jean1.jpeg"
+import jean2 from "./knustmenproduct/clothes/jean2.jpeg"
+import jean3 from "./knustmenproduct/clothes/jean3.jpeg"
+import jean4 from "./knustmenproduct/clothes/jean4.jpeg"
+import jean5 from "./knustmenproduct/clothes/jean5.jpeg"
+import jean6 from "./knustmenproduct/clothes/jean6.jpeg"
+import jean7 from "./knustmenproduct/clothes/jean7.jpeg"
+import jean8 from "./knustmenproduct/clothes/jean8.jpeg"
+import jean9 from "./knustmenproduct/clothes/jean9.jpeg"
+import jean10 from "./knustmenproduct/clothes/jean10.jpeg"
+import blackamiri from "./knustmenproduct/clothes/blackamiri.jpeg"
+import blackamiri2 from "./knustmenproduct/clothes/blackamiri2.jpeg"
+import blackmensinner from "./knustmenproduct/clothes/blackmensinner.jpeg"
+import blacksta from "./knustmenproduct/clothes/blacksta.jpeg"
+import creamamiri from "./knustmenproduct/clothes/creamamiri.jpeg"
+import creammensta from "./knustmenproduct/clothes/creammensta.jpeg"
+import creamsinner from "./knustmenproduct/clothes/creamsinner.jpeg"
+import menblacktshirt from "./knustmenproduct/clothes/menblacktshirt.jpeg"
+import menwhitesinner from "./knustmenproduct/clothes/menwhitesinner.jpeg"
+import redmenamiri from "./knustmenproduct/clothes/redmenamiri.jpeg"
+import redmenshirt from "./knustmenproduct/clothes/redmenshirt.jpeg"
+import redmensinner from "./knustmenproduct/clothes/redmensinner.jpeg"
+import redtshirt from "./knustmenproduct/clothes/redtshirt.jpeg"
+import whiteamiri from "./knustmenproduct/clothes/whiteamiri.jpeg"
+import whitemenamiri from "./knustmenproduct/clothes/whitemenamiri.jpeg"
+import whiteshirt from "./knustmenproduct/clothes/whiteshirt.jpeg"
+import washjogger from "./knustmenproduct/clothes/washjogger.jpeg"
+import washjogger1 from "./knustmenproduct/clothes/washjogger.jpeg"
+import washjogger2 from "./knustmenproduct/clothes/washjogger.jpeg"
+
+// SHOES
+import ashj4 from "../Assets/knustmenproduct/shoes/ashj4.jpeg"
+import blackforce from "../Assets/knustmenproduct/shoes/blackforce.jpeg"
+import blackj4 from "../Assets/knustmenproduct/shoes/blackj4.jpeg"
+import blacknikeslippers from "../Assets/knustmenproduct/shoes/blacknikeslippers.jpeg"
+import jordan4white from "../Assets/knustmenproduct/shoes/jordan4white.jpeg"
+import jordan11 from "../Assets/knustmenproduct/shoes/jordan11.jpg"
+import jordan111 from "../Assets/knustmenproduct/shoes/jordan111.jpeg"
+import jordanredblack1 from "../Assets/knustmenproduct/shoes/jordanredblack1.jpeg"
+import menblackhalfshoe from "../Assets/knustmenproduct/shoes/menblackhalfshoe.jpeg"
+import menblacksuedeshoe from "../Assets/knustmenproduct/shoes/menblacksuedeshoe.jpeg"
+import menbrowndessertboot from "../Assets/knustmenproduct/shoes/menbrowndessertboot.jpeg"
+import menbrownishpatent from "../Assets/knustmenproduct/shoes/menbrownishpatent.jpeg"
+import menbrownslipper1 from "../Assets/knustmenproduct/shoes/menbrownslipper1.jpeg"
+import menpolishableshoe from "../Assets/knustmenproduct/shoes/menpolishableshoe.jpeg"
+import menqualitybrown from "../Assets/knustmenproduct/shoes/menbrownslipper1.jpeg"
+import menversaceblackslippers from "../Assets/knustmenproduct/shoes/menversaceblackslippers.jpeg"
+import nikesbblackwhite from "../Assets/knustmenproduct/shoes/nikesbblackwhite.jpeg"
+import rednikeslippers from "../Assets/knustmenproduct/shoes/rednikeslippers.jpeg"
+import whiteforce from "../Assets/knustmenproduct/shoes/whiteforce.jpeg"
+
+// perfumes
+import perfumeberriesweekend from "./knustmenproduct/perfumes/perfumeberriesweekend.webp"
+import perfumenightclub from "./knustmenproduct/perfumes/perfumenightclub.jpeg"
+import perfumeaventosforher from "./knustmenproduct/perfumes/perfumeaventosforher.webp"
+import perfumeaventosblue from "./knustmenproduct/perfumes/perfumeaventosblue.webp"
+import perfumekristal from "./knustmenproduct/perfumes/perfumekristal.jpeg"
+import perfumemousuf from "./knustmenproduct/perfumes/perfumemousuf.jpeg"
+import perfumetawel from "./knustmenproduct/perfumes/perfumetawel.jpeg"
+import perfumesuspenso from "./knustmenproduct/perfumes/perfumesuspenso.jpeg"
+import perfumebarakatrouge from "./knustmenproduct/perfumes/perfumebarakatrouge.jpeg"
+import perfumepride from "./knustmenproduct/perfumes/perfumepride.jpeg"
+import perfumealqiam from "./knustmenproduct/perfumes/perfumealqiam.jpeg"
+import perfumeyaba from "./knustmenproduct/perfumes/perfumeyaba.jpeg"
+import perfumesuave from "./knustmenproduct/perfumes/perfumesuave.jpeg"
+import perfumepegasus from "./knustmenproduct/perfumes/perfumepegasus.jpeg"
+import perfumeintensenoir from "./knustmenproduct/perfumes/perfumeintensenoir.jpeg"
+import perfumefiero from "./knustmenproduct/perfumes/perfumefiero.jpeg"
+import perfumebarakat from "./knustmenproduct/perfumes/perfumebarakat.jpeg"
+import perfumeoldtouch from "./knustmenproduct/perfumes/perfumeoldtouch.jpg"
+import perfumeaventosgreen from "./knustmenproduct/perfumes/perfumeaventosgreen.jpg"
+import perfumeouddearabia from "./knustmenproduct/perfumes/perfumeouddearabia.jpg"
+import perfumeishq from "./knustmenproduct/perfumes/perfumeishq.jpg"
+import perfumeshaheen from "./knustmenproduct/perfumes/perfumeshaheen.jpg"
+import perfumeurway from "./knustmenproduct/perfumes/perfumeurway.jpg"
+import perfumewinners from "./knustmenproduct/perfumes/perfumewinners.jpg"
+import perfumeaudvanille from "./knustmenproduct/perfumes/perfumeaudvanille.jpg"
+
+
+
+// UG MALE PRODUCTS
+
+
+
+
+// UDS MALE PRODUCTS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 // Perfumes
-import perfumeberriesweekend from "./perfumeberriesweekend.webp"
-import perfumenightclub from "./perfumenightclub.jpeg"
-import perfumeaventosforher from "./perfumeaventosforher.webp"
-import perfumeaventosblue from "./perfumeaventosblue.webp"
-import perfumekristal from "./perfumekristal.jpeg"
-import perfumemousuf from "./perfumemousuf.jpeg"
-import perfumetawel from "./perfumetawel.jpeg"
-import perfumesuspenso from "./perfumesuspenso.jpeg"
-import perfumebarakatrouge from "./perfumebarakatrouge.jpeg"
-import perfumepride from "./perfumepride.jpeg"
-import perfumealqiam from "./perfumealqiam.jpeg"
-import perfumeyaba from "./perfumeyaba.jpeg"
-import perfumesuave from "./perfumesuave.jpeg"
-import perfumepegasus from "./perfumepegasus.jpeg"
-import perfumeintensenoir from "./perfumeintensenoir.jpeg"
-import perfumefiero from "./perfumefiero.jpeg"
-import perfumebarakat from "./perfumebarakat.jpeg"
-import perfumeoldtouch from "./perfumeoldtouch.jpg"
-import perfumeaventosgreen from "./perfumeaventosgreen.jpg"
-import perfumeouddearabia from "./perfumeouddearabia.jpg"
-import perfumeishq from "./perfumeishq.jpg"
-import perfumeshaheen from "./perfumeshaheen.jpg"
-import perfumeurway from "./perfumeurway.jpg"
-import perfumewinners from "./perfumewinners.jpg"
-import perfumeaudvanille from "./perfumeaudvanille.jpg"
+
 
 // shoes
-import menblackhalfshoe from "./menblackhalfshoe.jpeg"
-import menblackshoe from "./menblackshoe.jpeg"
-import menblackshoe1 from "./menblackshoe1.jpeg"
-import menblackslipper1 from "./menblackslipper1.jpeg"
-import menblacksuedeshoe from "./menblacksuedeshoe.jpeg"
-import menbrowndessertboot from "./menbrowndessertboot.jpeg"
-import menbrownshoe from "./menbrownshoe.jpeg"
-import menbrownslipper from "./menbrownslipper.jpeg"
-import menbrownslipper1 from "./menbrownslipper1.jpeg"
-import mendarkbrownslippers from "./mendarkbrownslippers.jpeg"
-import menbrownslippers from "./menbrownslippers.jpeg"
-import menpolishableshoe from "./menpolishableshoe.jpeg"
-import menversaceblackslippers from "./menversaceblackslippers.jpeg"
-import menwhiteversaceslippers from "./menwhiteversaceslippers.jpeg"
-import mensemimirror from "./men-semi-mirror.jpeg"
-import menbrownishpatent from "./menbrownishpatent.jpeg"
-import menqualitybrown from "./menqualitybrown.jpeg"
 
-import ashj4 from "./ashj4.jpeg"
-import blackforce from "./blackforce.jpeg"
-import blackj4 from "./blackj4.jpeg"
-import whiteforce from "./whiteforce.jpeg"
-import nikesbblackwhite from "./nikesbblackwhite.jpeg"
-import jordanredblack from "./jordanredblack.jpeg"
-import jordanredblack1 from "./jordanredblack1.jpeg"
-import jordan111 from "./jordan111.jpeg"
-import jordan11 from "./jordan11.jpg"
-import jordan4white from "./jordan4white.jpeg"
-
-import blacknikeslipper from "./blacknikeslipper.jpeg"
-import blacknikeslippers from "./blacknikeslippers.jpeg"
-import pinknikeslipper from "./pinknikeslipper.jpeg"
-import rednikeslippers from "./rednikeslippers.jpeg"
-import whitenikeslippers from "./whitenikeslippers.jpeg"
-import whitenikeslipper from "./whitenikeslipper.jpeg"
 
 let all_product = [
+
   {
     id: 1,
-    name: "Women Black Denim Top ",
+    name: "Incredible Women Black Denim Top ",
     category: "women",
     image: blackdenim,
     image1: blackdenim1,
     image2: blackdenim2,
     new_price: 110,
-    old_price: 130,
+    campus: "KNUST",
+    email: "amoanimaa@gmail.com",
+    description: "Introducing our chic black denim top for women! A versatile wardrobe staple with a touch of edgy sophistication. Perfect for any occasion.",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 2,
-    name: "Top Woman Blue Denim  ",
+    name: "Cargo Pants For The KNUST Fashion Lady",
+    category: "women",
+    image: knustwomenblackcargo,
+    image1: knustwomenblackcargo1,
+    image2: knustwomenblackcargo2,
+    new_price: 200,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "Need pants that are both stylish and practical? Our cargo pants are the perfect choice. With plenty of pockets and a trendy design, you'll be ready for any adventure! 🌟👖",
+    contact:"https://wa.me/542353326"
+  },
+  {
+    id: 3,
+    name: "Side Pockets Skirts To Roll With",
+    category: "women",
+    image: blacksideskirt,
+    image1: blacksideskirt1,
+    image2: blacksideskirt2,
+    new_price: 120,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "Our side pocket skirt is not only fashionable, but it also adds a practical touch to your outfit. With the convenience of side pockets, you can easily carry your essentials while looking fabulous! It's the perfect combination of style and functionality. Get ready to turn heads with our side pocket skirt! 👗💃",
+    contact:"https://wa.me/542353326"
+  },
+  {
+    id: 4,
+    name: "Stylish Denim Top For Campus Fashion",
     category: "women",
     image: bluedenim,
     image1: bluedenim1,
     image2: bluedenim2,
-    new_price: 110,
-    old_price: 130,
-  },
-  {
-    id: 3,
-    name: "Sleek Black Cargo Pants for the Modern Woman",
-    category: "women",
-    image: wblackcargo1,
-    image1: wblackcargo ,
-    image2: wblackcargo2,
-   new_price: 190,
-   old_price: 210
-  },
-  {
-    id: 4,
-    name: "Attractive Pink Side Pocket Skirt",
-    category: "women",
-    image: pinksideskirt,
-    image1: pinksideskirt1,
-    image2: pinksideskirt2,
-    new_price: 105.0,
-    old_price:120,
+    new_price: 150,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: " Looking for a stylish addition to your wardrobe? Our denim tops with variety of colors is a must-have! With its trendy design and comfortable fit, you'll rock that campus look effortlessly. Get yours now and slay the fashion game! 👚💙",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 5,
-    name: "Stunning, Flawless Pink Cargo Pants for Women",
-    category: "women",
-    image: wpinkcargo2,
-    image1: wpinkcargo1,
-    image2: wpinkcargo,
-   new_price: 190,
-   old_price: 210
-  },
-  {
-    id: 6,
-    name: "Dinner Delight For Opulent Ocations",
-    category: "women",
-    image: dinnerwear2,
-    image1: dinnerwear1,
-    image2: dinnerwear,
-new_price: 250,
-old_price: 270,
-  },
-  {
-    id: 7,
-    name: "Stretchy Fitting Black Maxi Dress",
-    category: "women",
-    image: blackmaxi,
-    image1: blackmaxi1,
-    image2: blackmaxi2,
-    new_price: 90,
-    old_price: 100,
-  },
-  {
-    id: 9,
-    name: "Flattering black CropTop for the Fashion Woman",
-    category: "women",
-    image: wcropblack,
-    image2: wcropblack1,
-    image1: wcropblack2,
-new_price: 45,
-old_price: 60
-  },
-  {
-    id: 10,
-    name: "Glamorous Red Cargo Pants for Women",
-    category: "women",
-    image: womenredcargo,
-    image2: womenredcargo1,
-    image1: womenredcargo2,
-   new_price: 190,
-   old_price: 210
-  }, 
-  {
-    id: 11,
-    name: "Incredible Cream Side Pocket Skirt",
-    category: "women",
-    image: creamsideskirt,
-    image1: creamsideskirt1,
-    image2: creamsideskirt2,
-    new_price: 105.0,
-    old_price:120,
-  },
-  {
-    id: 12,
-    name: "Perfect fitting Greyish Dress",
-    category: "women",
-    image: snakecolor,
-    image1: snakecolor1,
-    image2: snakecolor2,
-    new_price: 120.0,
-    old_price: 130.0,
-  }, 
-   {
-    id: 13,
-    name: "Dine In Violet Dress In Evenings",
-    category: "women",
-    image: violetdinnerwear,
-    image1: violetdinnerwear1,
-    image2: violetdinnerwear,
-    new_price: 130,
-    old_price: 145,
-  },
-
-  // ,13,14,15,16,
-  {
-    id: 17,
-    name: "Stretchy Fitting Reddish Brown Maxi Dress",
-    category: "women",
-    image: darkredmaxi,
-    image1: darkredmaxi1,
-    image2: darkredmaxi2,
-    new_price: 90,
-    old_price: 100,
-  },
-  {
-    id: 18,
-    name: "Women Classy Cream Dinner Wear",
-    category: "women",
-    image: creamdinner,
-    image1: creamdinner2,
-    image2: creamdinner1,
-    new_price: 200,
-    old_price: 230,
-  },
-  {
-    id: 19,
-    name: "Women Fitting Dark-Blue Denim Top ",
-    category: "women",
-    image: darkbluedenim,
-    image1: darkbluedenim2,
-    image2: darkbluedenim1,
-    new_price: 110,
-    old_price: 130,
-  },
-  {
-    id: 20,
-    name: "Women Fitting Blue Elastic Dress",
-    category: "women",
-    image: elasticblue,
-    image1: elasticblue2,
-    image2: elasticblue1,
-    new_price: 100,
-    old_price: 120,
-  },
-// 20, 21, 22, 23, 24,25
-  {
-    id: 26,
-    name: "Glamorous Ash Jogger to Make a Statemen",
-    category: "women",
-    image: washjogger,
-    image2: washjogger1,
-    image1: washjogger2,
-new_price: 90,
-old_price: 110
-  },
-  {
-    id: 27,
-    name: "Classy Green Maxi Dress Your Fashion Game",
-    category: "women",
-    image: greenmaxi,
-    image1: greenmaxi1,
-    image2: greenmaxi2,
-    new_price: 105.0,
-    old_price: 120.5,
-  },
-  {
-    id: 28,
-    name: "Dark-Red Dinner Dress For Classy Woman",
-    category: "women",
-    image: darkreddinner,
-    image1: darkreddinner1,
-    image2: darkreddinner2,
-new_price: 235,
-old_price: 250
-  },
-// 29
-    {
-    id: 30,
-    name: "Tinkabel Style Ladies Apparel",
-    category: "women",
-    image: tinkabel,
-    image1:tinkabel1,
-    image2: tinkabel2,
-    new_price: 100.0,
-    old_price: 120.0,
-  },
-  // 30 31 32 33 34
-  {
-    id: 35,
-    name: "Flattering Dark-Blue Dinner Long Dinner",
-    category: "women",
-    image: darkbluedinner,
-    image2: darkbluedinner1,
-    image1: darkbluedinner2,
-new_price: 270,
-old_price: 290
-  },
-  {
-    id: 36,
-    name: "Tremendous Black Jogger to Make a Day",
-    category: "women",
-    image: wblackjogger,
-    image2: wblackjogger2,
-    image1: wblackjogger1,
-new_price: 90,
-old_price: 110
-  },
-  {
-    id: 37,
-    name: "Women On-Trend Black Cargo Pants Style Icon",
-    category: "women",
-    image: womenblackcargo,
-    image1: womenblackcargo1 ,
-    image2: womenblackcargo2,
-   new_price: 190,
-   old_price: 210
-  },
-  {
-    id: 38,
-    name: "Amazing Fitting Cream Denim Top ",
-    category: "women",
-    image: creamdenim,
-    image1: creamdenim2,
-    image2: creamdenim1,
-    new_price: 110,
-    old_price: 130,
-  },
-
-  //39 40,41 42 43 44 45
-  {
-    id: 46,
-    name: "Effortless  Black Long Dinner Dress",
-    category: "women",
-    image: blackdinner,
-    image1: blackdinner1,
-    image2: blackdinner2,
-    new_price: 200.0,
-    old_price: 200.0,
-  },
-// 47
-  {
-    id: 48,
-    name: "Effortless Blue Cargo for the Fashion-Savvy Woman",
-    category: "women",
-    image: wvioletcargo1,
-    imag2: wvioletcargo2,
-    image1: wvioletcargo,
-   new_price: 190,
-   old_price: 210
-  },
-  {
-    id: 49,
-    name: "Fortune Black/Ash Jogger for Women",
+    name: "Comfy and Stylish Joggers for Sale!"    ,
     category: "women",
     image: wdoublejogger,
-    image2: wdoublejogger1,
-    image1: wdoublejogger2,
-new_price: 90,
-old_price: 110
+    image1: wdoublejogger1,
+    image2: wdoublejogger2,
+    new_price: 140,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "Get ready to level up your style with our amazing joggers! Designed for comfort and fashion, these joggers are perfect for campus life. Don't miss out, grab yours now! 🏃‍♀️🔥",
+    contact:"https://wa.me/542353326"
   },
-
-    {
-    id: 50,
-    name: "Flattering black CropTop for the Fashion Woman",
-    category: "women",
-    image: wcrop,
-    image2: wcrop1,
-    image1: wcrop2,
-new_price: 45,
-old_price: 60
-  },
-  // 51,52, 53 54 55
-  {
-    id: 56,
-    name: "Women Cream Cargo Pants ",
-    category: "women",
-    image: wcreamcargo,
-    image1: wcreamcargo1,
-    image2: wcreamcargo2,
-   new_price: 190,
-   old_price: 210
-  },
-  {
-    id: 57,
-    name: "Attractive Brown Side Pocket Skirt",
-    category: "women",
-    image: brownsideskirt,
-    image1: brownsideskirt2,
-    image2: brownsideskirt1,
-    new_price: 105.0,
-    old_price:120,
-  },
-  {
-    id: 58,
-    name: "Effortless  Green Long Dinner Dress",
-    category: "women",
-    image: greendinner,
-    image1: greendinner1,
-    image2: greendinner2,
-new_price: 260,
-old_price: 290
-  },
-
+ 
 
   // men
 
@@ -588,8 +271,11 @@ old_price: 290
     image1: menblackcargo2,
     image2: menblackcargo1,
 new_price: 190,
-old_price: 210
-  },
+campus: "KNUST",
+email: "gyamfiagyemang999@gmail.com",
+description: "Want to level up your style game? Get the Men Black On Trend Cargo Pants! They're trendy, versatile, and perfect for a cool and casual look. Don't miss out! 🙌🔥👖",
+contact:"https://wa.me/542353326"
+},
   {
     id: 101,
     name: "Blue Dapper Denim Trousers For Men",
@@ -598,8 +284,11 @@ old_price: 210
     image1: jean1,
     image2: jean1,
 new_price: 150,
-old_price: 180
-  },
+campus: "KNUST",
+email: "gyamfiagyemang999@gmail.com",
+description: "Looking for a dapper denim upgrade? Check out the Blue Dapper Denim Trousers for Men! They're stylish, versatile, and perfect for any occasion. Elevate your fashion game with these trendy trousers! 👖💙✨",
+contact:"https://wa.me/542353326"
+},
   {
     id: 103,
     name: "Fautless Men Ash On Trend Cargo Pants",
@@ -608,8 +297,11 @@ old_price: 180
     image1: menashcargo,
     image2: menashcargo1,
 new_price: 190,
-old_price: 210
-  },
+campus: "KNUST",
+email: "gyamfiagyemang999@gmail.com",
+description: " Upgrade your style with the Fautless Men Ash On Trend Cargo Pants. They're trendy, comfy, and perfect for a casual yet stylish look. Get yours now! 👖🔥😎",
+contact:"https://wa.me/542353326"
+},
   {
     id: 104,
     name: "Baja Stylish Dark Shorts Men",
@@ -618,8 +310,11 @@ old_price: 210
     image2:menknicker7,
     image1:menknicker7,
     new_price: 110.0,
-    old_price: 130.5,
-  },
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "ooking for some stylish shorts? Check out the Baja Stylish Dark Shorts for Men! They're trendy, comfortable, and perfect for a cool and casual summer look. Get ready to rock these awesome shorts! 👖🔥😎",
+    contact:"https://wa.me/542353326"
+    },
   {
     id: 105,
     name: "Perfect Fitting Black Amiri T-Shirt",
@@ -628,8 +323,11 @@ old_price: 210
     image1: blackamiri2,
     image2: blackamiri,
     new_price: 120,
-    old_price: 140,
-  },
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "If you're looking for the perfect fitting black Amiri T-Shirt, you're in luck! This stylish tee combines comfort and style effortlessly, making it a must-have for your wardrobe. Get ready to rock a cool and trendy look with this awesome shirt! 👕🔥😎",
+    contact:"https://wa.me/542353326"
+    },
   {
     id: 106,
     name: "Stunning White Designer T-Shirt",
@@ -638,8 +336,11 @@ old_price: 210
     image1: whiteshirt,
     image2: whiteshirt,
     new_price: 120,
-    old_price: 140,
-  },
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "If you're looking for a stunning white designer t-shirt, you're in luck! This shirt is pure style and elegance, guaranteed to make you stand out. Get ready to rock it! 👕✨😍    ",
+    contact:"https://wa.me/542353326"
+    },
 
   {
     id: 107,
@@ -649,8 +350,11 @@ old_price: 210
     image1: menknicker,
     image2: menknicker,
     new_price: 70,
-    old_price: 105,
-  },
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: " Looking for stylish pants? Check out the Faultless Gentlemen Breeches Pants. They're classy, comfy, and perfect for a dapper look! Get ready to rock these awesome pants! 👖🔥😎",
+    contact:"https://wa.me/542353326"
+    },
   {
     id: 108,
     name: "Men Chino Chinos Dark-Blue Denim Trousers",
@@ -659,8 +363,11 @@ old_price: 210
     image1: jean2,
     image2: jean2,
 new_price: 150,
-old_price: 180
-  },
+campus: "KNUST",
+email: "gyamfiagyemang999@gmail.com",
+description: "If you're in the market for some dark-blue denim trousers, you should definitely check out the Men Chino Chinos. They're stylish, versatile, and perfect for a casual yet polished look. Get ready to rock these awesome trousers! 👖🔥😎",
+contact:"https://wa.me/542353326"
+},
   {
     id: 109,
     name: "Fashionable Britches Pants For Men",
@@ -669,8 +376,11 @@ old_price: 180
     image1: menknicker2,
     image2: menknicker2,
     new_price: 70,
-    old_price: 105,
-  },
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "If you're looking for fashionable britches pants for men, you're in luck! These pants are stylish, trendy, and perfect for a dapper look. Get ready to elevate your fashion game! 👖🔥😎",
+    contact:"https://wa.me/542353326"
+    },
   {
     id: 110,
     name: "Campus Threads White Amiri T-Shirt",
@@ -679,8 +389,11 @@ old_price: 180
     image1: whitemenamiri,
     image2: whiteamiri,
     new_price: 120,
-    old_price: 140,
-  },
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "Searching for a Campus Threads White Amiri T-Shirt, you're in for a treat! This shirt is the epitome of cool, combining style and comfort effortlessly. Get ready to rock that fresh and trendy look! 👕🔥😎",
+    contact:"https://wa.me/542353326"
+    },
   {
     id: 111,
     name: "Study In Style Red T-Shirt",
@@ -689,8 +402,11 @@ old_price: 180
     image1: redtshirt,
     image2: redtshirt,
     new_price: 120,
-    old_price: 140,
-  },
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "If you're still on the hunt for that Study In Style Red T-Shirt, I've got some good news for you. This shirt is the perfect blend of comfort and style, making it a great choice for any casual occasion. Get ready to rock that red tee with confidence! 👕🔥😎",
+    contact:"https://wa.me/542353326"
+    },
   //  112 
   {
     id: 113,
@@ -700,8 +416,11 @@ old_price: 180
     image1: jean3,
     image2: jean3,
 new_price: 150,
-old_price: 180
-  },
+campus: "KNUST",
+email: "gyamfiagyemang999@gmail.com",
+description: "If you're still looking for some stylish navy blue denim trousers, you should definitely check out the Men Stylish Stubbies. They're the perfect combination of fashion and comfort, making them a great choice for any casual outfit. Get ready to rock those navy blue denim trousers in style! 👖🔥😎",
+contact:"https://wa.me/542353326"
+},
   {
     id: 114,
     name: "Glamorous Ash Jogger to Make a Statemen",
@@ -710,8 +429,11 @@ old_price: 180
     image2: washjogger1,
     image1: washjogger2,
 new_price: 90,
-old_price: 110
-  },
+campus: "KNUST",
+email: "gyamfiagyemang999@gmail.com",
+description: "The Glamorous Ash Jogger is the perfect choice to add some flair to your casual look. With its stylish design and comfortable fit, you'll be turning heads wherever you go. Get ready to make a statement with these joggers! 🌟👖😎",
+contact:"https://wa.me/542353326"
+},
   {
     id: 115,
     name: "Classic Culottes For Fashionable Men",
@@ -720,8 +442,11 @@ old_price: 110
     image2:menknicker3,
     image1:menknicker3,
     new_price: 70.0,
-    old_price: 80.5,
-  },
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "Culottes are a versatile and stylish choice for men, offering a unique and fashion-forward look. Whether you dress them up or down, these culottes will definitely make a statement. Get ready to rock that fashionable vibe! 👖🔥😎",
+    contact:"https://wa.me/542353326"
+    },
   {
     id: 116,
     name: "Varsity Vibes Red 3-Different Designer T-Shirt",
@@ -730,8 +455,11 @@ old_price: 110
     image1: redmenamiri,
     image2: redmenshirt,
     new_price: 120,
-    old_price: 140,
-  },
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "This shirt is all about embracing those sporty and stylish vibes. With its unique design and vibrant red color, it's sure to make a statement wherever you go. Get ready to rock that varsity look with confidence! 👕🔥😎",
+    contact:"https://wa.me/542353326"
+    },
   // 116,117,118
   {
     id: 119,
@@ -741,8 +469,11 @@ old_price: 110
     image1: jean4,
     image2: jean4,
 new_price: 150,
-old_price: 180
-  },
+campus: "KNUST",
+email: "gyamfiagyemang999@gmail.com",
+description: " If you're still looking for some fashionable fades ripped blue denim trousers, I've got just the thing for you. These trousers are all about that trendy and edgy look. With their faded and ripped design, they'll add a cool and stylish touch to your outfit. 😎",
+contact:"https://wa.me/542353326"
+},
   {
     id: 120,
     name: "Incredible Alien Style Shorts Men",
@@ -751,8 +482,11 @@ old_price: 180
     image2:menknicker1,
     image1:menknicker1,
     new_price: 70.0,
-    old_price: 80.5,
-  },
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "These shorts are out of this world with their unique and futuristic design. They'll definitely make you stand out in a crowd and show off your intergalactic style. ",
+    contact:"https://wa.me/542353326"
+    },
   {
     id: 121,
     name: "Fortune Black/Ash Jogger for Men",
@@ -761,8 +495,11 @@ old_price: 180
     image2: wdoublejogger1,
     image1: wdoublejogger2,
 new_price: 90,
-old_price: 110
-  },
+campus: "KNUST",
+email: "gyamfiagyemang999@gmail.com",
+description: "I've got some exciting news for you. These joggers are the perfect combination of style and comfort. With their sleek black and ash color scheme, they'll add a touch of sophistication to your casual look. ",
+contact:"https://wa.me/542353326"
+},
   {
     id: 122,
     name: "Fashion On Campus Men White Sinner T-Shirt",
@@ -771,8 +508,11 @@ old_price: 110
     image1: menwhitesinner,
     image2: menwhitesinner,
     new_price: 120,
-    old_price: 140,
-  },
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: `You're still searching for that Fashion On Campus Men White Sinner T-Shirt, I've got you covered. This tee is all about embracing that cool and casual campus style. With its crisp white color and trendy "Sinner" design, it's sure to make a statement on campus.`,
+    contact:"https://wa.me/542353326"
+    },
   // 122,123
   {
     id: 124,
@@ -782,8 +522,11 @@ old_price: 110
     image1: jean5,
     image2: jean5,
 new_price: 150,
-old_price: 180
-  },
+campus: "KNUST",
+email: "gyamfiagyemang999@gmail.com",
+description: `These trousers are all about that rugged and stylish look. With their distressed detailing and dark wash, they'll add a touch of edge to your outfit. Get ready to rock those distressed denim trousers and show off your fashion-forward style! 👖🔥😎`,
+contact:"https://wa.me/542353326"
+},
   {
     id: 141,
     name: "Figure It Out With Black STA T-Shirt",
@@ -792,8 +535,11 @@ old_price: 180
     image1: blacksta,
     image2: blacksta,
     new_price: 120,
-    old_price: 140,
-  },
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: ` If you're still looking to figure it out with a black STA T-shirt, I've got just what you need. This T-shirt is all about that sleek and minimalist style. With its black color and STA design, it's perfect for adding a touch of cool to your outfit. Get ready to rock that black STA T-shirt and show off your fashion sense! 👕🔥😎`,
+    contact:"https://wa.me/542353326"
+    },
   // 125,126
   {
     id: 127,
@@ -803,8 +549,11 @@ old_price: 180
     image2:menknicker6,
     image1:menknicker6,
     new_price: 110.0,
-    old_price: 130.5,
-  },
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: `Hola, amigo! Si estás buscando unos shorts elegantes mexicanos para hombres, tengo algo perfecto para ti. Estos shorts combinan el estilo y la comodidad con un toque de la moda mexicana. Con sus diseños únicos y colores vibrantes, te destacarás en cualquier ocasión. `,
+    contact:"https://wa.me/542353326"
+    },
   {
     id: 128,
     name: "Campus Cream 3-Different Designer Clean T-Shirt",
@@ -813,8 +562,11 @@ old_price: 180
     image1: creammensta,
     image2: creamamiri,
     new_price: 120,
-    old_price: 140,
-  },
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: `Check out the Campus Cream 3-Different Designer Clean T-Shirt for a stylish and fresh look. Get yours now and rock that clean style! 👕😎`,
+    contact:"https://wa.me/542353326"
+    },
 // ,129
 
   {
@@ -825,8 +577,11 @@ old_price: 180
     image1: jean6,
     image2: jean6,
 new_price: 150,
-old_price: 180
-  },
+campus: "KNUST",
+email: "gyamfiagyemang999@gmail.com",
+description: `I've got some awesome men's white patched blue denim trousers that are totally on-trend. These trousers are all about that stylish and unique look, perfect for stepping up your fashion game. Get ready to turn heads with these trendy denim trousers! 👖🔥😎`,
+contact:"https://wa.me/542353326"
+},
   // 131,132,133
   {
     id: 134,
@@ -836,8 +591,11 @@ old_price: 180
     image1: jean7,
     image2: jean7,
 new_price: 150,
-old_price: 180
-  },
+campus: "KNUST",
+email: "gyamfiagyemang999@gmail.com",
+description: `If you're still on the hunt for some men's light dirty distressed denim trousers, I've got just what you need. These trousers are all about that rugged and edgy style, perfect for adding some personality to your outfit. Get ready to rock those distressed denim trousers and showcase your unique fashion sense! 👖🔥😎`,
+contact:"https://wa.me/542353326"
+},
 
   // 135,136
   {
@@ -848,8 +606,11 @@ old_price: 180
     image1: jean8,
     image2: jean8,
 new_price: 150,
-old_price: 180
-  },
+campus: "KNUST",
+email: "gyamfiagyemang999@gmail.com",
+description: ` Blue denim is a classic choice that never goes out of style. Whether you're going for a casual or a more dressed-up look, blue denim trousers are versatile and can be paired with a variety of tops. Get ready to rock those blue denim trousers and embrace that timeless style! 👖🔵😎`,
+contact:"https://wa.me/542353326"
+},
   // 138,139
   {
     id: 140,
@@ -859,8 +620,11 @@ old_price: 180
     image1: jean9,
     image2: jean9,
 new_price: 150,
-old_price: 180
-  },
+campus: "KNUST",
+email: "gyamfiagyemang999@gmail.com",
+description: `I've got just the thing for you. These jeans are all about that perfect balance between light and dark, giving you a stylish and versatile option for your wardrobe. Get ready to rock those light dark wash jeans and make a fashion statement wherever you go! 👖🌟😎`,
+contact:"https://wa.me/542353326"
+},
   {
     id: 141,
     name: "Collegiate Couture With Black Sinner T-Shirt",
@@ -869,8 +633,11 @@ old_price: 180
     image1: blackmensinner,
     image2: blackmensinner,
     new_price: 120,
-    old_price: 140,
-  },
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: `The combination of collegiate-inspired fashion with a bold graphic tee creates a unique and stylish outfit. Get ready to show off your fashion-forward style with this collegiate couture look! 👕🎓😎`,
+    contact:"https://wa.me/542353326"
+    },
   // ,142,143
   {
     id: 144,
@@ -880,8 +647,11 @@ old_price: 180
     image2:menknicker4,
     image1:menknicker4,
     new_price: 70.0,
-    old_price: 80.5,
-  },
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: `Hey, my friend! If you're looking for some classic alien culottes for fashionable men, you're in for a unique and out-of-this-world style. Culottes are a trendy and versatile choice, and adding an alien print gives them a cool and quirky twist.`,
+    contact:"https://wa.me/542353326"
+    },
   {
     id: 145,
     name: "Ultimate Dark Wash Denim Trousers",
@@ -890,8 +660,11 @@ old_price: 180
     image1: jean10,
     image2: jean10,
 new_price: 150,
-old_price: 180
-  },
+campus: "KNUST",
+email: "gyamfiagyemang999@gmail.com",
+description: ` If you're still on the hunt for the ultimate dark wash denim trousers, I've got just what you need. Dark wash denim is a classic choice that exudes a sleek and sophisticated vibe. These trousers are perfect for both casual and dressier occasions, giving you a versatile option for your wardrobe. 🌟😎`,
+contact:"https://wa.me/542353326"
+},
   {
     id: 146,
     name: "Incredible Guayaberas Culottes For Fashionable Men",
@@ -900,8 +673,11 @@ old_price: 180
     image2:menknicker5,
     image1:menknicker5,
     new_price: 70.0,
-    old_price: 80.5,
-  },
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: `  Guayaberas culottes for fashionable men, I've got just the thing for you. Guayaberas are a classic and stylish choice, and combining them with culottes creates a unique and fashion-forward look. Get ready to turn heads with these incredible Guayaberas culottes and show off your impeccable style! 🌴👖😎`,
+    contact:"https://wa.me/542353326"
+    },
   {
     id: 147,
     name: "Campus Strings Black Clean T-Shirt",
@@ -910,8 +686,11 @@ old_price: 180
     image1: menblacktshirt,
     image2: menblacktshirt,
     new_price: 120,
-    old_price: 140,
-  },
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: ` This t-shirt is all about simplicity and style, with a clean design that's perfect for any occasion. Whether you want to dress it up or keep it casual, this t-shirt has got you covered.`,
+    contact:"https://wa.me/542353326"
+    },
 
   // Perfumes
   {
@@ -921,8 +700,11 @@ old_price: 180
     image:perfumeberriesweekend,
     image2:perfumeberriesweekend,
     image1:perfumeberriesweekend,
-    new_price: 150,
-    old_price: 160,
+    new_price: 230,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "Get ready for the Berries Weekend Pink Edition perfume! 🌸💕 Dive into a world of sweet berries and floral elegance. Embrace the pink vibes and let it be your signature scent! 💖🌟 #Berrylicious #WeekendVibes",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 201,
@@ -931,8 +713,11 @@ old_price: 180
     image:perfumeyaba,
     image2:perfumeyaba,
     image1:perfumeyaba,
-    new_price: 300,
-    old_price: 320,
+   new_price: 300,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "Get ready for the Berries Weekend Pink Edition perfume! 🌸💕 Dive into a world of sweet berries and floral elegance. Embrace the pink vibes and let it be your signature scent! 💖🌟 #Berrylicious #WeekendVibes",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 202,
@@ -942,7 +727,10 @@ old_price: 180
     image2:perfumeaudvanille,
     image1:perfumeaudvanille,
     new_price: 330,
-    old_price: 400,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "Frank Olivier Oud Vanille fragrance! It's a luxurious and captivating scent that combines the richness of oud with the sweetness of vanilla. It's the perfect balance of sophistication and warmth. Give it a try and let me know if you fall in love with it! 💫🌹🍮",
+    contact:"https://wa.me/542353326"
   },
 
   {
@@ -953,7 +741,10 @@ old_price: 180
     image2:perfumesuave,
     image1:perfumesuave,
     new_price: 150,
-    old_price: 160,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "Well, let me tell you, Suave perfume is an absolute game-changer! Its irresistible scent will make you feel confident and elegant all day long. With its unique blend of floral and woody notes, it's the perfect accessory to complement your style. Give it a try and let your senses be captivated by the magic of Suave perfume! ✨🌸💫",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 205,
@@ -963,7 +754,10 @@ old_price: 180
     image2:perfumeaventosforher,
     image1:perfumeaventosforher,
     new_price: 150,
-    old_price: 160,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "Oh, you're interested in Aventos White for Her! It's an amazing fragrance that exudes elegance and femininity. With its blend of citrus, floral, and woody notes, it creates a refreshing and captivating scent that lasts all day. It's perfect for any occasion and will definitely leave a lasting impression. Give it a try and let me know how much you love it! 💖🌸✨",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 206,
@@ -973,7 +767,10 @@ old_price: 180
     image2:perfumeaventosblue,
     image1:perfumeaventosblue,
     new_price: 150,
-    old_price: 160,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: " With its invigorating blend of fresh citrus, aromatic herbs, and woody undertones, it creates a captivating and confident aura. Aventos Blue For Him is the perfect companion for any occasion, from casual outings to formal events. ",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 207,
@@ -983,7 +780,10 @@ old_price: 180
     image2:perfumeurway,
     image1:perfumeurway,
     new_price: 150,
-    old_price: 160,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "Whether you're looking for something fresh and citrusy, warm and woody, or floral and elegant, Ur Way Fragrance World has got you covered. Their perfumes are crafted with high-quality ingredients, ensuring a long-lasting and captivating aroma.",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 208,
@@ -993,7 +793,10 @@ old_price: 180
     image2:perfumetawel,
     image1:perfumetawel,
     new_price: 250,
-    old_price: 270,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "With its luxurious blend of notes, Ta'weel Ciel Collection offers a captivating and long-lasting aroma that will leave a lasting impression. Whether you're attending a special event or simply want to elevate your everyday style, these perfumes are perfect for making a statement. ",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 209,
@@ -1003,7 +806,10 @@ old_price: 180
     image2:perfumeishq,
     image1:perfumeishq,
     new_price: 340,
-    old_price: 360,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "With its rich blend of oriental spices, precious woods, and floral notes, Ishq Al Shuyukh Gold creates a captivating and alluring scent that will make you feel like royalty. This fragrance is perfect for those who appreciate the finer things in life and want to leave a lasting impression.",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 210,
@@ -1013,7 +819,10 @@ old_price: 180
     image2:perfumekristal,
     image1:perfumekristal,
     new_price: 150,
-    old_price: 160,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "Kristal Eau De Perfume creates a radiant and uplifting scent that will make you feel confident and beautiful. It's the perfect choice for those who want to add a touch of elegance to their everyday style. ",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 211,
@@ -1023,7 +832,10 @@ old_price: 180
     image2:perfumepegasus,
     image1:perfumepegasus,
     new_price: 50,
-    old_price: 60,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "With its blend of fresh citrus, aromatic lavender, and warm vanilla, it creates a captivating and enchanting scent that will leave a lasting impression. The 50ml size is perfect for those who want to have their favorite fragrance with them wherever they go.",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 212,
@@ -1033,7 +845,10 @@ old_price: 180
     image2:perfumefiero,
     image1:perfumefiero,
     new_price: 150,
-    old_price: 160,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "Fiero Bleu For Him is a scent that embodies strength and confidence. With its blend of fresh citrus, spicy notes, and woody undertones, it creates a bold and captivating aroma that will make heads turn. It's the perfect choice for the modern man who wants to make a statement with his fragrance. ",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 213,
@@ -1043,7 +858,10 @@ old_price: 180
     image2:perfumealqiam,
     image1:perfumealqiam,
     new_price: 370,
-    old_price: 340,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "Al Qiam Gold is a perfume that radiates luxury and elegance. With its rich blend of oriental spices, precious woods, and warm amber, it creates a captivating and opulent scent that will make you feel like royalty. This fragrance is perfect for those special occasions when you want to leave a lasting impression.",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 214,
@@ -1053,7 +871,10 @@ old_price: 180
     image2:perfumeoldtouch,
     image1:perfumeoldtouch,
     new_price: 260,
-    old_price: 280,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "f you're into the Frank Oliver Oud Touch fragrance, you're in for a treat! It's a luxurious blend of oud, spices, and warm woods that'll leave a lasting impression. Check it out! 🔥🌹✨",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 215,
@@ -1063,7 +884,10 @@ old_price: 180
     image2:perfumesuspenso,
     image1:perfumesuspenso,
     new_price: 160,
-    old_price: 180,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: `Are you ready for a thrilling fragrance experience? Introducing "Perfume Suspenso For Men"! With its mysterious blend of notes, it will keep you on the edge of your seat all day long. Get ready to embrace the suspense! 🕵️‍♂️🔥💨`,
+    contact:"https://wa.me/542353326"
   },
   {
     id: 216,
@@ -1073,7 +897,10 @@ old_price: 180
     image2:perfumebarakat,
     image1:perfumebarakat,
     new_price: 150,
-    old_price: 160,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: ` If you're looking for a gentle and soothing fragrance, you've got to check out Barakat Gentle Perfume. It's a delightful blend of soft floral and woody notes that will leave you feeling refreshed and uplifted. Give it a try and experience the gentle beauty of Barakat! 🌸💫😊`,
+    contact:"https://wa.me/542353326"
   },
   {
     id: 217,
@@ -1083,7 +910,10 @@ old_price: 180
     image2:perfumepride,
     image1:perfumepride,
     new_price: 370,
-    old_price: 340,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "If you're looking for a fragrance that exudes confidence and sophistication, check out Pride of Lattafa! 🌹🌟💫    ",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 218,
@@ -1093,7 +923,10 @@ old_price: 180
     image2:perfumebarakatrouge,
     image1:perfumebarakatrouge,
     new_price: 50,
-    old_price: 60,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "Barakat Rouge is a scent that's full of vibrancy and energy. With its blend of fruity notes, floral hints, and a touch of warm vanilla, it creates a captivating and uplifting aroma that will make you feel confident and radiant. The 50ml size is perfect for those who want to have their favorite fragrance with them wherever they go.",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 219,
@@ -1103,7 +936,10 @@ old_price: 180
     image2:perfumeshaheen,
     image1:perfumeshaheen,
     new_price: 340,
-    old_price: 360,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "Let me tell you, Shaheen Silver is a perfume that exudes elegance and charm. With its blend of fresh citrus, aromatic lavender, and warm musk, it creates a captivating and sophisticated scent that will make you stand out from the crowd. This fragrance is perfect for those who appreciate timeless classics with a modern twist. So, if you're looking for a fragrance that's both refined and alluring, Shaheen Silver by Lattafa is definitely a great choice! ✨🕊️🌟",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 220,
@@ -1113,7 +949,10 @@ old_price: 180
     image2:perfumeaventosgreen,
     image1:perfumeaventosgreen,
     new_price: 150,
-    old_price: 160,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "With its fresh and invigorating notes of citrus and aromatic herbs, it exudes a sense of energy and vitality. Aventos Green For Him is the perfect companion for any occasion, whether it's a casual outing or a special event. ",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 221,
@@ -1123,7 +962,10 @@ old_price: 180
     image2:perfumemousuf,
     image1:perfumemousuf,
     new_price: 60,
-    old_price: 70,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "It's a fragrance that truly captures the essence of Arabian luxury. With its blend of exotic spices, precious woods, and floral notes, it creates a mesmerizing and enchanting aroma that lingers on the skin. Mousuf Arabian Perfume is perfect for those who appreciate the beauty and allure of the Arabian culture.",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 222,
@@ -1133,7 +975,10 @@ old_price: 180
     image2:perfumeouddearabia,
     image1:perfumeouddearabia,
     new_price: 150,
-    old_price: 160,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "This fragrance is inspired by the rich and exotic scents of the Arabian Peninsula. With its warm and woody notes of oud, it creates a captivating and luxurious aroma that will transport you to the enchanting world of Arabian nights. So, if you're looking for a fragrance that exudes elegance and sophistication, Oud De Arabia Perfume is definitely a must-try! ✨🌹🕌",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 223,
@@ -1143,7 +988,10 @@ old_price: 180
     image2:perfumeintensenoir,
     image1:perfumeintensenoir,
     new_price: 50,
-    old_price: 60,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "This fragrance is all about sophistication and mystery. With its rich blend of dark and seductive notes, it creates an aura of allure and intrigue. It's perfect for those special occasions when you want to make a lasting impression. ",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 224,
@@ -1153,7 +1001,10 @@ old_price: 180
     image2:perfumewinners,
     image1:perfumewinners,
     new_price: 350,
-    old_price: 370,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: " This scent embodies the spirit of victory and success, with its powerful blend of aromatic spices and woody undertones. Just like a winner, this perfume leaves a lasting impression wherever you go. So, if you want to feel like a true champion, give Winner Trophy a try and embrace your victorious side! 🏆🌟💪",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 225,
@@ -1163,7 +1014,10 @@ old_price: 180
     image2:perfumenightclub,
     image1:perfumenightclub,
     new_price: 150,
-    old_price: 160,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "With its invigorating blend of fresh green notes and hints of citrus, this fragrance is perfect for a night out on the town. It's bold, vibrant, and will definitely make a statement. Go ahead and give it a try, and get ready to turn heads wherever you go! 🍀🌟🌃",
+    contact:"https://wa.me/542353326"
   },
 
 
@@ -1176,128 +1030,49 @@ old_price: 180
     image2:menblackhalfshoe,
     image1:menblackhalfshoe,
     new_price: 230,
-    old_price: 250,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "Looking to upgrade your campus style? Our men's black loafers are the perfect choice. With their sleek design and comfortable fit, you'll be turning heads while walking around campus. Step up your fashion game with these trendy and versatile shoes! 👞✨",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 301,
-    name: "Men Occasional Formal Black Shoes ",
-    category: "footwear",
-    image:menblackshoe,
-    image2:menblackshoe,
-    image1:menblackshoe,
-    new_price: 240,
-    old_price: 260,
-  },
-  {
-    id: 309,
-    name: "Pink Nike Slippers Fresh In Box With 2 Nike Socks",
-    category: "footwear",
-    image:pinknikeslipper,
-    image2:pinknikeslipper,
-    image1:pinknikeslipper,
-    new_price: 140,
-    old_price: 150,
-  },
-  {
-    id: 302,
     name: "UST Jordan 11 Fresh In Box",
     category: "footwear",
     image:jordan111,
     image2:jordan11,
     image1:jordan111,
     new_price: 350,
-    old_price: 380,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "Want to rock the freshest kicks on campus? Check out our Jordan 11 Fresh in Box! These iconic sneakers combine style and comfort, making them a must-have for any sneakerhead. Step up your shoe game and stand out from the crowd with these classic kicks. Get them while they're hot! 👟🔥",
+    contact:"https://wa.me/542353326"
   },
   {
-    id: 303,
-    name: "Campus Sneaks With Red-Black Jordan",
-    category: "footwear",
-    image:jordanredblack,
-    image2: jordanredblack1,
-    image1:jordanredblack,
-    new_price: 350,
-    old_price: 380,
-  },
-  
-  {
-    id: 304,
-    name: "Black Nike Slippers Fresh In Box With 2 Nike Socks",
-    category: "footwear",
-    image:blacknikeslippers,
-    image2:blacknikeslippers,
-    image1:blacknikeslipper,
-    new_price: 140,
-    old_price: 150,
-  },
-  {
-    id: 305,
-    name: "Bottom Heavy Formal Black Shoe",
-    category: "footwear",
-    image:menblackshoe1,
-    image2:menblackshoe1,
-    image1:menblackshoe1,
-    new_price: 235,
-    old_price: 250,
-  },
-  {
-    id: 306,
-    name: "Men Black Event Slippers ",
-    category: "footwear",
-    image:menblackslipper1,
-    image2:menblackslipper1,
-    image1:menblackslipper1,
-    new_price: 150,
-    old_price: 170,
-  },
-  {
-    id: 307,
-    name: "Men M Elegant Leather Shoe",
-    category: "footwear",
-    image:mensemimirror,
-    image2:mensemimirror,
-    image1:mensemimirror,
-    new_price: 250,
-    old_price: 270,
-  },
-  {
-    id: 315,
+    id: 302,
     name: "KNUST Footwear In White Jordan 4",
     category: "footwear",
     image:jordan4white,
     image2:jordan4white,
     image1:jordan4white,
     new_price: 350,
-    old_price: 380,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "Looking for a clean and stylish pair of sneakers? Our Jordan White 4 is the perfect choice! These kicks offer a fresh and timeless look that's sure to turn heads on campus. Step up your sneaker game and rock these classic white beauties. Get ready to make a statement with every step you take! 👟✨",
+    contact:"https://wa.me/542353326"
   },
   {
-    id: 308,
-    name: "White Nike Slippers Fresh In Box With 2 Nike Socks",
-    category: "footwear",
-    image:whitenikeslipper,
-    image2:whitenikeslippers,
-    image1:whitenikeslipper,
-    new_price: 140,
-    old_price: 150,
-  },
-  {
-    id: 310,
+    id: 303,
     name: "Black Suede Shoes For Men",
     category: "footwear",
     image:menblacksuedeshoe,
     image2:menblacksuedeshoe,
     image1:menblacksuedeshoe,
     new_price: 230,
-    old_price: 250,
-  },
-  {
-    id: 314,
-    name: "Campus Tremendous White Original Nike Air-Force",
-    category: "footwear",
-    image:whiteforce,
-    image2:whiteforce,
-    image1:whiteforce,
-    new_price: 250,
-    old_price: 280,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "If you're searching for a pair of sleek and stylish shoes, look no further than our black suede beauties. These shoes are perfect for adding a touch of sophistication to any outfit. Whether you're heading to class or hanging out with friends, these black suede shoes will elevate your style game. Get ready to step out in confidence and turn heads wherever you go! 👞",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 311,
@@ -1307,17 +1082,10 @@ old_price: 180
     image2:menbrowndessertboot,
     image1:menbrowndessertboot,
     new_price: 340,
-    old_price: 370,
-  },
-  {
-    id: 312,
-    name: "Brown Shoe For the Modern Man",
-    category: "footwear",
-    image:menbrownshoe,
-    image2:menbrownshoe,
-    image1:menbrownshoe,
-    new_price: 215,
-    old_price: 230,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "Looking to add a touch of rugged style to your wardrobe? Check out some brown dessert boots! These boots are not only versatile but also perfect for both casual and dressier occasions. They pair well with jeans, chinos, or even a suit. Step up your fashion game with these timeless and stylish boots. Get ready to rock that effortlessly cool look! 👢✨",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 313,
@@ -1327,18 +1095,49 @@ old_price: 180
     image2:nikesbblackwhite,
     image1:nikesbblackwhite,
     new_price: 350,
-    old_price: 380,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "If you're a fan of skateboarding or just love a sleek and stylish sneaker, you've got to check out the Nike SB Black-White kicks! These shoes offer the perfect combination of comfort, durability, and style. Whether you're hitting the skate park or just rocking them as a fashion statement, these sneakers will definitely turn heads. Get ready to level up your sneaker game with these cool and versatile kicks! 👟🖤⚪️",
+    contact:"https://wa.me/542353326"
   },
-  // ,315,316
+  {
+    id: 314,
+    name: "Campus Tremendous White Original Nike Air-Force",
+    category: "footwear",
+    image:whiteforce,
+    image2:whiteforce,
+    image1:whiteforce,
+    new_price: 250,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "If you're on the hunt for a fresh pair of kicks, you can't go wrong with the classic White Nike Air Force sneakers. These iconic shoes are not only stylish but also super comfortable, making them perfect for long days on campus. Whether you're pairing them with jeans or rocking them with a dress, these sneakers will add a touch of cool to any outfit. Get ready to step up your shoe game and turn heads with your fresh style! 👟✨",
+    contact:"https://wa.me/542353326"
+  },
+  {
+    id: 315,
+    name: "Jordan Shoes To Rock With On Campus",
+    category: "footwear",
+    image: jordanredblack1,
+    image2: jordanredblack1,
+    image1: jordanredblack1,
+    new_price: 250,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "If you're looking for some fire kicks, you gotta check out the Jordan Red Black sneakers. They're a classic and iconic choice that will definitely make a statement. The combination of red and black gives them a bold and stylish look. You'll be turning heads wherever you go with these kicks on your feet! 🔥👟🔴⚫️",
+    contact:"https://wa.me/542353326"
+  },
   {
     id: 317,
-    name: "Best Brown Event Slippers",
+    name: "Black Nike Benassi Fresh In Box With 2 Nike Socks",
     category: "footwear",
-    image:menbrownslipper,
-    image2:menbrownslipper,
-    image1:menbrownslipper,
-    new_price: 140,
-    old_price: 160,
+    image:blacknikeslippers,
+    image2:blacknikeslippers,
+    image1:blacknikeslippers,
+    new_price: 90,
+    campus: "KNUST",
+    email: "Marcelblaq1@gmail.com",
+    description: "If you're looking for a fresh and comfortable slide, you've got to check out the Black Nike Benassi Fresh In Box! These slides are perfect for lounging around or for a casual day out. And the best part? They come with two Nike socks, so you'll have a complete set for ultimate comfort. Slip into these stylish slides and enjoy the perfect combination of fashion and relaxation. Get ready to step up your slide game! 🖤🔥🧦",
+    contact:"https://wa.me/505154766"
   },
   {
     id: 318,
@@ -1348,7 +1147,10 @@ old_price: 180
     image2:menpolishableshoe,
     image1:menpolishableshoe,
     new_price: 240,
-    old_price: 260,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "If you're on the lookout for an amazing pair of black polishable shoes, you've gotta check out the Tremendous Black Polishable Shoe! These shoes are absolutely fantastic and can be easily polished to keep them looking sleek and shiny. They're perfect for any occasion, whether it's a formal event or just a casual day out. Step into these incredible shoes and elevate your style to a whole new level! 👞🖤✨",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 319,
@@ -1358,7 +1160,10 @@ old_price: 180
     image2:menbrownishpatent,
     image1:menbrownishpatent,
     new_price: 250,
-    old_price: 270,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: " If you're in the market for a magnificent pair of brown patent shoes, look no further than the Men M Brown Patent Shoe! These shoes are absolutely stunning and will add a touch of sophistication to any outfit. With their glossy patent finish, they're perfect for special occasions or when you want to make a stylish statement. Step into these remarkable shoes and step up your fashion game! 👞🔥✨",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 320,
@@ -1368,9 +1173,11 @@ old_price: 180
     image2:ashj4,
     image1:ashj4,
     new_price: 350,
-    old_price: 380,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "lookout for some fresh kicks, you've gotta check out the KNUST Ash Jordan 4. These sneakers are straight fire! With their unique ash colorway and iconic Jordan design, they'll have you turning heads wherever you go. Whether you're hitting the court or just strolling around, these Jordans will take your style game to the next level. So lace up and rock the KNUST Ash Jordan 4 with confidence! 🏀🔥👟",
+    contact:"https://wa.me/542353326"
   },
-  // ,320
   {
     id: 321,
     name: "Brown Occasional Party Slippers",
@@ -1379,17 +1186,10 @@ old_price: 180
     image2:menbrownslipper1,
     image1:menbrownslipper1,
     new_price: 140,
-    old_price: 160,
-  },
-  {
-    id: 322,
-    name: "Fashionist Versace Black Slippers",
-    category: "footwear",
-    image:menwhiteversaceslippers,
-    image2:menwhiteversaceslippers,
-    image1:menwhiteversaceslippers,
-    new_price: 150,
-    old_price: 180,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "You've gotta check out these Brown Occasional Party Slippers. They're perfect for adding a touch of style to any party outfit. Get ready to impress! 👞🎉✨",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 323,
@@ -1399,19 +1199,10 @@ old_price: 180
     image2:blackforce,
     image1:blackforce,
     new_price: 350,
-    old_price: 380,
-  },
-
-  //,324,325,
-  {
-    id: 326,
-    name: "Men Dark Brown Fancy Slippers",
-    category: "footwear",
-    image:mendarkbrownslippers,
-    image2:mendarkbrownslippers,
-    image1:mendarkbrownslippers,
-    new_price: 150,
-    old_price: 160,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "You won't believe how fresh the Original Black Nike Air-Force kicks are for fashion. They're the perfect blend of style and comfort. Rock them and slay the fashion game! 👟🔥✨",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 327,
@@ -1421,7 +1212,10 @@ old_price: 180
     image2:menversaceblackslippers,
     image1:menversaceblackslippers,
     new_price: 145,
-    old_price: 160,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "You've gotta check out these Men Elegant Versace Black Slippers. They're the epitome of style and sophistication. Perfect for adding a touch of elegance to any outfit. Get ready to make a statement! 👞🖤",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 338,
@@ -1431,7 +1225,10 @@ old_price: 180
     image2:blackj4,
     image1:blackj4,
     new_price: 350,
-    old_price: 380,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "f you're looking to bring some serious vibes on campus, you've gotta rock the Black Jordan 4. These kicks are the perfect combination of style and comfort. Get ready to turn heads and step up your sneaker game! 🎒👟🔥",
+    contact:"https://wa.me/542353326"
   },
   {
     id: 339,
@@ -1440,42 +1237,70 @@ old_price: 180
     image:rednikeslippers,
     image2:rednikeslippers,
     image1:rednikeslippers,
-    new_price: 140,
-    old_price: 150,
-  },
-// 340
-{
-    id: 341,
-    name: "Stylish Brown Event Slippers",
-    category: "footwear",
-    image:mendarkbrownslippers,
-    image2:mendarkbrownslippers,
-    image1:mendarkbrownslippers,
-    new_price: 120,
-    old_price: 140,
+    new_price: 90,
+    campus: "KNUST",
+    email: "Marcelblaq1@gmail.com",
+    description: "If you're looking for some fresh slippers, you should definitely check out the Red Nike Slippers. They come in a fresh box and even include 2 Nike socks. Talk about a stylish and comfy combo! Slip into these and rock that casual look with confidence! 🩴🔴🧦",
+    contact:"https://wa.me/505154766"
   },
   {
     id: 342,
-    name: "Casual Stylish Leather Shoe",
+    name: "Casual Stylish Leather Slippers",
     category: "footwear",
     image:menqualitybrown,
     image2:menqualitybrown,
     image1:menqualitybrown,
-    new_price: 260,
-    old_price: 290,
-  },
-  //  344
-  {
-    id: 345,
-    name: "Fancy Brown Occasional Slippers",
-    category: "footwear",
-    image:menbrownslippers,
-    image2:menbrownslippers,
-    image1:menbrownslippers,
-new_price: 150,
-old_price: 180
+    new_price: 160,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: "If you're looking for a casual yet stylish leather slipper, I've got a great recommendation for you. They're a versatile and fashionable choice that can be dressed up or down. With their sleek leather design, they'll add a touch of sophistication to any outfit. Trust me, you'll be rocking that stylish look effortlessly! 👞✨",
+    contact:"https://wa.me/542353326"
   },
 
+
+
+
+
+  // Jewlries
+  {
+    id: 400,
+    name: "Customizable Neclaces For Both Gender",
+    category: "jewelries",
+    image: judithcustomizablenecklace1,
+    image1: judithcustomizablenecklace2,
+    image2: judithcustomizablenecklace3,
+    new_price: 155,
+    campus: "KNUST/UDS",
+    email: "ritaohenedanso@gmail.com",
+    description: "Looking for a unique accessory? Check out our customizable necklaces! Create a one-of-a-kind piece that reflects your style and personality. Perfect for adding a personal touch to any outfit. ✨📿",
+    contact:"https://wa.me/597048678"
+  },
+  {
+    id: 401,
+    name: "Campus Charm Customizable Pendant",
+    category: "jewelries",
+    image: judithpendant2,
+    image1: judithpendant3,
+    image2: judithpendant1,
+    new_price: 80,
+    campus: "KNUST/UDS",
+    email: "ritaohenedanso@gmail.com",
+    description: `Introducing the "Campus Charm" pendant, a personalized accessory that lets you showcase your unique style and campus pride. Stand out on campus with this one-of-a-kind pendant! 🎓✨`,
+    contact:"https://wa.me/597048678"
+  },
+  {
+    id: 402,
+    name: "Campus Charm Customizable Pendant",
+    category: "jewelries",
+    image: judithcustomizablebracelets2,
+    image1: judithcustomizablebracelets3,
+    image2: judithcustomizablebracelets1,
+    new_price: 75,
+    campus: "KNUST/UDS",
+    email: "ritaohenedanso@gmail.com",
+    description: `Looking for a bracelets that's uniquely yours? Our customizable bracelets let you add your personal touch with initials, dates, or symbols. Express yourself and stand out with our customizable bracelets! 🌟📿`,
+    contact:"https://wa.me/597048678"
+  },
 ];
 
 export default all_product;

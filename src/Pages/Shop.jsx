@@ -8,10 +8,11 @@ import PopularCollections from '../Components/Popular/PopularCollections'
 const Shop = () => {
   return (
     <div >
-      <Hero/>
+      <Hero/>    
+      <PopularCollections/> 
       <PopularInWomen/>
       <PopularInMen/>
-      <PopularCollections/>
+
     </div>
   )
 }

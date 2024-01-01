@@ -39,6 +39,12 @@ const navData = [
     name: "Footwear",
     subname: "footwear",
   },
+  {
+    key: 6,
+    anchor: "/jewelries",
+    name: "Jewelries",
+    subname: "jewelries",
+  },
 ];
 const NavBar = () => {
   const [menu, setMenu] = useState("shop");
@@ -50,8 +56,8 @@ const NavBar = () => {
           href="#home"
           className="nav-logo d-flex justify-content-center align-items-center"
         >
-          <img src={Logo} alt="luxhut apparel" className="pr-3" style={{width:"50px"}} />
-          <p className="mt-3 p-1">Luxhut Apparel</p>
+          <img src={Logo} alt="Campus Online Shop" className="pr-3" style={{width:"50px"}} />
+          <p className="mt-3 p-1 font-extrabold">Campus Online Shop</p>
         </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

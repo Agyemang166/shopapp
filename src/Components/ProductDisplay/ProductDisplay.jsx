@@ -15,12 +15,6 @@ import PopularCollections from '../Popular/PopularCollections';
 const ProductDisplay = (props) => {
     const { product } = props;
 
-    let buyername;
-    let buyerLocation;
-    let delivery;
-    let buyerMessage;
-    let contact;
-    let quantity;
     const [validated, setValidated] = useState(false);
 
     const handleButtonClick = (e) => {
@@ -31,7 +25,9 @@ const ProductDisplay = (props) => {
             setValidated(true);
         } else {
             setValidated(true);
-            alert("Merry Christmas❄️🎄🎅 Lovely Customer! Please note that you can only order one item at a time. Happy Shopping from Luxhut Apparel. After adding this item to your cart, you can proceed to add the next one.");
+            alert(` Congrats on your order! 🎉 The ${product.name} you ordered is available on ${product.campus}.
+            No delivery fee within ${product.campus}. If you're elsewhere, you would cover the delivery fee.
+            Enjoy your purchase! 🛍️🎁🚚💨`);
 
             const emailContent = `
             Product: ${product.name}\n
@@ -46,7 +42,7 @@ const ProductDisplay = (props) => {
             Image: ${product.image}\n\n
             `;
 
-            window.location.href = `mailto:gyamfiagyemang999@gmail.com?subject=Product Details&body=${encodeURIComponent(emailContent)}`;
+            window.location.href = `mailto:${product.email}?subject=Product Details&body=${encodeURIComponent(emailContent)}`;
         }
     };
 
@@ -56,35 +52,41 @@ const ProductDisplay = (props) => {
                 <div className="col-md-6 sm-12 d-flex">
                     <div className="productdisplay-img-list pt-4">
                         <a href={product.image1} data-lightbox="gallery-name" >
-                            <img src={product.image1} alt="Luxhut Apparel" />
+                            <img src={product.image1} alt="Campus Online Shop" />
                         </a>
                         <a href={product.image} data-lightbox="gallery-name" >
-                            <img src={product.image} alt="Luxhut Apparel" />
+                            <img src={product.image} alt="Campus Online Shop" />
                         </a>
                         <a href={product.image2} data-lightbox="gallery-name" >
-                            <img src={product.image2} alt="Luxhut Apparel" />
+                            <img src={product.image2} alt="Campus Online Shop" />
                         </a>
 
                     </div>
                     <div className="productdisplay-img">
                         <a href={product.image} data-lightbox="gallery-name" >
-                            <img src={product.image} className='productdisplay-main-img' alt="Luxhut Apparel" />
+                            <img src={product.image} className='productdisplay-main-img' alt="Campus Online Shop" />
                         </a>
                     </div>
                 </div>
 
                 <div className="col-md-6 sm-12 pt-5">
-                    <h1>{product.name}</h1>
+                <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">{product.name}</h1>              
+                      <p>{product.description}</p>
+
                     <div className='d-flex'>
-                        <img src={star_icon} alt='Luxhut Apparel' />
-                        <img src={star_icon} alt='Luxhut Apparel' />
-                        <img src={star_icon} alt='Luxhut Apparel' />
-                        <img src={star_icon} alt='Luxhut Apparel' />
-                        <img src={star_icon} alt='Luxhut Apparel' />
+                        <img src={star_icon} alt='Campus Online Shop' />
+                        <img src={star_icon} alt='Campus Online Shop' />
+                        <img src={star_icon} alt='Campus Online Shop' />
+                        <img src={star_icon} alt='Campus Online Shop' />
+                        <img src={star_icon} alt='Campus Online Shop' />
                     </div>
+                    <Button variant="success mt-3 text-white">
+                                        <a href={product.contact} className='text-decoration-none text-white'>Chat With Dealer</a>
+                    </Button>
+
                     <div className="product-display-right-prices d-flex justify-content-around">
-                        <div className="product-display-left-price-new">New Price: GH₵{product.new_price}</div>
-                        <div className=" text-decoration-line-through text-secondary">Old Price: GH₵{product.old_price}</div>
+                        <div className="product-display-left-price-new"> Price: GH₵{product.new_price}</div>
+                        <div className="text-secondary">{product.campus} sales</div>
                     </div>
                     <h6 className='text-center'>PROVIDE ADEQUATE INFORMATION</h6>
                     <hr />
@@ -156,12 +158,17 @@ const ProductDisplay = (props) => {
                         <Form.Group className="mb-3">
                             <Form.Check
                                 required
-                                label="Agree to payment validates order"
+                                label={`Agree to payment validates order. You are ordering from ${product.campus}`}
                                 feedback="You must agree before submitting."
                                 feedbackType="invalid"
                             />
                         </Form.Group>
-                        <Button type="submit">ORDER NOW</Button>
+                        <button
+                        type="submit"
+                        className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                      >
+                        ORDER NOW
+                      </button>
                     </Form>
 
                 </div>

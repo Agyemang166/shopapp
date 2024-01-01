@@ -16,7 +16,7 @@ const ShopCategory = (props) => {
             if (props.category === item.category) {
               return (
                 <div className='d-flex'>
-                <Items key={item.id} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price} />          
+                <Items key={item.id} id={item.id} name={item.name} image={item.image} new_price={item.new_price} contact={item.contact} campus={item.campus} description={item.description} email={item.email} />          
                 </div>
               )
             }

@@ -19,7 +19,7 @@ const PopularCollections = () => {
         },
         desktop: {
           breakpoint: { max: 3000, min: 1024 },
-          items: 4
+          items: 6
         },
         tablet: {
           breakpoint: { max: 1024, min: 464 },
@@ -33,7 +33,7 @@ const PopularCollections = () => {
 
   return (
      <div className='popular new m-0 p-0'>
-      <h1 className='text-center font-pFonts '>NEW COLLECTION</h1>
+      {/* <h1 className='text-center font-pFonts '>NEW COLLECTION</h1>
       <hr/>
       <div className="popular-item">
       <Carousel responsive={responsive}  infinite={true} removeArrowOnDeviceType={["tablet", "mobile"]} autoPlay={true} className='px-0' autoPlaySpeed={5000} swipeable={true} draggable={true}>
@@ -45,8 +45,8 @@ const PopularCollections = () => {
         )
       })}      
       </Carousel>
-      </div>
-      <h1 className='text-center font-pFonts '>ALL COLLECTION</h1>
+      </div> */}
+      <h1 className='text-center font-pFonts '>POPULAR COLLECTION</h1>
       <hr/>
       <div className="popular-item">
       <Carousel responsive={responsive}  infinite={true} removeArrowOnDeviceType={["tablet", "mobile"]} autoPlay={true} className='px-0' autoPlaySpeed={6000} swipeable={true} draggable={true}>

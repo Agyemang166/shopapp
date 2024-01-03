@@ -42,7 +42,7 @@
       }
     .item .img img{
         width: 599px;
-        height: 100%;
+        max-height: 100%;
     } 
     .title-head{
         font-size: 10px;

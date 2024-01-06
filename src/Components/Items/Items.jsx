@@ -16,7 +16,7 @@ const Items = (props) => {
     </div>
     <Card.Body style={{background:"#e9f3f3"}}> 
       <p className='title-head'>{props.name}</p>
-      <p className="christmas font-bold">Freshers' Christmas Promo🎄❄️🧑‍🎄</p>
+      <p className="christmas font-bold">Freshers' Akwaaba Sales💚🏫</p>
       <Card.Text className=''>
        <p className='item-price-new text-black '>GH₵ {props.new_price}</p>
        <p  className='px-4 text-[10px]'>{props.campus}</p>

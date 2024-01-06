@@ -129,6 +129,10 @@ import whiteshirt from "./knustmenproduct/clothes/whiteshirt.jpeg"
 import washjogger from "./knustmenproduct/clothes/washjogger.jpeg"
 import washjogger1 from "./knustmenproduct/clothes/washjogger.jpeg"
 import washjogger2 from "./knustmenproduct/clothes/washjogger.jpeg"
+import blackcargo from "./knustmenproduct/clothes/blackcargo.jpeg"
+import knustshort from "./knustmenproduct/clothes/knustshort.jpeg"
+import knustshort1 from "./knustmenproduct/clothes/knustshort1.jpeg"
+import knustshort2 from "./knustmenproduct/clothes/knustshort2.jpeg"
 
 // SHOES
 import ashj4 from "../Assets/knustmenproduct/shoes/ashj4.jpeg"
@@ -181,6 +185,19 @@ import perfumeaudvanille from "./knustmenproduct/perfumes/perfumeaudvanille.jpg"
 
 
 // UG MALE PRODUCTS
+// dresses
+import ugcargo from "./ugmenproduct/clothes/ugcargo.jpeg"
+import ugcargo1 from "./ugmenproduct/clothes/ugcargo1.jpeg"
+import ugcargo2 from "./ugmenproduct/clothes/ugcargo2.jpeg"
+import uglacoste from "./ugmenproduct/clothes/uglacoste.jpeg"
+import uglacoste1 from "./ugmenproduct/clothes/uglacoste1.jpeg"
+import uglacoste2 from "./ugmenproduct/clothes/uglacoste2.jpeg"
+import ugtop from "./ugmenproduct/clothes/ugtop.jpeg"
+import ugtop1 from "./ugmenproduct/clothes/ugtop1.jpeg"
+import ugtop2 from "./ugmenproduct/clothes/ugtop2.jpeg"
+import ugshort from "./ugmenproduct/clothes/ugshort.jpeg"
+import ugshort1 from "./ugmenproduct/clothes/ugshort1.jpeg"
+import ugshort2 from "./ugmenproduct/clothes/ugshort2.jpeg"
 
 
 
@@ -561,7 +578,19 @@ contact:"https://wa.me/542353326"
     description: "If you're still on the hunt for that Study In Style Red T-Shirt, I've got some good news for you. This shirt is the perfect blend of comfort and style, making it a great choice for any casual occasion. Get ready to rock that red tee with confidence! 👕🔥😎",
     contact:"https://wa.me/542353326"
     },
-  //  112 
+    {
+      id: 112,
+      name: "Campus Chic Thrift Cargo Pants",
+      category: "men",
+      image: blackcargo,
+      image1: blackcargo,
+      image2: blackcargo,
+      new_price: 120,
+      campus: "KNUST",
+      email: "gyamfiagyemang999@gmail.com",
+      description: `Rock the campus with these trendy and practical "Campus Chic Thrift Cargo Pants." Stay stylish while carrying your essentials in multiple pockets. A must-have for fashion-forward students!`,
+      contact:"https://wa.me/542353326"
+      },
   {
     id: 113,
     name: "Men Stylish Stubbies Navy Blue Denim Trousers",
@@ -614,7 +643,20 @@ contact:"https://wa.me/542353326"
     description: "This shirt is all about embracing those sporty and stylish vibes. With its unique design and vibrant red color, it's sure to make a statement wherever you go. Get ready to rock that varsity look with confidence! 👕🔥😎",
     contact:"https://wa.me/542353326"
     },
-  // 116,117,118
+  {
+    id: 117,
+    name: "Campus Cool Shorts for Sale",
+    category: "men",
+    image: knustshort2,
+    image1: knustshort1,
+    image2: knustshort,
+    new_price: 60,
+    campus: "KNUST",
+    email: "gyamfiagyemang999@gmail.com",
+    description: `Get your hands on these trendy "Campus Cool Shorts for Sale" at an unbeatable price of just 60 cedis! Stay stylish and comfortable on campus with these must-have shorts. Grab them now!`,
+    contact:"https://wa.me/542353326"
+    },
+// ,118
   {
     id: 119,
     name: "Men Fashionable Fades Ripped Blue Denim Trousers",
@@ -681,6 +723,62 @@ email: "gyamfiagyemang999@gmail.com",
 description: `These trousers are all about that rugged and stylish look. With their distressed detailing and dark wash, they'll add a touch of edge to your outfit. Get ready to rock those distressed denim trousers and show off your fashion-forward style! 👖🔥😎`,
 contact:"https://wa.me/542353326"
 },
+
+
+// KAY"s Product for UG
+{
+  id: 125,
+  name: "Solid Campus Lacoste from Legon",
+  category: "men",
+  image: uglacoste,
+  image1: uglacoste1,
+  image2: uglacoste2,
+new_price: 70,
+campus: "Legon",
+email: "geyheartobeng1234@gmail.com ",
+description: `Looking for the perfect Lacoste t-shirt? Look no further! Lacoste t-shirts are the epitome of comfort, style, and sophistication. Made with high-quality materials, these t-shirts offer a perfect fit and a timeless design. Whether you prefer the classic crocodile logo or a bold graphic print, Lacoste has a wide range of options to suit your taste. From casual everyday wear to a stylish statement piece, a Lacoste t-shirt is a must-have in any wardrobe.`,
+contact:"https://wa.me/559372197"
+},
+  {
+    id: 125,
+    name: "Kay UG Cargo Pants",
+    category: "men",
+    image: ugcargo,
+    image1: ugcargo1,
+    image2: ugcargo2,
+new_price: 70,
+campus: "Legon",
+email: "geyheartobeng1234@gmail.com ",
+description: ` Elevate your campus style with Kay's Thrift Cargo Pants. These sustainable and versatile pants are perfect for any occasion. Get yours now and make a fashion statement while supporting the environment. Happy shopping! 🌿👖 #ThriftFashion #SustainableStyle`,
+contact:"https://wa.me/559372197"
+},
+  {
+    id: 126,
+    name: "Tremendous UG Short Stop",
+    category: "men",
+    image: ugshort,
+    image1: ugshort1,
+    image2: ugshort2,
+new_price: 60,
+campus: "Legon",
+email: "geyheartobeng1234@gmail.com ",
+description: `Introducing UG Short Stop! Your go-to spot on campus for trendy and affordable shorts. Find your perfect pair and rock that stylish summer look. Don't miss out!`,
+contact:"https://wa.me/559372197"
+},
+  {
+    id: 127,
+    name: " Chic Roundneck Available on UG",
+    category: "men",
+    image: ugtop,
+    image1: ugtop1,
+    image2: ugtop2,
+new_price: 60,
+campus: "Legon",
+email: "geyheartobeng1234@gmail.com ",
+description: `Introducing the "UG Chic Roundneck" top! This stylish and versatile top is a must-have for any fashion-forward individual. Elevate your look with this trendy piece. Don't miss out!`,
+contact:"https://wa.me/559372197"
+},
+
   {
     id: 141,
     name: "Figure It Out With Black STA T-Shirt",

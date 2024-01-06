@@ -60,6 +60,11 @@ import washjogger2 from "./knustmenproduct/clothes/washjogger.jpeg"
 import wdoublejogger from "../Assets/knustwomenproduct/wdoublejogger.jpeg"
 import wdoublejogger1 from "../Assets/knustwomenproduct/wdoublejogger1.jpeg"
 import wdoublejogger2 from "../Assets/knustwomenproduct/wdoublejogger2.jpeg"
+import blackcargo from "./knustmenproduct/clothes/blackcargo.jpeg"
+import knustshort from "./knustmenproduct/clothes/knustshort.jpeg"
+import knustshort1 from "./knustmenproduct/clothes/knustshort1.jpeg"
+import knustshort2 from "./knustmenproduct/clothes/knustshort2.jpeg"
+
 
 let knustmen = [
     {
@@ -114,7 +119,19 @@ let knustmen = [
             description: ` If you're still looking to figure it out with a black STA T-shirt, I've got just what you need. This T-shirt is all about that sleek and minimalist style. With its black color and STA design, it's perfect for adding a touch of cool to your outfit. Get ready to rock that black STA T-shirt and show off your fashion sense! 👕🔥😎`,
             contact:"https://wa.me/542353326"
             },
-          // 125,126
+            {
+              id: 112,
+              name: "Campus Chic Thrift Cargo Pants",
+              category: "men",
+              image: blackcargo,
+              image1: blackcargo,
+              image2: blackcargo,
+              new_price: 120,
+              campus: "KNUST",
+              email: "gyamfiagyemang999@gmail.com",
+              description: `Rock the campus with these trendy and practical "Campus Chic Thrift Cargo Pants." Stay stylish while carrying your essentials in multiple pockets. A must-have for fashion-forward students!`,
+              contact:"https://wa.me/542353326"
+              },
           {
             id: 127,
             name: "Mexican Stylish  Shorts Men",
@@ -154,6 +171,19 @@ let knustmen = [
         description: "Want to rock the freshest kicks on campus? Check out our Jordan 11 Fresh in Box! These iconic sneakers combine style and comfort, making them a must-have for any sneakerhead. Step up your shoe game and stand out from the crowd with these classic kicks. Get them while they're hot! 👟🔥",
         contact:"https://wa.me/542353326"
       },
+      {
+        id: 117,
+        name: "Campus Cool Shorts for Sale",
+        category: "men",
+        image: knustshort,
+        image1: knustshort1,
+        image2: knustshort2,
+        new_price: 60,
+        campus: "KNUST",
+        email: "gyamfiagyemang999@gmail.com",
+        description: `Get your hands on these trendy "Campus Cool Shorts for Sale" at an unbeatable price of just 60 cedis! Stay stylish and comfortable on campus with these must-have shorts. Grab them now!`,
+        contact:"https://wa.me/542353326"
+        },
       {
         id: 302,
         name: "KNUST Footwear In White Jordan 4",

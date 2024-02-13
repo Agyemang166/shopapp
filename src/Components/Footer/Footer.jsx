@@ -48,7 +48,7 @@ const Footer = () => {
             <div className="footer-copyright text-center">
             <hr/>
             <h6>All rights reserved - Copyright @ 2023</h6>
-            <h6>Site created by <a href="https://linktr.ee/agyemang166" className='text-decoration-none'>AgyemangDev</a></h6>
+            <h6>Site created by <a href="https://linktr.ee/www.agyeiclement585" className='text-decoration-none'>Clement Agyei</a></h6>
             </div>
         </div>
     )

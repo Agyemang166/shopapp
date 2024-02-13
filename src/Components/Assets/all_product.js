@@ -740,7 +740,7 @@ description: `Looking for the perfect Lacoste t-shirt? Look no further! Lacoste 
 contact:"https://wa.me/559372197"
 },
   {
-    id: 125,
+    id: 128,
     name: "Kay UG Cargo Pants",
     category: "men",
     image: ugcargo,
@@ -776,6 +776,19 @@ new_price: 60,
 campus: "Legon",
 email: "geyheartobeng1234@gmail.com ",
 description: `Introducing the "UG Chic Roundneck" top! This stylish and versatile top is a must-have for any fashion-forward individual. Elevate your look with this trendy piece. Don't miss out!`,
+contact:"https://wa.me/559372197"
+},
+{
+  id: 128,
+  name: "Kay UG Cargo Pants",
+  category: "men",
+  image: ugcargo,
+  image1: ugcargo1,
+  image2: ugcargo2,
+new_price: 70,
+campus: "Legon",
+email: "geyheartobeng1234@gmail.com ",
+description: ` Elevate your campus style with Kay's Thrift Cargo Pants. These sustainable and versatile pants are perfect for any occasion. Get yours now and make a fashion statement while supporting the environment. Happy shopping! 🌿👖 #ThriftFashion #SustainableStyle`,
 contact:"https://wa.me/559372197"
 },
 
